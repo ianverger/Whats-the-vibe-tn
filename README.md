@@ -16,8 +16,8 @@ With "What's the vibe tn?", users will be able to
 
     ♦  Access (v1) 'dive', 'cocktail', 'rooftop', and 'natty' vibes
     ♠  Browse corresponding establishments and related data
-    ♥  
-    ♣
+    ♥  Jump to 'next spots' and 'switch up the vibe'
+    ♣  Scan the map based on vibe
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
