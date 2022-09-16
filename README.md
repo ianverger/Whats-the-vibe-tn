@@ -23,7 +23,7 @@ With "What's the vibe tn?", users will be able to
 
 ## Wireframe
 
-![wireframe img](https://wireframe.cc/OJoaPh)
+https://wireframe.cc/OJoaPh
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
