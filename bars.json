@@ -65,58 +65,58 @@
         "vibe": ["dive", "gay"]
         },
     "7": {
-        "name": 
-        "address": 
-        "coords": [],
+        "name": "Berlin",
+        "address": "25 Avenue A, New York, NY 10009",
+        "coords": [40.723145259456345, -73.98596223373347],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "8pm - 4am",
+        "description": "Tiny, dimly-lit entertainment venue featuring DJs & live bands along with cocktails & beer.",
+        "vibe": ["dive"]
     },    
     "8": {
-        "name": 
-        "address": 
+        "name": "Pineapple Club", 
+        "address": "509 E 6th St, New York, NY 10009",
         "coords": [],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "5pm - 1am",
+        "description": "International plates & tropical cocktails served in a vast locale with colorful, fashionable decor.",
+        "vibe": ["cocktail"]
     },    
     "9": {
-        "name": 
-        "address": 
-        "coords": [],
+        "name": "Death & Company",
+        "address": "433 E 6th St, New York, NY 10009",
+        "coords": [40.72605820154622, -73.98465593053965],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "6pm - 1am",
+        "description": "Bartenders in bow ties & suspenders recall the speakeasy era at this dark, moody cocktail lounge.",
+        "vibe": ["cocktail"]
     },  
     "10": {
-        "name": 
-        "address": 
-        "coords": [],
+        "name": "169 Bar",
+        "address": "169 E Broadway, New York, NY 10002",
+        "coords": [40.71405965526719, -73.98966855752671],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "2pm - 4am",
+        "description": "Bar with palm trees, a leopard-print pool table & a small menu of oysters, borscht & dumplings.",
+        "vibe": ["dive"]
     },  
     "11": {
-        "name": 
-        "address": 
-        "coords": [],
+        "name": "Welcome to the Johnson's",
+        "address": "123 Rivington St, New York, NY 10002",
+        "coords": [40.719849145933516, -73.98733610170436],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "3pm - 4am",
+        "description": "Unpretentious bar with beer from a fridge, a jukebox & a 1970s wood-paneled-basement vibe.",
+        "vibe": ["dive"]
     },  
     "12": {
-        "name": 
-        "address": 
-        "coords": [],
+        "name": "Clockwork Bar",
+        "address": "21 Essex St, New York, NY 10002",
+        "coords": [40.715538523393555, -73.99001505752673],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "2pm - 4am",
+        "description": "Storied punk rock bar & music club with an edgy backdrop of graffiti-covered walls & booths.",
+        "vibe": ["dive"]
     },  
     "13": {
         "name": "Mr. Fong's",
@@ -126,69 +126,69 @@
         "hours": "4pm - 4am",
         "description": "Unassuming watering hole featuring Chinese-inspired cocktails & bar bites, plus a jukebox.",
         "vibe": ["cocktail"]
-    }  
+    },  
     "14": {
-        "name": 
-        "address": 
-        "coords": [],
+        "name": "Clandestino",
+        "address": "35 Canal St, New York, NY 10002",
+        "coords": [40.714899656816776, -73.99085600355312],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "4pm - 4am",
+        "description": "Hip, low-key barroom with cocktails, beer & wine in a cozy space with a pressed-tin ceiling.",
+        "vibe": ["dive", "cocktail"]
     },  
     "15": {
-        "name": 
-        "address": 
-        "coords": [],
+        "name": "Up Stairs",
+        "address": "59 Canal St #2FL, New York, NY 10002",
+        "coords": [40.71532178793467, -73.99203265937551],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "6pm - 3am",
+        "description": "Hidden kareoke bar above Chinatown",
+        "vibe": ["dive"]
     },  
     "16": {
-        "name": 
-        "address": 
-        "coords": [],
+        "name": "Pianos",
+        "address": "158 Ludlow St, New York, NY 10002",
+        "coords": [40.72120207428647, -73.9877175728688],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "4pm - 4am",
+        "description": "Hipsters pack this 2-level bar/music venue to hear live indie acts or dance to DJ sets upstairs.",
+        "vibe": ["dive"]
     },  
     "17": {
-        "name": 
-        "address": 
+        "name": "Ray's Downtown",
+        "address": "177 Chrystie St, New York, NY 10002",
         "coords": [],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "5pm - 2am",
+        "description": "Watering hole with a dive bar vibe, disco ball & a pool table, serving beer & craft cocktails.",
+        "vibe": ["dive"]
     },  
     "18": {
-        "name": 
-        "address": 
-        "coords": [],
+        "name": "Kind Regards",
+        "address": "152 Ludlow St, New York, NY 10002",
+        "coords": [40.72099693747117, -73.98779547286877],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "5pm - 4am",
+        "description": "A cocktail spot with loungey seating & occasional basement shows in the former Cake Shop space.",
+        "vibe": ["cocktail"]
     },  
     "19": {
-        "name": 
-        "address": 
+        "name": "Le Dive",
+        "address": "37 Canal St, New York, NY 10002",
         "coords": [],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "5pm - 2am",
+        "description": "",
+        "vibe": ["cocktail"]
     }, 
     "20": {
-        "name": 
-        "address": 
-        "coords": [],
+        "name": "Flower Shop",
+        "address": "107 Eldridge St, New York, NY 10002",
+        "coords": [40.718334607664175, -73.99228548821094],
         "burough": "Manhattan",
-        "hours": 
-        "description": 
-        "vibe": []
+        "hours": "5pm - 2am",
+        "description": "Contemporary American cooking in a '70s-style space with colorful furnishings & a downstairs bar.",
+        "vibe": ["cocktail"]
     }  
 
 
