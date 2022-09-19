@@ -1,0 +1,195 @@
+
+
+{
+    "0": {
+        "name": "Josie's",
+        "address": "520 E 6th St, New York, NY 10009",
+        "coords": [40.725017278238006, -73.98297197390893],
+        "burough": "Manhattan",
+        "hours": "3pm - 4am",
+        "description": "Neighborhood haunt with a pool table and cheap drinks",
+        "vibe": ["dive"]
+        },
+    "1": {
+        "name": "Spring Lounge",
+        "address": "48 Spring St, New York, NY 10012",
+        "coords": [40.72203407878144, -73.9964347310665],
+        "burough": "Manhattan",
+        "hours": "8am - 4am",
+        "description": "Neighborhood dive bar since the 1920s draws patrons from 8AM on for basic drinks & weekend bagels.",
+        "vibe": ["dive"]
+        },
+    "2": {
+        "name": "Lucy's",
+        "address": "135 Avenue A, New York, NY 10009",
+        "coords": [40.72715609936718, -73.98297580037664],
+        "burough": "Manhattan",
+        "hours": "5pm - 4am",
+        "description": "Easygoing hangout, famed for its eponymous owner, features pool, video games & a laid-back vibe.",
+        "vibe": ["dive"]
+    },
+    "3": {
+        "name": "KGB Bar",
+        "address": "85 E 4th St, New York, NY 10003",
+        "coords": [40.72664730042396, -73.98989100223018],
+        "burough": "Manhattan",
+        "hours": "7pm - 4am",
+        "description": "Readings & publication parties are regular events at this tiny Soviet-themed watering hole.",
+        "vibe": ["dive"]
+        },
+    "4": {
+        "name": "Doc Holiday's",
+        "address": "141 Avenue A, New York, NY 10009",
+        "coords": [40.727398198864286, -73.98285052735937],
+        "burough": "Manhattan",
+        "hours": "12pm - 4am",
+        "description": "Texas roadhouse-style bar in the East Village with biker bartenders & country music on the jukebox.",
+        "vibe": ["dive"]
+        },
+    "5": {
+        "name": "St Dymphna's",
+        "address": "117 Avenue A, New York, NY 10009",
+        "coords": [40.72660169252299, -73.98352315804907],
+        "burough": "Manhattan",
+        "hours": "4pm - 4am",
+        "description": "Irish watering hole dispensing pints & classic pub grub in a snug, patio-equipped setting.",
+        "vibe": ["dive"]
+        },
+    "6": {
+        "name": "Phoenix Bar",
+        "address": "447 E 13th St, New York, NY 10009",
+        "coords": [40.730094511842545, -73.9809088966695],
+        "burough": "Manhattan",
+        "hours": "3pm - 4am",
+        "description": "Gay & lesbian mainstay in the East Village known for its jukebox & relaxed atmosphere.",
+        "vibe": ["dive", "gay"]
+        },
+    "7": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },    
+    "8": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },    
+    "9": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },  
+    "10": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },  
+    "11": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },  
+    "12": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },  
+    "13": {
+        "name": "Mr. Fong's",
+        "address": "40 Market St, New York, NY 10002",
+        "coords": [40.71260262672593, -73.9941237310669],
+        "burough": "Manhattan",
+        "hours": "4pm - 4am",
+        "description": "Unassuming watering hole featuring Chinese-inspired cocktails & bar bites, plus a jukebox.",
+        "vibe": ["cocktail"]
+    }  
+    "14": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },  
+    "15": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },  
+    "16": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },  
+    "17": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },  
+    "18": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    },  
+    "19": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    }, 
+    "20": {
+        "name": 
+        "address": 
+        "coords": [],
+        "burough": "Manhattan",
+        "hours": 
+        "description": 
+        "vibe": []
+    }  
+
+
+}
