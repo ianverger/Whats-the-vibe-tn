@@ -15,7 +15,6 @@ function initMap() {
         map: map
       });
       marker.setMap(map);
-    console.log(obj[bar])
   }
 }
 
