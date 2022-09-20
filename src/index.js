@@ -1,5 +1,5 @@
 const { mark } = require("regenerator-runtime");
-const obj = require("../bars.json")
+const obj = require("../bars.json");
 
 var map;
 
@@ -18,7 +18,8 @@ function initMap() {
        
     );
 
-    const image = "https://media.istockphoto.com/vectors/stylish-vector-hightech-map-of-new-york-vector-id1257815023?s=612x612";
+    const image = "assets/dive.png"
+    
 
     class USGSOverlay extends google.maps.OverlayView {
         bounds;
@@ -77,17 +78,17 @@ function initMap() {
             );
 
             // Resize the image's div to fit the indicated dimensions.
-            if (this.div) {
+            // if (this.div) {
             // this.div.style.left = sw.x + "px";
             // this.div.style.top = ne.y + "px";
             // this.div.style.width = ne.x - sw.x + "px";
             // this.div.style.height = sw.y - ne.y + "px";
-            }
+            // }
         }
     }
-    const overlay = new USGSOverlay(bounds, image);
+    // const overlay = new USGSOverlay(bounds, image);
 
-    overlay.setMap(map);
+    // overlay.setMap(map);
 
     for (let bar in obj) {
         let marker = new google.maps.Marker({
@@ -97,7 +98,7 @@ function initMap() {
         marker.setMap(map);
         marker.setClickable(true);
         marker.addListener("click", () => {
-            initInfo(obj[bar].name, obj[bar].address, obj[bar].hours, obj[bar].description, obj[bar].link);
+            initInfo(obj[bar].name, obj[bar].address, obj[bar].hours, obj[bar].description, obj[bar].link, obj[bar].next, obj[bar].pic);
         })
     }
 }
@@ -106,18 +107,29 @@ window.initMap = initMap;
 //     initMap();
 // })
 
-function initInfo(name, address, hours, description, link) {
-    let info = document.querySelector("#info");
-    info.innerText = (
-        `Name: ${name}
-        Address: ${address}
-        Hours: ${hours}
-
-        ${description}`
+function initInfo(name, address, hours, description, link, next, pic) {
+    let deets = document.querySelector("#deets");
+    deets.innerHTML = (
+        `Name: ${name} <br>
+        Address: ${address} <br>
+        Hours: ${hours} <br>
+        <br>
+        ${description} <br>
+        <a href="${link}" target="_blank">Google</a>
+        `
     );
 
-    let bop = document.querySelector("#bop");
-    bop.innerText = "Wanna switch up the vibe?"
+    let photo = document.querySelector("#photo");
+    photo.innerHTML = (
+        `<img alt="" class="pic" src="${pic}"/>`
+    )
 
+
+    let bop = document.querySelector("#bop");
+    bop.innerText = (
+        `Wanna switch up the vibe?
+        
+        ${next[0]}`
+    );
 }
 

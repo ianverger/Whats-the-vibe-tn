@@ -14,24 +14,29 @@
   </head>
   
   <body>
-    <h1>What's the vibe tn?</h1>
-    <div class="container">
-      <div class="navbar">
-        <div class="controls">controls</div>
-        <div class="vibe">vibe</div>
-        <div class="links">links</div>
+      <h1>What's the vibe tn?</h1>
+      <div class="container">
+          <div class="navbar">
+              <div class="controls">
+                <button class="tablinks" onclick="switchVibe(event, 'cocktail')">cocktail</button>
+                <button class="tablinks" onclick="switchVibe(event, 'dive')">dive</button>
+                <button class="tablinks" onclick="switchVibe(event, 'rooftop')">rooftop</button>
+                <button class="tablinks" onclick="switchVibe(event, 'natty')">natty</button>
+              </div>
+              <div class="vibe">vibe</div>
+              <div class="links">links</div>
+          </div>
+          <div class="main">
+              <div id="map"></div>
+              <div class="side">
+                  <aside id="info">
+                      <div id="photo"></div>
+                      <div id="deets"></div>
+                  </aside>
+                  <aside id="bop"></aside>
+              </div>
+          </div>
       </div>
-      <div class="main">
-        <div id="map"></div>
-        <div class="side">
-          <aside id="info"></aside>
-          <aside id="bop"></aside>
-        </div>
-      </div>
-      
-      
-    </div>
-    
     
   </body>
 

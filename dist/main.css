@@ -30,6 +30,7 @@ html, body {
 }
 
 #info {
+  display: flex;
   border: 10px solid white;
   background-color: rgb(209, 167, 217);
   width: 500px;
@@ -37,6 +38,14 @@ html, body {
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 10px;
+}
+
+#photo {
+  margin-right: 10px;
+}
+
+.pic {
+  width: 200px;
 }
 
 #bop {
@@ -70,6 +79,24 @@ html, body {
   height: 50px;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.controls button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.controls button:hover {
+  background-color: rgb(181, 126, 214);
 }
 
 .links {

@@ -8,7 +8,10 @@
         "burough": "Manhattan",
         "hours": "3pm - 4am",
         "description": "Neighborhood haunt with a pool table and cheap drinks",
-        "vibe": ["dive"]
+        "link": "",
+        "vibe": ["dive"],
+        "next": ["Death & Company"],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipOA8knJxm_kvpnuW_CmUPyS9JVPvjGX-V560qc=w408-h408-k-no"
         },
     "1": {
         "name": "Spring Lounge",
@@ -17,7 +20,9 @@
         "burough": "Manhattan",
         "hours": "8am - 4am",
         "description": "Neighborhood dive bar since the 1920s draws patrons from 8AM on for basic drinks & weekend bagels.",
-        "vibe": ["dive"]
+        "vibe": ["dive"],
+        "next": ["The Roof at PUBLIC"],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipPTsso-axbofNSrNkJ8fFE-GwvE_9UhNhv4kM_-=w408-h270-k-no"
         },
     "2": {
         "name": "Lucy's",
@@ -26,7 +31,8 @@
         "burough": "Manhattan",
         "hours": "5pm - 4am",
         "description": "Easygoing hangout, famed for its eponymous owner, features pool, video games & a laid-back vibe.",
-        "vibe": ["dive"]
+        "vibe": ["dive"],
+        "next": ["The Wayland"]
     },
     "3": {
         "name": "KGB Bar",
@@ -35,7 +41,8 @@
         "burough": "Manhattan",
         "hours": "7pm - 4am",
         "description": "Readings & publication parties are regular events at this tiny Soviet-themed watering hole.",
-        "vibe": ["dive"]
+        "vibe": ["dive"],
+        "next": ["Temple Bar"]
         },
     "4": {
         "name": "Doc Holiday's",
