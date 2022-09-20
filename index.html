@@ -6,18 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk4-lqbqOGBWjFbeIiHcg6w3qAz8LCYrU&callback=initMap"></script>
     <script src="./dist/main.js"></script>
+    <!--<script type="module" src="./index.js"></script>-->
+    
     <title>What's the vibe tn?</title>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk4-lqbqOGBWjFbeIiHcg6w3qAz8LCYrU&callback=initMap" defer></script>
   </head>
-
+  
   <body>
     <h1>What's the vibe tn?</h1>
-    <div id="map"></div>
-    <aside id="info"></aside>
-    <aside id="bop"></aside>
-    
-    
+    <div class="container">
+      <div class="navbar">
+        <div class="controls">controls</div>
+        <div class="vibe">vibe</div>
+        <div class="links">links</div>
+      </div>
+      <div class="main">
+        <div id="map"></div>
+        <div class="side">
+          <aside id="info"></aside>
+          <aside id="bop"></aside>
+        </div>
+      </div>
+      
+      
+    </div>
     
     
   </body>
