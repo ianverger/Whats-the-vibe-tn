@@ -5,7 +5,9 @@
 
 body {
     background-color: black;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    // -webkit-animation: fadeEffect 2s;
+    // animation: fadeEffect 2s;
 }
 
 #root {
@@ -41,6 +43,8 @@ html, body {
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 10px;
+    // -webkit-animation: fadeEffect 1s;
+    // animation: fadeEffect 1s;
 }
 
 #photo {
@@ -108,17 +112,42 @@ html, body {
     background-color: rgb(181, 126, 214);
   }
 
-// .vibe {
+.controls button#active {
+    background-color: rgb(176, 90, 193);
+}
 
-// }
+@-webkit-keyframes fadeEffect {
+from {opacity: 0;}
+to {opacity: 1;}
+}
 
-.links {
+@keyframes fadeEffect {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+.author {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border: 10px solid white;
     background-color: rgb(209, 167, 217);
-    width: 350px;
+    width: 400px;
     height: 50px;
     margin-left: 20px;
     margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ian {
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 

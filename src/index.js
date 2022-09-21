@@ -1,12 +1,27 @@
 const { mark } = require("regenerator-runtime");
 const obj = require("../bars.json");
 var currentVibe = null;
+window.switchVibe = switchVibe;
 
-function switchVibe(vibe) {
+function switchVibe(event, vibe) {
     let body = document.body;
     body.setAttribute("class", vibe);
+    let vibez = document.getElementsByClassName("vibe");
+    for (i = 0; i < vibez.length; i++) {
+      vibez[i].id = vibez[i].id.replace("active", "");
+    }
+    event.currentTarget.setAttribute("id", "active");
     currentVibe = vibe;
-    window.initMap = initMap();
+    switchTitle(vibe);
+}
+
+
+function switchTitle(vibe) {
+    let title = document.querySelector(".title");
+        const natty_logo = "assets/natty_logo.png";
+    title.innerHTML = (
+        `<img alt="" class="" src="${natty_logo}" height="80px"/>`
+    );
 }
 
 var map;
@@ -26,7 +41,7 @@ function initMap() {
        
     );
 
-    const image = "assets/dive.png"
+    const image = "assets/dive_map.png"
     console.log(currentVibe);
 
     class USGSOverlay extends google.maps.OverlayView {
@@ -108,11 +123,12 @@ function initMap() {
             initInfo(obj[bar].name, obj[bar].address, obj[bar].hours, obj[bar].description, obj[bar].link, obj[bar].next, obj[bar].pic);
         })
     }
-    // window.initMap = initMap();
+    
 }
-    document.addEventListener('DOMContentLoaded', () => {
-            initMap();
-    });
+    // document.addEventListener('DOMContentLoaded', () => {
+    //         initMap();
+    // });
+window.initMap = initMap;
 
 function initInfo(name, address, hours, description, link, next, pic) {
     let deets = document.querySelector("#deets");

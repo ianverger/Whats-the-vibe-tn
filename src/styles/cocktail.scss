@@ -1,3 +1,15 @@
 .cocktail {
     background-color: pink;
+    -webkit-animation: fadeEffect 2s;
+    animation: fadeEffect 2s;
 }
+
+// @-webkit-keyframes fadeEffect {
+//     from {opacity: 0;}
+//     to {opacity: 1;}
+//   }
+  
+//   @keyframes fadeEffect {
+//     from {opacity: 0;}
+//     to {opacity: 1;}
+//   }

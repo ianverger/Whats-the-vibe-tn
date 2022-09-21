@@ -3,18 +3,26 @@
   \*************************************************************************************************************************************/
 .dive {
   background-color: blue;
+  -webkit-animation: fadeEffect 2s;
+  animation: fadeEffect 2s;
 }
 
 .cocktail {
   background-color: pink;
+  -webkit-animation: fadeEffect 2s;
+  animation: fadeEffect 2s;
 }
 
 .rooftop {
   background-color: orange;
+  -webkit-animation: fadeEffect 2s;
+  animation: fadeEffect 2s;
 }
 
 .natty {
   background-color: maroon;
+  -webkit-animation: fadeEffect 2s;
+  animation: fadeEffect 2s;
 }
 
 body {
@@ -121,11 +129,46 @@ html, body {
   background-color: rgb(181, 126, 214);
 }
 
-.links {
+.controls button#active {
+  background-color: rgb(176, 90, 193);
+}
+
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.author {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   border: 10px solid white;
   background-color: rgb(209, 167, 217);
-  width: 350px;
+  width: 400px;
   height: 50px;
   margin-left: 20px;
   margin-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ian {
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
