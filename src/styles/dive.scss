@@ -1,16 +1,44 @@
 .dive {
     
-    background-color: blue;
+    background-color: #222629;
     -webkit-animation: fadeEffect 2s;
     animation: fadeEffect 2s;
 }
 
-// @-webkit-keyframes fadeEffect {
-//     from {opacity: 0;}
-//     to {opacity: 1;}
-//   }
-  
-//   @keyframes fadeEffect {
-//     from {opacity: 0;}
-//     to {opacity: 1;}
-//   }
+.dive #map {
+    border: 10px solid #4E4E50;
+}
+
+.dive h1 {
+
+}
+
+.dive #info {
+    background-color: #6F2232;
+    border: 10px solid #4E4E50;
+}
+
+.dive #bop {
+    background-color: #6F2232;
+    border: 10px solid #4E4E50;
+}
+
+.dive .controls {
+    background-color: #6F2232;
+    border: 10px solid #4E4E50;
+}
+
+.dive .controls button:hover {
+    background-color: #883142;
+    box-shadow: 2px 3px gray;
+}
+
+.dive .controls button#active {
+    background-color: #b25265;
+    box-shadow: 2px 3px #b25265;
+}
+
+.dive .author {
+    background-color: #6F2232;
+    border: 10px solid #4E4E50;
+}

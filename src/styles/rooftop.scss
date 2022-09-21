@@ -1,15 +1,47 @@
 .rooftop {
-    background-color: orange;
+    background-color: #374785;
     -webkit-animation: fadeEffect 2s;
     animation: fadeEffect 2s;
 }
 
-// @-webkit-keyframes fadeEffect {
-//     from {opacity: 0;}
-//     to {opacity: 1;}
-//   }
-  
-//   @keyframes fadeEffect {
-//     from {opacity: 0;}
-//     to {opacity: 1;}
-//   }
+.rooftop #map {
+    border: 10px solid #25274D;
+
+}
+
+.rooftop h1 {
+
+}
+
+.rooftop #info {
+    background-color: #A8D0E6;
+    border: 10px solid #25274D;
+}
+
+.rooftop #bop {
+    background-color: #A8D0E6;
+    border: 10px solid #25274D;
+
+}
+
+.rooftop .controls {
+    background-color: #A8D0E6;
+    border: 10px solid #25274D;
+
+}
+
+.rooftop .controls button:hover {
+    background-color: #7fc6ec;
+    box-shadow: 2px 3px gray;
+}
+
+.rooftop .controls button#active {
+    background-color: #51b5eb;
+    box-shadow: 2px 3px #51b5eb;
+}
+
+.rooftop .author {
+    background-color: #A8D0E6;
+    border: 10px solid #25274D;
+
+}

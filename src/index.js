@@ -1,40 +1,51 @@
 const { mark } = require("regenerator-runtime");
 const obj = require("../bars.json");
-var currentVibe = null;
+let currentVibe = "";
 window.switchVibe = switchVibe;
 
 function switchVibe(event, vibe) {
     let body = document.body;
+    body.setAttribute("class", "");
+
+    setTimeout(() => {
     body.setAttribute("class", vibe);
+    }, 200);
+
     let vibez = document.getElementsByClassName("vibe");
     for (i = 0; i < vibez.length; i++) {
-      vibez[i].id = vibez[i].id.replace("active", "");
-    }
+    vibez[i].id = vibez[i].id.replace("active", "");
+    };
+
     event.currentTarget.setAttribute("id", "active");
     currentVibe = vibe;
     switchTitle(vibe);
-}
+    window.initMap(currentVibe);
+};
 
 
 function switchTitle(vibe) {
-    let title = document.querySelector(".title");
-        const natty_logo = "assets/natty_logo.png";
+    let title = document.querySelector("#title");
+    let logo = "";
+        if (vibe === 'natty') logo = "assets/natty_logo.png";
+        if (vibe === 'cocktail') logo = "assets/cocktail_logo.png";
+        if (vibe === 'dive') logo = "assets/dive_logo.png";
+        if (vibe === 'rooftop') logo = "assets/rooftop_logo.png";
     title.innerHTML = (
-        `<img alt="" class="" src="${natty_logo}" height="80px"/>`
+        `<img alt="" class="pic" src="${logo}"/>`
     );
 }
 
-var map;
-
-function initMap() {
+function initMap(currentVibe) {
     const map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 40.72163829901166, lng: -73.979618357371},
         // center: {lat: 40.722637848408105, lng: -73.98678972114551},
+        gestureHandling: "none",
+        disableDefaultUI: true,
         zoom: 13.1,
         // mapTypeId: 'satellite',
         // heading: -90
     });
-    
+
     const bounds = new google.maps.LatLngBounds(
         new google.maps.LatLng(40.788882014610316, -73.94062489948102),
         new google.maps.LatLng(40.67704769503717, -74.05299816586422)
@@ -42,7 +53,6 @@ function initMap() {
     );
 
     const image = "assets/dive_map.png"
-    console.log(currentVibe);
 
     class USGSOverlay extends google.maps.OverlayView {
         bounds;
@@ -111,24 +121,34 @@ function initMap() {
     // const overlay = new USGSOverlay(bounds, image);
 
     // overlay.setMap(map);
-
-    for (let bar in obj) {
+    
+    let arr = Object.values(obj).filter(ele => ele.vibe.includes(currentVibe));
+    console.log(arr);
+    for (let bar of arr) {
         let marker = new google.maps.Marker({
-            position: new google.maps.LatLng(obj[bar].coords[0], obj[bar].coords[1]),
+            position: new google.maps.LatLng(bar.coords[0], bar.coords[1]),
             map: map
         });
         marker.setMap(map);
         marker.setClickable(true);
+        let info = document.querySelector("#info"); 
         marker.addListener("click", () => {
-            initInfo(obj[bar].name, obj[bar].address, obj[bar].hours, obj[bar].description, obj[bar].link, obj[bar].next, obj[bar].pic);
+            info.setAttribute('class', '');
+            setTimeout(() => {
+                info.setAttribute('class', 'info_flash');
+
+            }, 1)
+            initInfo(bar.name, bar.address, bar.hours, bar.description, bar.link, bar.next, bar.pic);
         })
     }
     
 }
     // document.addEventListener('DOMContentLoaded', () => {
-    //         initMap();
+    //         initMap;
     // });
 window.initMap = initMap;
+
+
 
 function initInfo(name, address, hours, description, link, next, pic) {
     let deets = document.querySelector("#deets");

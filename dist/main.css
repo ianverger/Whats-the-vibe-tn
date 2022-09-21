@@ -2,67 +2,202 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
 .dive {
-  background-color: blue;
+  background-color: #222629;
   -webkit-animation: fadeEffect 2s;
   animation: fadeEffect 2s;
+}
+
+.dive #map {
+  border: 10px solid #4E4E50;
+}
+
+.dive #info {
+  background-color: #6F2232;
+  border: 10px solid #4E4E50;
+}
+
+.dive #bop {
+  background-color: #6F2232;
+  border: 10px solid #4E4E50;
+}
+
+.dive .controls {
+  background-color: #6F2232;
+  border: 10px solid #4E4E50;
+}
+
+.dive .controls button:hover {
+  background-color: #883142;
+  box-shadow: 2px 3px gray;
+}
+
+.dive .controls button#active {
+  background-color: #b25265;
+  box-shadow: 2px 3px #b25265;
+}
+
+.dive .author {
+  background-color: #6F2232;
+  border: 10px solid #4E4E50;
 }
 
 .cocktail {
-  background-color: pink;
+  background-color: #D83F87;
   -webkit-animation: fadeEffect 2s;
   animation: fadeEffect 2s;
+}
+
+.cocktail #map {
+  border: 10px solid #44318D;
+}
+
+.cocktail #info {
+  background-color: rgb(209, 167, 217);
+  border: 10px solid #44318D;
+}
+
+.cocktail #bop {
+  background-color: rgb(209, 167, 217);
+  border: 10px solid #44318D;
+}
+
+.cocktail .controls {
+  background-color: rgb(209, 167, 217);
+  border: 10px solid #44318D;
+}
+
+.cocktail .controls button:hover {
+  background-color: rgb(181, 126, 214);
+  box-shadow: 2px 3px gray;
+}
+
+.cocktail .controls button#active {
+  background-color: rgb(176, 90, 193);
+  box-shadow: 2px 3px rgb(176, 90, 193);
+}
+
+.cocktail .author {
+  background-color: rgb(209, 167, 217);
+  border: 10px solid #44318D;
 }
 
 .rooftop {
-  background-color: orange;
+  background-color: #374785;
   -webkit-animation: fadeEffect 2s;
   animation: fadeEffect 2s;
 }
 
+.rooftop #map {
+  border: 10px solid #25274D;
+}
+
+.rooftop #info {
+  background-color: #A8D0E6;
+  border: 10px solid #25274D;
+}
+
+.rooftop #bop {
+  background-color: #A8D0E6;
+  border: 10px solid #25274D;
+}
+
+.rooftop .controls {
+  background-color: #A8D0E6;
+  border: 10px solid #25274D;
+}
+
+.rooftop .controls button:hover {
+  background-color: #7fc6ec;
+  box-shadow: 2px 3px gray;
+}
+
+.rooftop .controls button#active {
+  background-color: #51b5eb;
+  box-shadow: 2px 3px #51b5eb;
+}
+
+.rooftop .author {
+  background-color: #A8D0E6;
+  border: 10px solid #25274D;
+}
+
 .natty {
-  background-color: maroon;
+  background-color: #376E6F;
   -webkit-animation: fadeEffect 2s;
   animation: fadeEffect 2s;
+}
+
+.natty #map {
+  border: 10px solid #5C2018;
+}
+
+.natty #info {
+  background-color: #D4A59A;
+  border: 10px solid #5C2018;
+}
+
+.natty #bop {
+  background-color: #D4A59A;
+  border: 10px solid #5C2018;
+}
+
+.natty .controls {
+  background-color: #D4A59A;
+  border: 10px solid #5C2018;
+}
+
+.natty .controls button:hover {
+  background-color: #be887b;
+  box-shadow: 2px 3px gray;
+}
+
+.natty .controls button#active {
+  background-color: #a36a5c;
+  box-shadow: 2px 3px #a36a5c;
+}
+
+.natty .author {
+  background-color: #D4A59A;
+  border: 10px solid #5C2018;
 }
 
 body {
   background-color: black;
   font-family: "Courier New", Courier, monospace;
-}
-
-#root {
-  background-color: purple;
-  margin: 25px;
-  border-radius: 10px;
-  border: 3px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #map {
-  height: 520px;
+  height: 500px;
   min-width: 520px;
+  border-radius: 15px;
+  border: 10px solid white;
 }
 
 h1 {
   color: white;
-}
-
-html, body {
-  color: black;
-  width: 520px;
-  margin: 20px;
-  padding: 0;
+  font-family: "Rock Salt", cursive;
 }
 
 #info {
   display: flex;
+  border-radius: 15px;
   align-items: center;
   border: 10px solid white;
-  background-color: rgb(209, 167, 217);
+  background-color: rgb(181, 181, 181);
   width: 500px;
   height: 240px;
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 10px;
+}
+
+.info_flash {
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1.5s;
 }
 
 #photo {
@@ -76,11 +211,17 @@ html, body {
   max-height: 240px;
 }
 
+#title .pic {
+  height: 90px;
+  max-width: 290px;
+}
+
 #bop {
   display: flex;
+  border-radius: 15px;
   justify-content: center;
   border: 10px solid white;
-  background-color: rgb(209, 167, 217);
+  background-color: rgb(181, 181, 181);
   width: 500px;
   height: 180px;
   margin-left: 20px;
@@ -94,7 +235,7 @@ html, body {
 
 .navbar {
   display: flex;
-  width: 1080px;
+  width: 1098px;
   justify-content: space-between;
 }
 
@@ -103,9 +244,10 @@ html, body {
 }
 
 .controls {
+  border-radius: 15px;
   border: 10px solid white;
-  background-color: rgb(209, 167, 217);
-  width: 310px;
+  background-color: rgb(181, 181, 181);
+  width: 306px;
   height: 50px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -126,11 +268,11 @@ html, body {
 }
 
 .controls button:hover {
-  background-color: rgb(181, 126, 214);
+  background-color: rgb(145, 145, 145);
 }
 
 .controls button#active {
-  background-color: rgb(176, 90, 193);
+  background-color: rgb(78, 78, 78);
 }
 
 @-webkit-keyframes fadeEffect {
@@ -151,24 +293,28 @@ html, body {
 }
 .author {
   display: flex;
+  border-radius: 15px;
   justify-content: space-around;
   align-items: center;
   border: 10px solid white;
-  background-color: rgb(209, 167, 217);
-  width: 400px;
+  background-color: rgb(181, 181, 181);
+  width: 330px;
   height: 50px;
   margin-left: 20px;
-  margin-bottom: 20px;
 }
 
 .links {
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 5px;
 }
 
 .ian {
   display: flex;
-  justify-content: right;
   align-items: center;
+  margin-right: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
 }

@@ -1,15 +1,44 @@
 .natty {
-    background-color: maroon;
+    background-color: #376E6F;
     -webkit-animation: fadeEffect 2s;
     animation: fadeEffect 2s;
 }
 
-// @-webkit-keyframes fadeEffect {
-//     from {opacity: 0;}
-//     to {opacity: 1;}
-//   }
-  
-//   @keyframes fadeEffect {
-//     from {opacity: 0;}
-//     to {opacity: 1;}
-//   }
+
+.natty #map {
+    border: 10px solid #5C2018;
+}
+
+.natty h1 {
+
+}
+
+.natty #info {
+    background-color: #D4A59A;
+    border: 10px solid #5C2018;
+}
+
+.natty #bop {
+    background-color: #D4A59A;
+    border: 10px solid #5C2018;
+}
+
+.natty .controls {
+    background-color: #D4A59A;
+    border: 10px solid #5C2018;
+}
+
+.natty .controls button:hover {
+    background-color: #be887b;
+    box-shadow: 2px 3px gray;
+}
+
+.natty .controls button#active {
+    background-color: #a36a5c;
+    box-shadow: 2px 3px #a36a5c;
+}
+
+.natty .author {
+    background-color: #D4A59A;
+    border: 10px solid #5C2018;
+}

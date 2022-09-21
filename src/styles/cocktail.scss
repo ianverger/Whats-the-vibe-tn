@@ -1,15 +1,43 @@
 .cocktail {
-    background-color: pink;
+    background-color: #D83F87;
     -webkit-animation: fadeEffect 2s;
     animation: fadeEffect 2s;
 }
 
-// @-webkit-keyframes fadeEffect {
-//     from {opacity: 0;}
-//     to {opacity: 1;}
-//   }
-  
-//   @keyframes fadeEffect {
-//     from {opacity: 0;}
-//     to {opacity: 1;}
-//   }
+.cocktail #map {
+    border: 10px solid #44318D;
+}
+
+.cocktail h1 {
+
+}
+
+.cocktail #info {
+    background-color: rgb(209, 167, 217);
+    border: 10px solid #44318D;
+}
+
+.cocktail #bop {
+    background-color: rgb(209, 167, 217);
+    border: 10px solid #44318D;
+}
+
+.cocktail .controls {
+    background-color: rgb(209, 167, 217);
+    border: 10px solid #44318D;
+}
+
+.cocktail .controls button:hover {
+    background-color: rgb(181, 126, 214);
+    box-shadow: 2px 3px gray;
+}
+
+.cocktail .controls button#active {
+    background-color: rgb(176, 90, 193);
+    box-shadow: 2px 3px rgb(176, 90, 193);
+}
+
+.cocktail .author {
+    background-color: rgb(209, 167, 217);
+    border: 10px solid #44318D;
+}

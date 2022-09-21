@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <script src="./dist/main.js"></script>
-    <!-- <script type="text/javascript" src="./src/index.js"></script> -->
-    
     <title>What's the vibe tn?</title>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk4-lqbqOGBWjFbeIiHcg6w3qAz8LCYrU&callback=initMap" defer></script>
   </head>
@@ -18,12 +21,12 @@
       <div class="container">
           <div class="navbar">
               <div class="controls">
-                <button class="vibe" onclick="switchVibe(event, 'cocktail')">cocktail</button>
-                <button class="vibe" onclick="switchVibe(event, 'dive')">dive</button>
-                <button class="vibe" onclick="switchVibe(event, 'rooftop')">rooftop</button>
-                <button class="vibe" onclick="switchVibe(event, 'natty')">natty</button>
+                <button class="vibe" id="" onclick="switchVibe(event, 'cocktail')">cocktail</button>
+                <button class="vibe" id="" onclick="switchVibe(event, 'dive')">dive</button>
+                <button class="vibe" id="" onclick="switchVibe(event, 'rooftop')">rooftop</button>
+                <button class="vibe" id="" onclick="switchVibe(event, 'natty')">natty</button>
               </div>
-              <div class="title"></div>
+              <div id="title"></div>
               <div class="author">
                   <div class="links">
                     <a href="https://www.linkedin.com/in/ian-verger-02067951/" target="_blank">
@@ -35,11 +38,8 @@
                     <a href="" target="_blank">
                       <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/angellist-512.png" alt="AngelList" style="height: 40px">
                     </a>
-                    <a href="https://www.appacademy.io/?utm_campaign=17603976132&utm_adgroup=138566882575&utm_matchtype=e&utm_device=c&utm_gclid=Cj0KCQjw7KqZBhCBARIsAI-fTKJKGXCD4Fq_V02nCCaJYyaXozTISVkMkfh0jHM2NvD8azWdr0G7Co8aAvVKEALw_wcB&utm_creative=609736003851&utm_keyword=app%20academy&utm_source=google&utm_medium=ppc&utm_adposition=&utm_placement=&utm_location=9067609&utm_network=g&gclid=Cj0KCQjw7KqZBhCBARIsAI-fTKJKGXCD4Fq_V02nCCaJYyaXozTISVkMkfh0jHM2NvD8azWdr0G7Co8aAvVKEALw_wcB" target="_blank">
-                      <img src="https://assets-global.website-files.com/5dcc7f8c449e597ed83356b8/5dd1a90aef6ed91dc5bfece5_logo-emblem-black1.png" alt="App Academy" style="height: 40px">
-                    </a>
                   </div>
-                  <div class="ian">my name is ian verger</div>
+                  <div class="ian">ian verger</div>
               </div>
           </div>
           <div class="main">
