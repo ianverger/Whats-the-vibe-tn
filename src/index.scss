@@ -1,3 +1,8 @@
+@import './styles/dive.scss';
+@import './styles/cocktail.scss';
+@import './styles/rooftop.scss';
+@import './styles/natty.scss';
+
 body {
     background-color: black;
     font-family: 'Courier New', Courier, monospace
@@ -28,7 +33,7 @@ html, body {
 
 #info {
     display: flex;
-
+    align-items: center;
     border: 10px solid white;
     background-color: rgb(209, 167, 217);
     width: 500px;
@@ -39,15 +44,19 @@ html, body {
 }
 
 #photo {
+    display: flex;
+    align-items: center;
     margin-right: 10px ;
 }
 
-.pic {
+#photo .pic {
     width: 200px;
-
+    max-height: 240px;
 }
 
 #bop {
+    display: flex;
+    justify-content: center;
     border: 10px solid white;
     background-color: rgb(209, 167, 217);
     width: 500px;
@@ -75,13 +84,13 @@ html, body {
 .controls {
     border: 10px solid white;
     background-color: rgb(209, 167, 217);
-    width: 440px;
+    width: 310px;
     height: 50px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
-.controls button {
+.controls .vibe {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -99,9 +108,9 @@ html, body {
     background-color: rgb(181, 126, 214);
   }
 
-.vibe {
+// .vibe {
 
-}
+// }
 
 .links {
     border: 10px solid white;
@@ -111,3 +120,5 @@ html, body {
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
+

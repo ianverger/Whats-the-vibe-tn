@@ -1,5 +1,13 @@
 const { mark } = require("regenerator-runtime");
 const obj = require("../bars.json");
+var currentVibe = null;
+
+function switchVibe(vibe) {
+    let body = document.body;
+    body.setAttribute("class", vibe);
+    currentVibe = vibe;
+    window.initMap = initMap();
+}
 
 var map;
 
@@ -13,13 +21,13 @@ function initMap() {
     });
     
     const bounds = new google.maps.LatLngBounds(
-        new google.maps.LatLng(40.801004776182744, -73.88767050854922),
-        new google.maps.LatLng(40.687335837821394, -74.06379507436245)
+        new google.maps.LatLng(40.788882014610316, -73.94062489948102),
+        new google.maps.LatLng(40.67704769503717, -74.05299816586422)
        
     );
 
     const image = "assets/dive.png"
-    
+    console.log(currentVibe);
 
     class USGSOverlay extends google.maps.OverlayView {
         bounds;
@@ -49,15 +57,15 @@ function initMap() {
             const img = document.createElement("img");
 
             img.src = this.image;
-            img.style.width = "100%";
-            img.style.height = "100%";
+            img.style.width = "600px";
+            img.style.height = "600px";
             // img.style.position = "absolute";
             this.div.appendChild(img);
 
             // Add the element to the "overlayLayer" pane.
             const panes = this.getPanes();
-            panes.overlayLayer.style.left = "-260px";
-            panes.overlayLayer.style.top = "-260px";
+            panes.overlayLayer.style.left = "-300px";
+            panes.overlayLayer.style.top = "-300px";
             panes.overlayLayer.appendChild(this.div);
           
         }
@@ -66,7 +74,6 @@ function initMap() {
             // coordinates of the overlay to peg it to the correct position and size.
             // To do this, we need to retrieve the projection from the overlay.
             const overlayProjection = this.getProjection();
-            // debugger
             // Retrieve the south-west and north-east coordinates of this overlay
             // in LatLngs and convert them to pixel coordinates.
             // We'll use these coordinates to resize the div.
@@ -78,12 +85,12 @@ function initMap() {
             );
 
             // Resize the image's div to fit the indicated dimensions.
-            // if (this.div) {
-            // this.div.style.left = sw.x + "px";
-            // this.div.style.top = ne.y + "px";
-            // this.div.style.width = ne.x - sw.x + "px";
-            // this.div.style.height = sw.y - ne.y + "px";
-            // }
+            if (this.div) {
+            this.div.style.left = sw.x + "px";
+            this.div.style.top = ne.y + "px";
+            this.div.style.width = ne.x - sw.x + "px";
+            this.div.style.height = sw.y - ne.y + "px";
+            }
         }
     }
     // const overlay = new USGSOverlay(bounds, image);
@@ -101,11 +108,11 @@ function initMap() {
             initInfo(obj[bar].name, obj[bar].address, obj[bar].hours, obj[bar].description, obj[bar].link, obj[bar].next, obj[bar].pic);
         })
     }
+    // window.initMap = initMap();
 }
-window.initMap = initMap;
-// document.addEventListener('DOMContentLoaded', () => {
-//     initMap();
-// })
+    document.addEventListener('DOMContentLoaded', () => {
+            initMap();
+    });
 
 function initInfo(name, address, hours, description, link, next, pic) {
     let deets = document.querySelector("#deets");
@@ -115,7 +122,8 @@ function initInfo(name, address, hours, description, link, next, pic) {
         Hours: ${hours} <br>
         <br>
         ${description} <br>
-        <a href="${link}" target="_blank">Google</a>
+        <br>
+        <a href="${link}" target="_blank">Google Maps</a>
         `
     );
 

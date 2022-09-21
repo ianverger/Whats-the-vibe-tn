@@ -1,6 +1,22 @@
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
+.dive {
+  background-color: blue;
+}
+
+.cocktail {
+  background-color: pink;
+}
+
+.rooftop {
+  background-color: orange;
+}
+
+.natty {
+  background-color: maroon;
+}
+
 body {
   background-color: black;
   font-family: "Courier New", Courier, monospace;
@@ -31,6 +47,7 @@ html, body {
 
 #info {
   display: flex;
+  align-items: center;
   border: 10px solid white;
   background-color: rgb(209, 167, 217);
   width: 500px;
@@ -41,14 +58,19 @@ html, body {
 }
 
 #photo {
+  display: flex;
+  align-items: center;
   margin-right: 10px;
 }
 
-.pic {
+#photo .pic {
   width: 200px;
+  max-height: 240px;
 }
 
 #bop {
+  display: flex;
+  justify-content: center;
   border: 10px solid white;
   background-color: rgb(209, 167, 217);
   width: 500px;
@@ -75,13 +97,13 @@ html, body {
 .controls {
   border: 10px solid white;
   background-color: rgb(209, 167, 217);
-  width: 440px;
+  width: 310px;
   height: 50px;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
-.controls button {
+.controls .vibe {
   display: flex;
   justify-content: space-around;
   align-items: center;

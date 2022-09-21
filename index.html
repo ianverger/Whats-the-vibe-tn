@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
     <script src="./dist/main.js"></script>
-    <!--<script type="module" src="./index.js"></script>-->
+    <script type="text/javascript" src="./src/index.js"></script>
     
     <title>What's the vibe tn?</title>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk4-lqbqOGBWjFbeIiHcg6w3qAz8LCYrU&callback=initMap" defer></script>
@@ -18,10 +18,10 @@
       <div class="container">
           <div class="navbar">
               <div class="controls">
-                <button class="tablinks" onclick="switchVibe(event, 'cocktail')">cocktail</button>
-                <button class="tablinks" onclick="switchVibe(event, 'dive')">dive</button>
-                <button class="tablinks" onclick="switchVibe(event, 'rooftop')">rooftop</button>
-                <button class="tablinks" onclick="switchVibe(event, 'natty')">natty</button>
+                <button class="vibe" onclick="switchVibe('cocktail')">cocktail</button>
+                <button class="vibe" onclick="switchVibe('dive')">dive</button>
+                <button class="vibe" onclick="switchVibe('rooftop')">rooftop</button>
+                <button class="vibe" onclick="switchVibe('natty')">natty</button>
               </div>
               <div class="vibe">vibe</div>
               <div class="links">links</div>
@@ -37,7 +37,7 @@
               </div>
           </div>
       </div>
-    
+
   </body>
 
 </html>
