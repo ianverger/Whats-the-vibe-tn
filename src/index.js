@@ -141,12 +141,14 @@ function initMap(currentVibe) {
         marker.setClickable(true);
         let info = document.querySelector("#info"); 
         let infoOverlay = document.querySelector("#info_overlay");
-        // let bopButton = document.querySelector("#bop_overlay");
+        let bopButton = document.querySelector("#bop_overlay");
+        let instructions = document.querySelector("#instructions_overlay");
         marker.addListener("click", () => {
             infoOverlay.style.opacity = 0;
-            infoOverlay.style.zIndex = "-1"; 
-            // bopButton.style.opacity = 1;
-            // bopButton.style.zIndex = 1; 
+            infoOverlay.style.zIndex = -1; 
+            instructions.style.zIndex = -10;
+            bopButton.style.opacity = 1;
+            bopButton.style.zIndex = 1; 
             info.setAttribute('class', '');
             setTimeout(() => {
                 info.setAttribute('class', 'info_flash');
@@ -181,8 +183,8 @@ function initInfo(name, address, hours, description, link, next, pic) {
     );
 
 
-    let bop = document.querySelector("#bop");
-    bop.innerText = `${next[0]}`
+    let bop = document.querySelector("#boptext");
+    bop.innerHTML = `${next[0]}`
 };
 
 function showBop() {

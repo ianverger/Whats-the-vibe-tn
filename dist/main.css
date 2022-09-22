@@ -2,6 +2,7 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
 .dive {
+  color: white;
   background-color: #222629;
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1.5s;
@@ -24,6 +25,10 @@
 .dive .controls {
   background-color: #6F2232;
   border: 10px solid #4E4E50;
+}
+
+.dive .controls .vibe {
+  color: white;
 }
 
 .dive .controls button:hover {
@@ -162,15 +167,16 @@
 }
 
 body {
+  margin-top: 80px;
   background-color: black;
   font-family: "Courier New", Courier, monospace;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .splash {
-  font-size: x-large;
+  font-size: xx-large;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -182,7 +188,6 @@ body {
   z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -194,9 +199,18 @@ body {
 
 #splash_button {
   background-color: white;
+  border: 5px solid grey;
   display: flex;
   flex-direction: column;
   margin: 20px;
+}
+
+#splash_button .vibe {
+  height: 35px;
+}
+
+#splash_button .vibe:hover {
+  box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.24), 0 22px 55px 0 rgba(0, 0, 0, 0.19);
 }
 
 #map {
@@ -280,15 +294,36 @@ h1, h2 {
   color: white;
   font-family: "Rock Salt", cursive;
   font-size: x-large;
+  border-radius: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  width: 475px;
+  height: 160px;
+  padding: inherit;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bop_overlay:hover {
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 20px 53px 0 rgba(0, 0, 0, 0.19);
+}
+
+#instructions_overlay {
+  color: white;
+  font-family: "Rock Salt", cursive;
+  font-size: large;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: inherit;
   width: 490px;
-  height: 160px;
+  height: 180px;
   padding: inherit;
   position: absolute;
-  z-index: 1;
+  z-index: 5;
 }
 
 .container {

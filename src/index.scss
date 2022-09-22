@@ -4,15 +4,16 @@
 @import './styles/natty.scss';
 
 body {
+    margin-top: 80px;
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    // flex-direction: column;
 }
+
 .splash {
-    font-size: x-large;
+    font-size: xx-large;
     position:fixed;
     top: 50%;
     left: 50%;
@@ -24,9 +25,7 @@ body {
     z-index: 10;
     display:flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    // justify-content: space-around;
 }
 
 #splash_row {
@@ -38,14 +37,19 @@ body {
 
 #splash_button {
     background-color: white;
+    border: 5px solid grey;
     display: flex;
     flex-direction: column;
     margin: 20px;
 }
-// .hidden {
-//     transition: 0.5s;
-//     display: none;
-// }
+
+#splash_button .vibe {
+    height: 35px;
+}
+
+#splash_button .vibe:hover {
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 22px 55px 0 rgba(0,0,0,0.19);
+}
 
 #map {
     height: 500px;
@@ -129,17 +133,38 @@ h1, h2 {
     color: white;
     font-family: 'Rock Salt', cursive;
     font-size: x-large;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit; 
+    width: 475px;
+    height: 160px;
+    padding: inherit;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#bop_overlay:hover {
+    box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 20px 53px 0 rgba(0,0,0,0.19);
+}
+
+#instructions_overlay {
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: large;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: inherit; 
     width: 490px;
-    height: 160px;
+    height: 180px;
     padding: inherit;
     position: absolute;
-    z-index: 1;
-    // transition: all ease-in-out 600ms;
+    z-index: 5;
 }
+
 .container {
     display: flex;
     flex-direction: column;
