@@ -1,12 +1,40 @@
-# What's the vibe tn? :: Proposal
+# What's the vibe tn?
+
+[Switch Up The Vibe~ (live)](https://ianverger.github.io/)
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
-"What's the vibe tn?" is a data visualization in which users will be able to move around a highly interactive map of the Lower Manhattan/North Brooklyn area to peruse a hand-selected collection of top-notch bars, lounges, and clubs, based on a selected category. 
+"What's the vibe tn?" is a data visualization in which users will be able to move around an interactive map of the Lower Manhattan/North Brooklyn area to peruse a highly curated collection of top-notch bars, lounges, and clubs, based on a selected category. 
 
 Depending on the category selected (Dive, Cocktail, Rooftop, Rave, etc.), the map will filter the corresponding establishments and provide information to the user including hours of operation, customer rating, a brief description, and other bars in the general area that they could potentially move to in order to elevate their evening.
 
 The view and entire "vibe" of the page will shift depening on the vibe the user currently has selected. Options to "switch up the vibe" will list alternative bar options in the area that offer a different atmosphere.
+
+⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
+
+## Instructions for Use
+
+1. Upon entering, the user is directed to a splash page where they are prompted to pick their initial "vibe"
+
+![splash](assets/screen_shot_1.png)
+
+2. Users are redirected to the "vibe" page they selected where they can explore different estblishments on the map in that respective category
+
+![intro](assets/screen_shot_2.png)
+
+3. Once an establishment is selected, corresponding information is displayed in the upper right window
+
+![info](assets/screen_shot_3.png)
+
+4. If users are inclined to head to another nearby destination, they can click on the lower right window to "switch up the vibe" (v2 to include additional info)
+
+![bop](assets/screen_shot_4.png)
+
+5. If users want to explore establishments in a different category they can do so by accessing tabs on the upper left window
+
+![switch_vibe_1](assets/screen_shot_5.png)
+
+![switch_vibe_2](assets/screen_shot_6.png)
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
@@ -21,60 +49,38 @@ With "What's the vibe tn?", users will be able to
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
-## Wireframe
-
-https://wireframe.cc/OJoaPh
-
-⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
-
 ## Technologies, Libraries, APIs
 
-    ♦  The d3 library will render the data and map
-    ♠  I may eventually implement the Google Maps API into this project, but not in the initial phases
-    ♥  DOM to manage the html
+    ♦  Google Maps API
+    ♠  DOM to manage the html
+    ♥  Webpack and babel to bundle the javascript code
+    ♣  Github to host the site and manage version control
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
-## Implementation Timeline
+## Technical Implementation Details
 
-### Phase 1 :: Friday + Weekend
+### Javascript implementation (annotated in notes)
 
-    ♦  Create and seed databse of bars
-    ♠  Source graphics to use for map
-    ♥  Become familiar with d3 and how i can use it to render my database
-    ♣  Structure the overall project
+![imp1](assets/implementation_1.png)
 
-### Phase 2 :: Monday
+![imp2](assets/implementation_2.png)
 
-    ♦  Flesh out the logic of how the project functions
-    ♠  Fully structure and organize the data and how it gets implemented into the render
-    ♥  Finish seeding database
+### Dynamic CSS styles change accoring to currently selected "vibe"
 
-### Phase 3 :: Tuesday
+![imp3](assets/implementation_3.png)
 
-    ♦  Implement the render of the map
-    ♠  FLESH OUT
-    ♥  FLESH OUT
-    ♣  FLESH OUT
+### I seeded this JSON database of curated New York establishments by hand. v2 to include establishments in Brooklyn and Queens.
 
-### Phase 4 :: Wednesday
-
-    ♦  Work on UI and graphics
-    ♠  FLESH OUT
-    ♥  FLESH OUT
-    ♣  FLESH OUT
-
-### Phase 5 :: Thursday
-
-    ♦  Last minute tweaks
-    ♠  Bobs and bits
+![imp4](assets/implementation_4.png)
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
 ## Bonus Features
 
-### Potential features down the line could include:
+### "What's the vibe tn" v2 will include:
 
-    ♦  Add additional vibes: 'rave', 'rooftop', 'gay', 'sports'
-    ♠  Integrate Google Maps API to include reviews and ratings
-    
+    ♦  Seeded database of bars in Brooklyn and Long Island City
+    ♠  Additional vibes: 'rave', 'rooftop', 'gay', 'sports'
+    ♥  Integrated Google Maps API to include ratings and information for 'next spots'
+    ♣  General CSS and styling improvements including differently rendered maps and markers for each 'vibe'
