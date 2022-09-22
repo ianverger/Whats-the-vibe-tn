@@ -777,7 +777,7 @@
         "hours": "10pm - 4am",
         "description": "",
         "link": "https://goo.gl/maps/1JaWd2TzmYXRLHTn9",
-        "vibe": ["cocktail", "dive"],
+        "vibe": ["cocktail", "dance"],
         "next": ["Apotheke"],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOUJ4UZVUplRCxJngutFmBIXhcVDzjHn_YZaOEB=w408-h303-k-no"
     },            
@@ -792,7 +792,65 @@
         "vibe": ["cocktail", "rooftop"],
         "next": ["Paul's Baby Grand"],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO2Z8J9m7hSNKZRSM5oABsdXpZ3oC8JlqfmrH0O=w408-h306-k-no"
-    }      
- 
-
+    },      
+    "66": {
+        "name": "Niche Niche",
+        "address": "43 MacDougal St, New York, NY 10011",
+        "coords": [40.72784937587849, -74.00256245804907],
+        "burough": "Manhattan",
+        "hours": "6pm - 12am",
+        "description": "Dinner party-like concept pairing curated wines chosen by industry experts with complementary bites.",
+        "link": "https://goo.gl/maps/RUpnFijoKhNQqoQL7",
+        "vibe": ["natty"],
+        "next": ["The Up & Up"],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipMTKdJE6z4FjHKDzXRNrIGXRkOvVGke7KJpiWWm=w408-h306-k-no"
+    },  
+    "67": {
+        "name": "Ruffian",
+        "address": "125 E 7th St, New York, NY 10009",
+        "coords": [40.72656454416305, -73.9841233739086],
+        "burough": "Manhattan",
+        "hours": "5pm - 11:30pm",
+        "description": "Intimate setting for premium wines with a menu of locally & seasonally inspired plates.",
+        "link": "https://g.page/ruffian_nyc?share",
+        "vibe": ["natty"],
+        "next": ["Death & Company"],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipMY9xklZKbBgbfTaWcNlTLz7PSAU4e8WZwduMBR=w408-h273-k-no"
+    },  
+    "68": {
+        "name": "The Ten Bells",
+        "address": "247 Broome St, New York, NY 10002",
+        "coords": [40.7181212206601, -73.98975584270451],
+        "burough": "Manhattan",
+        "hours": "5pm - 2am",
+        "description": "Cozy Euro-centric den offering organic wines, small plates for sharing & oysters in dark confines.",
+        "link": "https://g.page/thetenbells?share",
+        "vibe": ["natty"],
+        "next": ["The Back Room"],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipMGSqoK4PvlW0tsZFNZKYxWDhKxAW8mTzBnrkIg=w408-h286-k-no"
+    },
+    "69": {
+        "name": "Kafana",
+        "address": "116 Loisaida Ave, New York, NY 10009",
+        "coords": [40.72453118313536, -73.97847688873883],
+        "burough": "Manhattan",
+        "hours": "5pm - 1am",
+        "description": "",
+        "link": "https://goo.gl/maps/rhCXqzN9DDwLP4nm6",
+        "vibe": ["natty"],
+        "next": ["The Wayland"],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipMe7D5GsInmhOF6rcuZYL0VbAYKhQ6t-gfxCLeW=w408-h271-k-no"
+    },  
+    "70": {
+        "name": "JIMMY",
+        "address": "15 Thompson St, New York, NY 10013",
+        "coords": [40.72339663486414, -74.00485306953178],
+        "burough": "Manhattan",
+        "hours": "5pm - 2am",
+        "description": "18th-story cocktail lounge in James Hotel features an elegant, contemporary interior & rooftop deck.",
+        "link": "https://goo.gl/maps/W5e65xQACV54BhVx6",
+        "vibe": ["rooftop"],
+        "next": ["Gilligan's"],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipNODzrVQu2zbv9vZyjWk8HsvVh7A0Oe0yZkt3DY=w408-h261-k-no"
+    }
 }

@@ -2,6 +2,15 @@ const { mark } = require("regenerator-runtime");
 const obj = require("../bars.json");
 let currentVibe = "";
 window.switchVibe = switchVibe;
+window.showPage = showPage;
+window.showBop = showBop;
+
+function showPage(vibe) {
+    let splashScreen = document.querySelector(".splash");
+    splashScreen.style.opacity = 0;
+    splashScreen.style.zIndex = "-10"; 
+    switchVibe(null, vibe)
+};
 
 function switchVibe(event, vibe) {
     let body = document.body;
@@ -9,19 +18,18 @@ function switchVibe(event, vibe) {
 
     setTimeout(() => {
     body.setAttribute("class", vibe);
-    }, 200);
+    }, 100);
 
     let vibez = document.getElementsByClassName("vibe");
     for (i = 0; i < vibez.length; i++) {
     vibez[i].id = vibez[i].id.replace("active", "");
     };
 
-    event.currentTarget.setAttribute("id", "active");
     currentVibe = vibe;
     switchTitle(vibe);
     window.initMap(currentVibe);
+    event.currentTarget.setAttribute("id", "active");
 };
-
 
 function switchTitle(vibe) {
     let title = document.querySelector("#title");
@@ -33,7 +41,7 @@ function switchTitle(vibe) {
     title.innerHTML = (
         `<img alt="" class="pic" src="${logo}"/>`
     );
-}
+};
 
 function initMap(currentVibe) {
     const map = new google.maps.Map(document.getElementById('map'), {
@@ -121,7 +129,7 @@ function initMap(currentVibe) {
     // const overlay = new USGSOverlay(bounds, image);
 
     // overlay.setMap(map);
-    
+
     let arr = Object.values(obj).filter(ele => ele.vibe.includes(currentVibe));
     console.log(arr);
     for (let bar of arr) {
@@ -132,13 +140,19 @@ function initMap(currentVibe) {
         marker.setMap(map);
         marker.setClickable(true);
         let info = document.querySelector("#info"); 
+        let infoOverlay = document.querySelector("#info_overlay");
+        // let bopButton = document.querySelector("#bop_overlay");
         marker.addListener("click", () => {
+            infoOverlay.style.opacity = 0;
+            infoOverlay.style.zIndex = "-1"; 
+            // bopButton.style.opacity = 1;
+            // bopButton.style.zIndex = 1; 
             info.setAttribute('class', '');
             setTimeout(() => {
                 info.setAttribute('class', 'info_flash');
-
             }, 1)
             initInfo(bar.name, bar.address, bar.hours, bar.description, bar.link, bar.next, bar.pic);
+           
         })
     }
     
@@ -147,8 +161,6 @@ function initMap(currentVibe) {
     //         initMap;
     // });
 window.initMap = initMap;
-
-
 
 function initInfo(name, address, hours, description, link, next, pic) {
     let deets = document.querySelector("#deets");
@@ -166,14 +178,15 @@ function initInfo(name, address, hours, description, link, next, pic) {
     let photo = document.querySelector("#photo");
     photo.innerHTML = (
         `<img alt="" class="pic" src="${pic}"/>`
-    )
+    );
 
 
     let bop = document.querySelector("#bop");
-    bop.innerText = (
-        `Wanna switch up the vibe?
-        
-        ${next[0]}`
-    );
-}
+    bop.innerText = `${next[0]}`
+};
 
+function showBop() {
+    let bopButton = document.querySelector("#bop_overlay");
+    bopButton.style.opacity = 0;
+    bopButton.style.zIndex = "-1"; 
+}

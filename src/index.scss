@@ -7,17 +7,44 @@ body {
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    // flex-direction: column;
+}
+.splash {
+    font-size: x-large;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    height: 98%;
+    width: 98%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    transition: all ease-in-out 600ms;
+    z-index: 10;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    // justify-content: space-around;
+}
+
+#splash_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     
 }
 
-// #root {
-//     background-color: purple;
-//     margin: 25px;
-//     border-radius: 10px;
-//     border: 3px solid orange
+#splash_button {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+// .hidden {
+//     transition: 0.5s;
+//     display: none;
 // }
 
 #map {
@@ -27,17 +54,10 @@ body {
     border: 10px solid white;
 }
 
-h1 {
+h1, h2 {
     color: white;
     font-family: 'Rock Salt', cursive;
 }
-
-// html, body {
-//     color: black;
-//     width: 520px;
-//     margin: 20px;
-//     padding: 0;
-//   }
 
 #info {
     display: flex;
@@ -50,7 +70,22 @@ h1 {
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 10px;
-    
+    position: relative;
+}
+
+#info_overlay {
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit; 
+    width: 490px;
+    height: 220px;
+    padding: inherit;
+    position: absolute;
+    z-index: 1;
 }
 
 .info_flash {
@@ -75,8 +110,10 @@ h1 {
 }
 
 #bop {
+    font-size: xxx-large;
     display: flex;
     border-radius: 15px;
+    align-items: center;
     justify-content: center;
     border: 10px solid white;
     background-color: rgb(181, 181, 181);
@@ -84,8 +121,25 @@ h1 {
     height: 180px;
     margin-left: 20px;
     padding: 10px;
+    position: relative;
+    // z-index: 1;
 }
 
+#bop_overlay {
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit; 
+    width: 490px;
+    height: 160px;
+    padding: inherit;
+    position: absolute;
+    z-index: 1;
+    // transition: all ease-in-out 600ms;
+}
 .container {
     display: flex;
     flex-direction: column;

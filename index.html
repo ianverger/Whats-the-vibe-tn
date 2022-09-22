@@ -17,7 +17,30 @@
   </head>
   
   <body>
+      
+    <div class="splash">
       <h1>What's the vibe tn?</h1>
+      <div id="splash_row">
+        <div id="splash_button">
+          <img src="assets/cocktail_splash.png" height="200px" width="200px" alt="" />
+          <button class="vibe" onclick="showPage('cocktail')">cocktail</button>
+        </div>
+        <div id="splash_button">
+          <img src="assets/dive_splash.png" height="200px" width="200px" alt=""/>
+          <button class="vibe" onclick="showPage('dive')">dive</button>
+        </div>
+      </div>
+      <div id="splash_row">
+        <div id="splash_button">
+          <img src="assets/rooftop_splash.png" height="200px" width="200px" alt=""/>
+          <button class="vibe" onclick="showPage('rooftop')">rooftop</button>
+        </div>
+        <div id="splash_button">
+          <img src="assets/natty_splash.png" height="200px" width="200px" alt=""/>
+          <button class="vibe" onclick="showPage('natty')">natty</button>
+        </div>
+      </div>
+    </div>
       <div class="container">
           <div class="navbar">
               <div class="controls">
@@ -45,11 +68,14 @@
           <div class="main">
               <div id="map"></div>
               <div class="side">
-                  <aside id="info">
+                <aside id="info">
+                  <div id="info_overlay">What's the vibe tn?</div> 
                       <div id="photo"></div>
                       <div id="deets"></div>
                   </aside>
-                  <aside id="bop"></aside>
+                  <aside id="bop">
+                    <button id="bop_overlay" onclick="showBop()">Wanna switch up the vibe?</button>
+                  </aside>
               </div>
           </div>
       </div>
