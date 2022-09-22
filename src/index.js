@@ -61,13 +61,18 @@ function initMap(currentVibe) {
 // Here I turn my JSON database into an array of objects, filter to the locations pertaining to the
 // currently selected "vibe" and pull up only those markers on the map.
     let arr = Object.values(obj).filter(ele => ele.vibe.includes(currentVibe));
-    console.log(arr);
+    
     for (let bar of arr) {
+        let icon ="";
+            if (currentVibe === 'natty') icon = "assets/bar_icon_beige.png";
+            if (currentVibe === 'cocktail') icon = "assets/bar_icon_pink2.png";
+            if (currentVibe === 'dive') icon = "assets/bar_icon_maroon.png";
+            if (currentVibe === 'rooftop') icon = "assets/bar_icon_blue.png";
         let marker = new google.maps.Marker({
             position: new google.maps.LatLng(bar.coords[0], bar.coords[1]),
             map: map,
             icon: {
-                url: "assets/bar_icon_pink2.png",
+                url: icon,
                 scaledSize: new google.maps.Size(40, 40)
             }
         });
