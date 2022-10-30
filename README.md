@@ -8,7 +8,7 @@
 
 Depending on the category selected (Dive, Cocktail, Rooftop, Rave, etc.), the map filters the corresponding establishments and provides information to the user including hours of operation, customer rating, a brief description, and other bars in the general area that they could potentially move to in order to elevate their evening.
 
-The view and entire "vibe" of the page shifts depening on the vibe the user currently has selected. Options to "switch up the vibe" list alternative bar options in the area that offer a different atmosphere.
+The view and entire "vibe" of the page shifts depending on the vibe the user currently has selected. Options to "switch up the vibe" list alternative bar options in the area that offer a different atmosphere.
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
