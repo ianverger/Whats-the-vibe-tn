@@ -1,6 +1,6 @@
 # What's the vibe tn?
 
-[Switch Up The Vibe~ (live)](https://ianverger.github.io/)
+[Switch Up The Vibe~ (live)](https://ianverger.github.io/Whats-the-vibe-tn/)
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
