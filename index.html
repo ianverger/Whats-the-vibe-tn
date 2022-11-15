@@ -19,24 +19,30 @@
     <div class="splash">
       <h1>What's the vibe tn?</h1>
       <div id="splash_row">
-        <div id="splash_button">
+
+        <button id="splash_button" onclick="showPage('cocktail')">
           <img src="assets/cocktail_splash.png" height="150px" width="150px" alt="" />
-          <button class="vibe" onclick="showPage('cocktail')">cocktail</button>
-        </div>
-        <div id="splash_button">
+          <div class="vibe">cocktail</div>
+        </button>
+       
+        <button id="splash_button" onclick="showPage('dive')">
           <img src="assets/dive_splash.png" height="150px" width="150px" alt=""/>
-          <button class="vibe" onclick="showPage('dive')">dive</button>
-        </div>
+          <div class="vibe">dive</div>
+        </button>
+
       </div>
       <div id="splash_row">
-        <div id="splash_button">
+
+        <button id="splash_button" onclick="showPage('rooftop')">
           <img src="assets/rooftop_splash.png" height="150px" width="150px" alt=""/>
-          <button class="vibe" onclick="showPage('rooftop')">rooftop</button>
-        </div>
-        <div id="splash_button">
+          <div class="vibe">rooftop</div>
+        </button>
+        
+        <button id="splash_button" onclick="showPage('natty')">
           <img src="assets/natty_splash.png" height="150px" width="150px" alt=""/>
-          <button class="vibe" onclick="showPage('natty')">natty</button>
-        </div>
+          <div class="vibe">natty</div>
+        </button>
+
       </div>
     </div>
     
@@ -58,7 +64,7 @@
                     <a href="https://github.com/ianverger" target="_blank">
                       <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="height: 40px">
                     </a>
-                    <a href="" target="_blank">
+                    <a href="https://angel.co/u/iverger" target="_blank">
                       <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/angellist-512.png" alt="AngelList" style="height: 40px">
                     </a>
                   </div>
@@ -69,15 +75,20 @@
               <div id="map"></div>
               <div class="side">
                 <aside id="info">
-                  <div id="info_overlay">What's the vibe tn?</div> 
-                      <div id="photo"></div>
-                      <div id="deets"></div>
-                  </aside>
-                  <aside id="bop">
-                    <button id="bop_overlay" onclick="showBop()">Wanna switch up the vibe?</button>
-                    <aside id="instructions_overlay">Select a spot on the map</aside>
-                    <aside id="boptext"></aside>
-                  </aside>
+                    <div id="info_overlay">What's the vibe tn?</div> 
+                    <div id="photo"></div>
+                    <div id="deets"></div>
+                </aside>
+                <aside id="bop">
+                  <aside id="instructions_overlay">Select a spot on the map</aside>
+                  <div id="next_bop">
+                    <button id="bop_switch" onclick="switchBar(next)">Wanna switch up the vibe?</button>
+                    <div id="bop_info">
+                      <div id="bop_photo"></div>
+                      <div id="boptext"></div>
+                    </div>
+                  </div>
+                </aside>
               </div>
           </div>
       </div>

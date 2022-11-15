@@ -3,7 +3,11 @@ const obj = require("../bars.json");
 let currentVibe = "";
 window.switchVibe = switchVibe;
 window.showPage = showPage;
-window.showBop = showBop;
+window.switchBar = switchBar;
+// window.showBop = showBop;
+// window.currentNextBar = currentNextBar;
+
+// let currentNextBar = {};
 
 function showPage(vibe) {
     let splashScreen = document.querySelector(".splash");
@@ -80,8 +84,9 @@ function initMap(currentVibe) {
         marker.setClickable(true);
         let info = document.querySelector("#info"); 
         let infoOverlay = document.querySelector("#info_overlay");
-        let bopButton = document.querySelector("#bop_overlay");
+        // let bopButton = document.querySelector("#bop_overlay");
         let instructions = document.querySelector("#instructions_overlay");
+        let bopButton = document.querySelector("#bop_switch");
 
 // When a marker is clicked, overlayed divs on both the "info" and "next" windows are pushed to the 
 // bottom and top of the display (respectively) to allow for a smooth user experience. A function to 
@@ -90,7 +95,8 @@ function initMap(currentVibe) {
             infoOverlay.style.opacity = 0;
             infoOverlay.style.zIndex = -1; 
             instructions.style.zIndex = -10;
-            bopButton.style.opacity = 1;
+            instructions.style.opacity = 0;
+            // bopButton.style.opacity = 1;
             bopButton.style.zIndex = 1; 
             info.setAttribute('class', '');
             setTimeout(() => {
@@ -119,15 +125,30 @@ function initInfo(name, address, hours, description, link, next, pic) {
     let photo = document.querySelector("#photo");
     photo.innerHTML = (
         `<img alt="" class="pic" src="${pic}"/>`
-    );
-
-
-    let bop = document.querySelector("#boptext");
-    bop.innerHTML = `${next[0]}`
+        );
+        window.next = next;
+        switchBar(next);
 };
+    
+    function switchBar(next) {
+    console.log(next)
+    let currentNextNum = next[Math.floor(Math.random() * next.length)];
+    let currentNextBar = obj[currentNextNum];
+    console.log(currentNextBar)
+    let bopPhoto = document.querySelector("#bop_photo");
+    let bopText = document.querySelector("#boptext");
 
-function showBop() {
-    let bopButton = document.querySelector("#bop_overlay");
-    bopButton.style.opacity = 0;
-    bopButton.style.zIndex = "-1"; 
+    let currentNextVibePic = currentNextBar.pic
+    let currentNextVibe = currentNextBar.vibe[0]
+    bopPhoto.innerHTML = `<img alt="" class="nextpic" src="${currentNextVibePic}"/>`
+    let bopLogo = "";
+        if (currentNextVibe === 'natty') bopLogo = "assets/natty_logo.png";
+        if (currentNextVibe === 'cocktail') bopLogo = "assets/cocktail_logo.png";
+        if (currentNextVibe === 'dive') bopLogo = "assets/dive_logo.png";
+        if (currentNextVibe === 'rooftop') bopLogo = "assets/rooftop_logo.png";
+    bopText.innerHTML = (`${currentNextBar.name}
+    <br>
+    <img alt="" class="bop_logo" src="${bopLogo}"/>
+    `)
 }
+

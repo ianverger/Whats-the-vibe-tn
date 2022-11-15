@@ -43,12 +43,19 @@ body {
     margin: 20px;
 }
 
-#splash_button .vibe {
+#splash_button > .vibe {
     height: 35px;
+    width: 100%;
+    font-size:large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: green;
 }
 
-#splash_button .vibe:hover {
-    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 22px 55px 0 rgba(0,0,0,0.19);
+#splash_button:hover {
+    box-shadow: 0px 0px 55px 10px rgba(255, 255, 255, 0.49);
+    cursor: pointer;
 }
 
 #map {
@@ -70,7 +77,7 @@ h1, h2 {
     border: 10px solid white;
     background-color: rgb(181, 181, 181);
     width: 500px;
-    height: 240px;
+    height: 220px;
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -92,6 +99,10 @@ h1, h2 {
     z-index: 1;
 }
 
+#deets {
+    font-size: 15px;
+}
+
 .info_flash {
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1.5s;
@@ -105,7 +116,7 @@ h1, h2 {
 
 #photo .pic {
     width: 200px;
-    max-height: 240px;
+    max-height: 220px;
 }
 
 #title .pic {
@@ -119,36 +130,98 @@ h1, h2 {
     border-radius: 15px;
     align-items: center;
     justify-content: center;
-    border: 10px solid white;
-    background-color: rgb(181, 181, 181);
-    width: 500px;
-    height: 180px;
+    // border: 10px solid white;
+    // background-color: rgb(181, 181, 181);
     margin-left: 20px;
+    width: 520px;
+    height: 210px;
     padding: 10px;
     position: relative;
+    // gap: 25px;
     // z-index: 1;
 }
 
-#bop_overlay {
-    color: white;
-    font-family: 'Rock Salt', cursive;
-    font-size: x-large;
-    border-radius: inherit;
+#next_bop {
     display: flex;
-    justify-content: center;
+    width: 100%;
+    // margin-top: 10px;
+    height: 97%;
     align-items: center;
-    background-color: inherit; 
-    width: 475px;
-    height: 160px;
-    padding: inherit;
-    position: absolute;
-    z-index: 1;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    justify-content: space-between;
+    // background-color: green;
 }
 
-#bop_overlay:hover {
-    box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 20px 53px 0 rgba(0,0,0,0.19);
+#bop_photo {
+    display: flex;
+    align-items: center;
+// justify-content: center;
+    margin-right: 10px ;
 }
+
+#bop_photo .nextpic {
+    max-height: 190px;
+    max-width: 210px;
+}
+
+#bop_switch {
+    width: 27%;
+    height: 85%;
+    border-radius: 15px;
+    border: 5px solid white;
+    font-family: 'Rock Salt', cursive;
+    font-size: large;
+}
+
+#bop_switch:hover {
+    cursor: pointer;
+}
+
+#bop_info {
+    width: 62%;
+    height: 90%;
+    border: 10px solid white;
+    background-color: rgb(181, 181, 181);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    // gap: 10px;
+}
+
+#boptext {
+    // width: 20%;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bop_logo {
+    padding-top: 10px;
+    max-width: 90px;
+}
+
+// #bop_overlay {
+//     color: white;
+//     font-family: 'Rock Salt', cursive;
+//     font-size: x-large;
+//     border-radius: inherit;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: inherit; 
+//     width: 475px;
+//     height: 160px;
+//     padding: inherit;
+//     position: absolute;
+//     z-index: 1;
+//     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+// }
+
+// #bop_overlay:hover {
+//     box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 20px 53px 0 rgba(0,0,0,0.19);
+// }
 
 #instructions_overlay {
     color: white;
@@ -158,11 +231,14 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     background-color: inherit; 
-    width: 490px;
-    height: 180px;
+    width: 500px;
+    height: 200px;
     padding: inherit;
     position: absolute;
     z-index: 5;
+    border-radius: 15px;
+    // margin-left: 20px;
+    margin-top: 10px;
 }
 
 .container {
