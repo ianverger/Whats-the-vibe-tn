@@ -1,14 +1,14 @@
 # What's the vibe tn?
 
-[Switch Up The Vibe~ (live)](https://ianverger.github.io/)
+[Switch Up The Vibe~ (live)](https://ianverger.github.io/Whats-the-vibe-tn/)
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
-"What's the vibe tn?" is a data visualization in which users will be able to move around an interactive map of the Lower Manhattan/North Brooklyn area to peruse a highly curated collection of top-notch bars, lounges, and clubs, based on a selected category. 
+"What's the vibe tn?" is a data visualization in which users are able to explore an interactive map of the Lower Manhattan/North Brooklyn area to peruse a highly curated collection of top-notch bars, lounges, and clubs, based on a selected category. 
 
-Depending on the category selected (Dive, Cocktail, Rooftop, Rave, etc.), the map will filter the corresponding establishments and provide information to the user including hours of operation, customer rating, a brief description, and other bars in the general area that they could potentially move to in order to elevate their evening.
+Depending on the category selected (Dive, Cocktail, Rooftop, Rave, etc.), the map filters the corresponding establishments and provides information to the user including hours of operation, customer rating, a brief description, and other bars in the general area that they could potentially move to in order to elevate their evening.
 
-The view and entire "vibe" of the page will shift depening on the vibe the user currently has selected. Options to "switch up the vibe" will list alternative bar options in the area that offer a different atmosphere.
+The view and entire "vibe" of the page shifts depending on the vibe the user currently has selected. Options to "switch up the vibe" list alternative bar options in the area that offer a different atmosphere.
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
 
