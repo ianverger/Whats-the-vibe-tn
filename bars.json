@@ -1,5 +1,3 @@
-
-
 {
     "0": {
         "name": "Josie's",
@@ -82,7 +80,7 @@
         "description": "Gay & lesbian mainstay in the East Village known for its jukebox & relaxed atmosphere.",
         "link": "https://goo.gl/maps/KBhweZrc6926WufU8",
         "vibe": ["dive", "gay"],
-        "next": ["Pineapple Club"],
+        "next": [55, 54, 67],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNwuxG8HLy-TcsgO1t0UqD32111QdLrJ_mPNMP_=w408-h272-k-no"
         },
     "7": {
@@ -94,7 +92,7 @@
         "description": "Tiny, dimly-lit entertainment venue featuring DJs & live bands along with cocktails & beer.",
         "link": "https://goo.gl/maps/orbA3zgk6WDz7WYR7",
         "vibe": ["dive"],
-        "next": ["Mr. Purple"],
+        "next": [40, 8, 17],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO3IMubeasZr3ML4OyHIvm-PBL3-3VlWHLz6uFL=w408-h260-k-no"
     },    
     "8": {
@@ -106,7 +104,7 @@
         "description": "International plates & tropical cocktails served in a vast locale with colorful, fashionable decor.",
         "link": "https://g.page/PineappleClubNYC?share",
         "vibe": ["cocktail"],
-        "next": ["St Dymphna's"],
+        "next": [5, 6, 4],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMCKD3WvlMvhsr3V0Ky8L8WvIpmUY12sFNu89Tg=w408-h270-k-no"
     },    
     "9": {
@@ -118,7 +116,7 @@
         "description": "Bartenders in bow ties & suspenders recall the speakeasy era at this dark, moody cocktail lounge.",
         "link": "https://goo.gl/maps/9WMcrudRyuYN941e9",
         "vibe": ["cocktail"],
-        "next": ["Doc Holliday's"],
+        "next": [4, 7, 11],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOdh_gh_HEkH0qd9NicPDTv-c54a87LnCVi7WdH=w408-h272-k-no"
     },  
     "10": {
@@ -130,7 +128,7 @@
         "description": "Bar with palm trees, a leopard-print pool table & a small menu of oysters, borscht & dumplings.",
         "link": "https://goo.gl/maps/bbyjaMJv7uuVGegn7",
         "vibe": ["dive"],
-        "next": ["Clandestino"],
+        "next": [13, 14, 12],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOqPujnFtXQGyshG36iwNtPrj9XnEELvPmgraSx=w408-h544-k-no"
     },  
     "11": {
@@ -142,7 +140,7 @@
         "description": "Unpretentious bar with beer from a fridge, a jukebox & a 1970s wood-paneled-basement vibe.",
         "link": "https://goo.gl/maps/b4vMxHVCS345v4hF8",
         "vibe": ["dive"],
-        "next": ["The Back Room"],
+        "next": [15, 24, 23],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMJL_ti0qMCiVA1gIXTat_lV5og89N3_rDL5Nns=w426-h240-k-no"
     },  
     "12": {
@@ -154,7 +152,7 @@
         "description": "Storied punk rock bar & music club with an edgy backdrop of graffiti-covered walls & booths.",
         "link": "https://goo.gl/maps/eWiZVpj3goXgAmsM9",
         "vibe": ["dive"],
-        "next": ["Clandestino"],
+        "next": [14, 13, 19],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPGZUwWP9uQ7RsW6rWpGEZJzNZmxKib_aHHTtVW=w408-h541-k-no"
     },  
     "13": {
@@ -166,7 +164,7 @@
         "description": "Unassuming watering hole featuring Chinese-inspired cocktails & bar bites, plus a jukebox.",
         "link": "https://goo.gl/maps/kAxetugPir1GJeJX9",
         "vibe": ["cocktail"],
-        "next": ["Forgtmenot"],
+        "next": [19, 22, 21],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNWnv60IiG3vd5rNwcKGFIy2EuFfa7T60qIrSOt=w408-h272-k-no"
     },  
     "14": {
@@ -178,7 +176,7 @@
         "description": "Hip, low-key barroom with cocktails, beer & wine in a cozy space with a pressed-tin ceiling.",
         "link": "https://goo.gl/maps/fgSKbhSQg1pHPzG86",
         "vibe": ["dive", "cocktail"],
-        "next": ["Parcelle Wine"],
+        "next": [21, 15, 20],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOQoNSTnLRnphKlSOOASoe9Bl0H7e65HVlgmh55=w408-h306-k-no"
     },  
     "15": {
@@ -190,7 +188,7 @@
         "description": "Hidden kareoke bar above Chinatown",
         "link": "https://goo.gl/maps/iVhQ6Ecw1Rfvpdz6A",
         "vibe": ["dive"],
-        "next": ["Mr. Fong's"],
+        "next": [20, 13, 12],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMJXTfq0Yr8x6GmOILt-CkoZAjvROoYw3dqeQg1=w408-h724-k-no"
     },  
     "16": {
@@ -202,7 +200,7 @@
         "description": "Hipsters pack this 2-level bar/music venue to hear live indie acts or dance to DJ sets upstairs.",
         "link": "https://g.page/pianos-new-york?share",
         "vibe": ["dive"],
-        "next": ["Mr. Purple"],
+        "next": [16, 138, 17],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPjz-Xh4jrqv61_P3wBl8MW6VppU30nvWvxfseM=w408-h272-k-no"
     },  
     "17": {
@@ -214,7 +212,7 @@
         "description": "Watering hole with a dive bar vibe, disco ball & a pool table, serving beer & craft cocktails.",
         "link": "https://goo.gl/maps/BMtvCu7rvZNYA1hv9",
         "vibe": ["dive"],
-        "next": ["Mother's Ruin"],
+        "next": [63, 18, 138],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipP9lOfPmk8fsAHp84EAfkdW33s70eVQU8hbi6OH=w408-h248-k-no"
     },  
     "18": {
@@ -226,7 +224,7 @@
         "description": "A cocktail spot with loungey seating & occasional basement shows in the former Cake Shop space.",
         "link": "https://goo.gl/maps/KT6omrXbEQ69PfeD7",
         "vibe": ["cocktail"],
-        "next": ["Ray's Downtown"],
+        "next": [17, 19, 63],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNpbglReifFuIUwioNTEM3ma9scaDgV3BuJg2w=w408-h272-k-no"
     },  
     "19": {
@@ -238,7 +236,7 @@
         "description": "",
         "link": "https://goo.gl/maps/sKbiTbSWxjfJjVDu5",
         "vibe": ["cocktail", "natty"],
-        "next": ["Up Stairs"],
+        "next": [15, 14, 17],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPU6cOvwqIhbiklBbqMG49kvl52gP82WfV8nH_3=w408-h544-k-no"
     }, 
     "20": {
@@ -250,7 +248,7 @@
         "description": "Contemporary American cooking in a '70s-style space with colorful furnishings & a downstairs bar.",
         "link": "https://g.page/theflowershopnyc?share",
         "vibe": ["cocktail"],
-        "next": ["Ray's Downtown"],
+        "next": [17, 19, 138],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNK2XpiTI6hQFnDMxlSKDs2ihZ8n4XPpVv-m53j=w408-h291-k-no"
     },
     "21": {
@@ -262,7 +260,7 @@
         "description": "",
         "link": "https://goo.gl/maps/3u8hZU1YLsxkp1N26",
         "vibe": ["natty"],
-        "next": ["Forgtmenot"],
+        "next": [22, 20, 19],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPpQlr_kF6WbAjBbfDoWwlPir7_vdjIQ-vhCcWy=w408-h408-k-no"
     },  
     "22": {
@@ -274,7 +272,7 @@
         "description": "Funky taverna lures locals with drinks & simple American-Mediterranean dishes for brunch & dinner.",
         "link": "https://goo.gl/maps/MyQU3U6c6T7iAqMb8",
         "vibe": ["cocktail", "dive"],
-        "next": ["169 Bar"],
+        "next": [10, 23, 24],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPiOe87JW2ZfnDZ_jPVD96M6VdBaUn4Uab0TFG7=w408-h306-k-no"
     },  
     "23": {
@@ -286,7 +284,7 @@
         "description": "Small, spare East barroom drawing locals who like their drinking with no pretensions.",
         "link": "https://goo.gl/maps/hBCrz1qiKufUJAkSA",
         "vibe": ["dive"],
-        "next": ["Temple Bar"],
+        "next": [27, 28, 29],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPEzKe0-35bL_B9KlYdUIuM6ijA4tc0qRq-rJ-D=w408-h544-k-no"
     },  
     "24": {
@@ -298,7 +296,7 @@
         "description": "Hideaway with a Prohibition-esque vibe, offering cocktails in teacups and beer in paper bags.",
         "link": "https://goo.gl/maps/FvxTK6kBukThJm1s8",
         "vibe": ["cocktail"],
-        "next": ["Pianos"],
+        "next": [16, 15, 17],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNqZdYaXcR6FKLP8uizuB5GCOjwLZAiePRXKgXP=w408-h302-k-no"
     },    
     "25": {
@@ -310,7 +308,7 @@
         "description": "Innovative, creative cocktails & classic concoctions mixed up in a trendy industrial-style space.",
         "link": "https://g.page/attaboy134?share",
         "vibe": ["cocktail"],
-        "next": ["Ray's Downtown"],
+        "next": [16, 15, 17],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMIKGP1F2_0X3_EZ7ndQ2bTh7F6JR8nV3-lOUzl=w408-h271-k-no"
     },  
     "26": {
@@ -322,7 +320,7 @@
         "description": "Design-focused property famed for its artistic public spaces, upscale rooms & hip bar scene.",
         "link": "https://goo.gl/maps/kzzpJrbF59jf9a5x7",
         "vibe": ["cocktail"],
-        "next": ["Paul's Baby Grand"],
+        "next": [58, 27, 66],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNeN9kB_g1IUugJO4FQ5YnKNTD6WhL624LHhsU-=w408-h272-k-no"
     },  
     "27": {
@@ -334,7 +332,7 @@
         "description": "", 
         "link": "https://goo.gl/maps/2FZirptpZh5rzNwX7",
         "vibe": ["cocktail"],
-        "next": ["Spring Lounge"],
+        "next": [1, 66, 28],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO60gdK7ZuhguYV5xUJ7F-olbhHuss1xylXgqr8=w408-h544-k-no"
     },  
     "28": {
@@ -346,7 +344,7 @@
         "description": "Dimly lit cocktail lounge offering sophisticated drinks plus snacks in a space with banquettes.",
         "link": "https://goo.gl/maps/b9GPXEW2k1AqtV419",
         "vibe": ["cocktail"],
-        "next": ["Paul's Casablanca"],
+        "next": [56, 137, 29],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPtmsBEmqG6aGCANSQSOpY6542HK1EN53F3CL_K=w408-h272-k-no"
     },    
     "29": {
@@ -358,7 +356,7 @@
         "description": "Burgers & bar snacks in a retro, wood-lined watering hole, plus an innovative cocktail menu.",
         "link": "https://goo.gl/maps/WcuSwnqECeizWeBh7",
         "vibe": ["cocktail"],
-        "next": ["Ear Inn"],
+        "next": [57, 56, 58],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNLs54950YO91Y5G6JEDtzq4C7Uwckd76DwKX51=w408-h332-k-no"
     },
     "30": {
@@ -370,7 +368,7 @@
         "description": "Cool, bi-level bar serving izakaya fare & traditional American bites, plus whimsical cocktails.",
         "link": "https://goo.gl/maps/vtX1PihMuBarQZdg9",
         "vibe": ["cocktail"],
-        "next": ["Anfora"],
+        "next": [58, 32, 33],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNjxPtD-RZOjonoJEnbecAWTz4exBew-XZpMW9u=w408-h263-k-no"
     },  
     "31": {
@@ -382,7 +380,7 @@
         "description": "Inventive drinks are poured at this retro-looking, Prohibition-style bar.",
         "link": "https://goo.gl/maps/RyiLS9k6UnhMyeae7",
         "vibe": ["cocktail"],
-        "next": ["Katana Kitten"],
+        "next": [30, 56, 58],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO-ApvoevsTKhTPnsI8-SvrphivkSjYCur5I3DO=w408-h271-k-no"
     },  
     "32": {
@@ -394,7 +392,7 @@
         "description": "Sibling to nearby Dell'anima, this wine bar offers interesting glasses, plus beers, spirits & apps.",
         "link": "https://g.page/AnforaNYC?share",
         "vibe": ["natty"],
-        "next": ["Art Bar"],
+        "next": [51, 31, 137],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipM4ONGq8OyPWH9Jfe8vU1QiOrVQEs0TR1wubC-0=w408-h275-k-no"
     },    
     "33": {
@@ -406,7 +404,7 @@
         "description": "",
         "link": "https://goo.gl/maps/7s4oirwG7aPTJJEz5",
         "vibe": ["natty"],
-        "next": ["Bandits"],
+        "next": [29, 30, 28],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOvNeUpyhA8euXts3mRB3WsuchIGsdzYGv0ixu1=w408-h544-k-no"
     },  
     "34": {
@@ -418,7 +416,7 @@
         "description": "Intimate, dimly lit haunt with velvet seats offering cocktails & tapas in a laid-back atmosphere.",
         "link": "https://goo.gl/maps/9PtmDigoByNM4DkJ8",
         "vibe": ["cocktail"],
-        "next": ["Raines Law Room Chelsea"],
+        "next": [35, 60, 61],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOvuo3tKjHLwL7sKbahpxT97H5PQh436FNYJwoc=w408-h408-k-no"
     },  
     "35": {
@@ -430,7 +428,7 @@
         "description": "A semi-secret entrance (ring bell) leads to this plush lounge crafting Prohibition-era cocktails.",
         "link": "https://g.page/raineslawroom?share",
         "vibe": ["cocktail"],
-        "next": ["The Jane Ballroom"],
+        "next": [59, 34, 61],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOoMt1m4uKkmVDQk_4XE_sS08Qz_PKiI_nOpNO9=w408-h286-k-no"
     },  
     "36": {
@@ -442,7 +440,7 @@
         "description": "",
         "link": "https://goo.gl/maps/fxSAHPw4xg9wmbNZ8",
         "vibe": ["rooftop", "cocktail"],
-        "next": ["The Broken Shaker"],
+        "next": [61, 62, 60],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipP4LKNFByfMjUQOG9MMLAOp5EFpNeXSnI-HEn5s=w426-h240-k-no"
     },  
     "37": {
@@ -454,7 +452,7 @@
         "description": "Mixologists in pharmacist-style garb whip up complex cocktails at this off-the-beaten path hideaway.",
         "link": "https://goo.gl/maps/2Wubc2q5PpkRhNPf9",
         "vibe": ["cocktail"],
-        "next": ["Basement"],
+        "next": [62, 38, 36],
         "pic": "https://lh3.googleusercontent.com/gps-proxy/AGL7lfCn1rrr-XjK8bt8M0NWJyNshsNJWhQch4BeOSfq0jaN5OvOVf0btSR5B6hQLb08X-NVPBUhiHKS3MLjy9Cst7cNf-gEWXpk10f3Y-CjcRIWat-ap_Axh0VmwQJrQIyR4gGSqpvx2D06e-uplW9zMSbf4w8zw0hZ9T6h9XnmdI-IioggI_el2fua=w408-h274-k-no"
     },  
     "38": {
@@ -466,7 +464,7 @@
         "description": "Cocktails, beer & wine served in a unique, dimly lit bar that has beer pong, dice games & darts.",
         "link": "https://goo.gl/maps/phfjJq625JdfAgry7",
         "vibe": ["cocktail"],
-        "next": ["Peachy's"],
+        "next": [39, 40, 38],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOxN7Q367CKLgPGmk8VZgv3LmBbKSU-z61RkTba=w408-h306-k-no"
     },  
     "39": {
@@ -478,7 +476,7 @@
         "description": "Chic lounge under Chinese Tuxedo restaurant offering craft cocktails amid funky, retro Asian decor.",
         "link": "https://goo.gl/maps/x8UkYqyuEszDBJSy6",
         "vibe": ["cocktail"],
-        "next": ["Daphne"],
+        "next": [64, 65, 66],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOB6wSjtIwhYh2mWlqmgAjBx_bcztrMCg9dmorE=w408-h306-k-no"
     },  
     "40": {
@@ -490,7 +488,7 @@
         "description": "On the Hotel Indigo's 15th floor, this posh spot with terraces serves elevated bar food & cocktails.",
         "link": "https://goo.gl/maps/TBYfmiAryhA3sJ6D6",
         "vibe": ["rooftop", "cocktail"],
-        "next": ["Pianos"],
+        "next": [67, 16, 138],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNsj5fiYIWLp-PG9r5l84hFDkPUrpuhfD-ozj_G=w408-h272-k-no"
     },
     "41": {
@@ -502,7 +500,7 @@
         "description": "",
         "link": "https://goo.gl/maps/bPRPQLBTtbMrEs2j9",
         "vibe": ["rooftop", "cocktail"],
-        "next": ["The Dead Rabbit NYC"],
+        "next": [42, 43, 44],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNpwYVO8bt5uA--9ZZPSsZ0rWfw4KyCNTOKBxRV=w426-h240-k-no"
     },  
     "42": {
@@ -514,7 +512,7 @@
         "description": "This 2-story spot combines a lunch taproom with a parlor serving small plates & vintage cocktails.",
         "link": "https://goo.gl/maps/S3ixJANmsnwBxNus8",
         "vibe": ["cocktail"],
-        "next": ["Gitano Island"],
+        "next": [43, 44, 41],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMr_Va48IvVwfmvFxzDRCryX_1ENuNjKgdnonGl=w408-h272-k-no"
     },  
     "43": {
@@ -526,7 +524,7 @@
         "description": "Irish watering hole offering happy-hour scene & simple eats liked corned beef from a steam table.",
         "link": "https://goo.gl/maps/NrBGUgHg2W9sScvbA",
         "vibe": ["dive"],
-        "next": ["The Dead Rabbit NYC"],
+        "next": [44, 41, 42],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPumHE0tNpDzgzDIck1IoIEHvDsvRGJm5K8pT7c=w408-h408-k-no"
     },  
     "44": {
@@ -538,7 +536,7 @@
         "description": "",
         "link": "https://goo.gl/maps/tKqh5qinCuVyzaZm6",
         "vibe": ["cocktail", "dance"],
-        "next": ["Overstory"],
+        "next": [41, 42, 43],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMHtfp5gdtw-VATBijlDMa7pL4W7avpghc-8Btu=w408-h306-k-no"
     },    
     "45": {
@@ -550,7 +548,7 @@
         "description": "Glassed-in rooftop bar at the Public Hotel with sweeping views, cocktails & a DJ-fueled party vibe.",
         "link": "https://goo.gl/maps/SF1H9NVEh1sh2eoG6",
         "vibe": ["rooftop", "cocktail"],
-        "next": ["Ray's Downtown"],
+        "next": [17, 46, 18],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMxpQwSs_HmXgsKHsvTu6jHp04-h9sA6COXYbx3=w408-h272-k-no"
     },  
     "46": {
@@ -562,7 +560,7 @@
         "description": "Relaxed, brick-lined wine bar with community tables, a large by-the-glass menu & Italian tapas.",
         "link": "https://goo.gl/maps/5eYaTuhaminHoDG86",
         "vibe": ["natty"],
-        "next": ["Gilligan's"],
+        "next": [26, 27, 28],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipN2v0Raw6YoweUlum_IogJPKnapdJ9p2pvfNAjG=w408-h306-k-no"
     },  
     "47": {
@@ -574,7 +572,7 @@
         "description": "",
         "link": "https://goo.gl/maps/VgaUgQv5q3Jea826A",
         "vibe": ["natty"],
-        "next": ["Le Dive"],
+        "next": [19, 10, 11],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO9_OsT-Pr0XxzJcoepWvnLuou4aJOPT5DbOiO6=w408-h544-k-no"
     },  
     "48": {
@@ -586,7 +584,7 @@
         "description": "Small production, minimal intervention wines are the focus at this dimly lit haunt.",
         "link": "https://g.page/skincontact?share",
         "vibe": ["natty"],
-        "next": ["The Back Room"],
+        "next": [24, 25, 23],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNwkAkwEy1drAKL8JKzswTgPZZqFS19Fj0ogp7Q=w408-h611-k-no"
     },      
     "49": {
@@ -598,7 +596,7 @@
         "description": "Cozy nook with oval-shaped bar, global wine list (plus tastings) & charcuterie menu.",
         "link": "https://goo.gl/maps/TfLjmiVu1p2YyYqK6",
         "vibe": ["natty"],
-        "next": ["Bandit's"],
+        "next": [29, 28, 30],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOu5LtRLB3bZykv0qv-bx6yM82_uCKtk43QQGlP=w408-h544-k-no"
     },
     "50": {
@@ -610,7 +608,7 @@
         "description": "Neighborhood dive bar with daily shot specials & jukebox, bumper stickers & film-truck permits.",
         "link": "https://goo.gl/maps/bzHtTKkD9hwBmyzo8",
         "vibe": ["dive"],
-        "next": ["Art Bar"],
+        "next": [31, 51, 52],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMoA0B7aMbXYldVm7v4Hm7lSxvF3IelIi3IGp5H=w408-h498-k-no"
     },  
     "51": {
@@ -622,7 +620,7 @@
         "description": "Village mainstay with comfortable, dimly lit back room offers cocktails & bar food.",
         "link": "https://g.page/artbarny?share",
         "vibe": ["cocktail"],
-        "next": ["Anfora"],
+        "next": [52, 32, 33],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPQ5bnSuc5pyWPAX8vMcmITMhhvC-LqH6wrMSoe=w408-h326-k-no"
     },  
     "52": {
@@ -634,7 +632,7 @@
         "description": "There's a disco, bar, (seasonal) plunge pool & crêperie, all on the roof of the Standard Hotel.",
         "link": "https://g.page/LeBainNYC?share",
         "vibe": ["rooftop", "dance", "cocktail"],
-        "next": ["Boom Boom Room"],
+        "next": [137, 50, 59],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPjBdJFdnw9o7b9G0PAejTpYIsDUcwDx6AwQPF2=w408-h270-k-no"
     },
     "53": {
@@ -646,7 +644,7 @@
         "description": "Creative craft cocktails & snacks in a petite brick-walled space with some banquette seats & stools.",
         "link": "https://goo.gl/maps/9yLJPc5m8fHsK7iw6",
         "vibe": ["cocktail"],
-        "next": ["Employee's Only"],
+        "next": [31, 30, 33],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNOfL-Gq1KQ4aUmN8Ao0dnQ1cb08Zaz4UWGjCjw=w408-h272-k-no"
     },  
     "54": {
@@ -658,7 +656,7 @@
         "description": "Patrons who enter through a phone booth in Crif Dogs next door sip novel cocktails in a dark space.",
         "link": "https://goo.gl/maps/qbctabtUqvU3LjHm7",
         "vibe": ["cocktail"],
-        "next": ["St. Dymphna's"],
+        "next": [5, 6, 4],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPZr778t1t7IK5WjlnhJfc9_0NtygQlr1yfMztB=w408-h271-k-no"
     },  
     "55": {
@@ -670,7 +668,7 @@
         "description": "Cutting-edge cocktails are served in a no-frills setting at this laid-back barroom.",
         "link": "https://goo.gl/maps/y3zZJMrsogF947Qu8",
         "vibe": ["cocktail"],
-        "next": ["St Dymphna's"],
+        "next": [4, 5, 6],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOoy_s0As2qjwMTgJGDZXrS5T0vBR5qRIKTch0P=w408-h612-k-no"
     },  
     "56": {
@@ -682,7 +680,7 @@
         "description": "Chic cocktail lounge where Morocco-inspired decor sets the stage for drinking & dancing all night.",
         "link": "https://goo.gl/maps/yCJf1cGpYVvmWpuw6",
         "vibe": ["dance", "cocktail"],
-        "next": ["Ear Inn"],
+        "next": [57, 59, 66],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMLRWTia6RnRwwD1TIUl8cSr0jFJk2XdYQeuPOs=w408-h271-k-no"
     },               
     "57": {
@@ -694,7 +692,7 @@
         "description": "Beers & bar bites are on the menu at this popular joint in a landmarked, circa-1817 building.",
         "link": "https://goo.gl/maps/mAEMsmvwYcL5sQn3A",
         "vibe": ["dive"],
-        "next": ["Paul's Casablanca"],
+        "next": [56, 59, 53],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPUF66_-rnJqb3pGds9k731DTuEplcxMqIbzt5I=w408-h290-k-no"
     },
     "58": {
@@ -706,7 +704,7 @@
         "description": "Tribeca Grand Hotel cocktail lounge via scenemaker Paul Sevigny that's known for its tough door.",
         "link": "https://goo.gl/maps/m1TwRZesyhkiRe4k6",
         "vibe": ["dance", "cocktail"],
-        "next": ["The Blond"],
+        "next": [65, 64, 70],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNrcWDOQx3dssP8fGK0siUk_7e9goBxjtsGiGRF=w408-h306-k-no"
     },  
     "59": {
@@ -718,7 +716,7 @@
         "description": "",
         "link": "https://goo.gl/maps/T1MYaERvig1eoDLS8",
         "vibe": ["dance", "cocktail"],
-        "next": ["Anfora"],
+        "next": [32, 33, 34],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPulYlQsUKvh1-eliSHfm4SkR-GFbDeqnDtRs19=w426-h240-k-no"
     },  
     "60": {
@@ -730,7 +728,7 @@
         "description": "23 Lexington Ave 2nd floor, New York, NY 10010",
         "link": "https://goo.gl/maps/fFykGoYYj6j6giT49",
         "vibe": ["dance", "cocktail"],
-        "next": ["The Broken Shaker"],
+        "next": [61, 35, 36],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOAUWPMuaszUDxCkMU4VpUbS585gHkP5eGauAgi=w408-h272-k-no"
     },
     "61": {
@@ -742,7 +740,7 @@
         "description": "Tropical bar inspired by the Miami original with city views, sophisticated cocktails & bites.",
         "link": "https://g.page/BrokenShaker-New-York?share",
         "vibe": ["cocktail"],
-        "next": ["Georgia Room"],
+        "next": [60, 34, 35],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMlRqOxEXqUMsFeRMU3oozBa9ZRg0c8CANdLv55=w408-h271-k-no"
     },  
     "62": {
@@ -754,7 +752,7 @@
         "description": "Creative Mexican cantina with an art gallery upstairs & a performance space in the basement.",
         "link": "https://g.page/CasaMezcalNY?share",
         "vibe": ["cocktail"],
-        "next": ["Attaboy"],
+        "next": [25, 26, 11],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMvfbSOdKmSkkkI5B4Cg-3p3zyngw9SKoNSddOK=w426-h240-k-no"
     },
     "63": {
@@ -766,7 +764,7 @@
         "description": "Bespoke cocktails, bar snacks & booze-filled slushies keep this neighborhood lounge bustling.",
         "link": "https://goo.gl/maps/QBt8eTm4iNETjT2E7",
         "vibe": ["cocktail", "dive"],
-        "next": ["Ray's Downtown"],
+        "next": [17, 11, 64],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPb9XKwO9y_zcK2cB22xS_Nbm-ZoSHKVtUMWR00=w408-h306-k-no"
     },
     "64": {
@@ -778,7 +776,7 @@
         "description": "",
         "link": "https://goo.gl/maps/1JaWd2TzmYXRLHTn9",
         "vibe": ["cocktail", "dance"],
-        "next": ["Apotheke"],
+        "next": [37, 38, 39],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOUJ4UZVUplRCxJngutFmBIXhcVDzjHn_YZaOEB=w408-h303-k-no"
     },            
     "65": {
@@ -790,7 +788,7 @@
         "description": "Upscale, stylish nightspot at 11 Howard hotel featuring cocktails, DJs & an eclectic bar-bites menu.",
         "link": "https://goo.gl/maps/Th7KTtuHbcuom8oP9",
         "vibe": ["cocktail", "rooftop"],
-        "next": ["Paul's Baby Grand"],
+        "next": [58, 70, 7],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO2Z8J9m7hSNKZRSM5oABsdXpZ3oC8JlqfmrH0O=w408-h306-k-no"
     },      
     "66": {
@@ -802,7 +800,7 @@
         "description": "Dinner party-like concept pairing curated wines chosen by industry experts with complementary bites.",
         "link": "https://goo.gl/maps/RUpnFijoKhNQqoQL7",
         "vibe": ["natty"],
-        "next": ["The Up & Up"],
+        "next": [28, 65, 67],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMTKdJE6z4FjHKDzXRNrIGXRkOvVGke7KJpiWWm=w408-h306-k-no"
     },  
     "67": {
@@ -814,20 +812,20 @@
         "description": "Intimate setting for premium wines with a menu of locally & seasonally inspired plates.",
         "link": "https://g.page/ruffian_nyc?share",
         "vibe": ["natty"],
-        "next": ["Death & Company"],
+        "next": [9, 8, 7],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMY9xklZKbBgbfTaWcNlTLz7PSAU4e8WZwduMBR=w408-h273-k-no"
     },  
     "68": {
-        "name": "The Ten Bells",
-        "address": "247 Broome St, New York, NY 10002",
-        "coords": [40.7181212206601, -73.98975584270451],
-        "burough": "Manhattan",
+        "name": "Cookie's",
+        "address": "748 Myrtle Ave, Brooklyn, NY 11205",
+        "coords": [40.69504528074361, -73.95279742766108],
+        "burough": "Brooklyn",
         "hours": "5pm - 2am",
-        "description": "Cozy Euro-centric den offering organic wines, small plates for sharing & oysters in dark confines.",
-        "link": "https://g.page/thetenbells?share",
-        "vibe": ["natty"],
-        "next": ["The Back Room"],
-        "pic": "https://lh5.googleusercontent.com/p/AF1QipMGSqoK4PvlW0tsZFNZKYxWDhKxAW8mTzBnrkIg=w408-h286-k-no"
+        "description": "",
+        "link": "https://goo.gl/maps/osPHVDXD91QBHDbQ9",
+        "vibe": ["cocktail", "dive"],
+        "next": [117, 143, 145],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipOPWbrJGnHBglXZ4uVTBuc3z6B2HThgAx8A-lV3=w426-h240-k-no"
     },
     "69": {
         "name": "Kafana",
@@ -838,7 +836,7 @@
         "description": "",
         "link": "https://goo.gl/maps/rhCXqzN9DDwLP4nm6",
         "vibe": ["natty"],
-        "next": ["The Wayland"],
+        "next": [55, 70, 54],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMe7D5GsInmhOF6rcuZYL0VbAYKhQ6t-gfxCLeW=w408-h271-k-no"
     },  
     "70": {
@@ -850,7 +848,7 @@
         "description": "18th-story cocktail lounge in James Hotel features an elegant, contemporary interior & rooftop deck.",
         "link": "https://goo.gl/maps/W5e65xQACV54BhVx6",
         "vibe": ["rooftop"],
-        "next": ["Gilligan's"],
+        "next": [58, 26, 25],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNODzrVQu2zbv9vZyjWk8HsvVh7A0Oe0yZkt3DY=w408-h261-k-no"
     },
     "71": {
@@ -1452,5 +1450,317 @@
         "vibe": ["natty", "cocktail"],
         "next": [],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNxHUhRxbBwCjjIfDbG5QsNRx-URePgQiistUeP=w408-h271-k-no"
-    }
+    },
+    "121": {
+        "name": "duckduck",
+        "address": "153 Montrose Ave, Brooklyn, NY 11206",
+        "coords": [40.70821350519223, -73.94294458101554],
+        "burough": "Brooklyn",
+        "hours": "4pm - 4am",
+        "description": "Industrial-chic local bar with signature cocktails, craft beers & shots, weekend DJs & late closing.",
+        "link": "https://goo.gl/maps/5iUM1TZYXmCnnJRY7",
+        "vibe": ["dive"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipMFhzS3rJEAf2cXGDc8gtdrqAm3Cb0P0T8_uiYE=w408-h306-k-no"
+    },  
+    "122": {
+        "name": "The Rosemont",
+        "address": "63 Montrose Ave, Brooklyn, NY 11206",
+        "coords": [40.707396438137636, -73.94761267586287],
+        "burough": "Brooklyn",
+        "hours": "2pm - 4am",
+        "description": "Laid-back queer cocktail bar with live jazz, small plates, craft beers & a garden patio.",
+        "link": "https://goo.gl/maps/mywSaz3UBCwCTQc47",
+        "vibe": ["dive", "cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipPx8mOPJU7wI_AmVG0g4oQJnEHTX7Zi_FsvopTW=w408-h306-k-no"
+    },  
+    "123": {
+        "name": "Ontario Bar",
+        "address": "559 Grand St, Brooklyn, NY 11211",
+        "coords": [40.711374673351266, -73.94922225770061],
+        "burough": "Brooklyn",
+        "hours": "5pm - 4am",
+        "description": "",
+        "link": "https://goo.gl/maps/MdoMqHW5P8mhjKdC6",
+        "vibe": ["dive"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipNZm5qAHyBK-u3TxmGfA1-xd_Ucvhq03UZPOS4x=w408-h272-k-no"
+    },  
+    "124": {
+        "name": "Bushwick Country Club",
+        "address": "608 Grand St, Brooklyn, NY 11211",
+        "coords": [40.71124455306866, -73.94780605140916],
+        "burough": "Brooklyn",
+        "hours": "5pm - 4am",
+        "description": "Ironically named bar featuring cheap drinks, a photo booth & a six-hole mini-golf course.",
+        "link": "https://goo.gl/maps/Ps54ju5CWTAT8QcJ8",
+        "vibe": ["dive"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipNm9dTC69TUOBC7o_TdQOzxIPcaGc0Mjya7gcj0=w408-h307-k-no"
+    },  
+    "125": {
+        "name": "Post No Bills",
+        "address": "253 Bushwick Ave, Brooklyn, NY 11206",
+        "coords": [40.70762987316579, -73.93948038909903],
+        "burough": "Brooklyn",
+        "hours": "5pm - 4am",
+        "description": "Narrow, relaxed bar with simple selection of draft & can beers, wine, classic cocktails & shots.",
+        "link": "https://goo.gl/maps/Z426UoUGsh8NRE1x6",
+        "vibe": ["dive"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipOmKaQjztom7mkpsK8t2xPeAG0NWI64D6A0Z16U=w408-h306-k-no"
+    },  
+    "126": {
+        "name": "Rise Radio",
+        "address": "57 Graham Ave, Brooklyn, NY 11206",
+        "coords": [40.703724178762826, -73.94266000310387],
+        "burough": "Brooklyn",
+        "hours": "5pm - 2am",
+        "description": "",
+        "link": "https://goo.gl/maps/e35B4JjsUhxDS9NY6",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipPDAE4FA8-YwakVTwQtmiGgAMUwgg49-nKuZb3a=w408-h272-k-no"
+    },  
+    "127": {
+        "name": "Baby's All Right",
+        "address": "146 Broadway, Brooklyn, NY 11211",
+        "coords": [40.71031477388443, -73.9634753876854],
+        "burough": "Brooklyn",
+        "hours": "6pm - 4am",
+        "description": "Cool haunt offering live music most nights, plus gourmet bar fare, creative drinks & weekend brunch.",
+        "link": "https://goo.gl/maps/ixwLj2GKHJQieojEA",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipMJ_gICA9z4tBNKZK3tVdd6Y_X32R-paojSftXl=w408-h272-k-no"
+    },  
+    "128": {
+        "name": "Deux Chats",
+        "address": "27 Broadway, Brooklyn, NY 11249",
+        "coords": [40.7110657848797, -73.96769307541987],
+        "burough": "Brooklyn",
+        "hours": "5pm - 3am",
+        "description": "",
+        "link": "https://goo.gl/maps/cP8LsnBAZKkkG2MFA",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipPi6H7h72FapnwastKc9CGoLz174r8gZaB6Ocma=w408-h306-k-no"
+    },  
+    "129": {
+        "name": "TBA Brooklyn",
+        "address": "395 Wythe Ave, Brooklyn, NY 11249",
+        "coords": [40.71126096574816, -73.96642707275305],
+        "burough": "Brooklyn",
+        "hours": "9pm - 4am",
+        "description": "Atmospheric nightclub & coffeehouse in a former garage featuring music, drinks & various events.",
+        "link": "https://g.page/TBABrooklyn?share",
+        "vibe": ["dive"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipMceleUuwWhVwL6mm7Ia8Un_IWuTA99CHoJ8Hyo=w408-h272-k-no"
+    },  
+    "130": {
+        "name": "OTB",
+        "address": "141 Broadway, Brooklyn, NY 11211",
+        "coords": [40.71063301262838, -73.9632841883851],
+        "burough": "Brooklyn",
+        "hours": "4pm - 12am",
+        "description": "Stylish, modern bar & restaurant offering handcrafted cocktails, bar bites & global plates.",
+        "link": "https://goo.gl/maps/ynirefDa18x4tj1T7",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipNcVaTPuIjcr_IIMaqLyZhv87KP0Gb6sgaA8AV8=w408-h271-k-no"
+    },
+    "131": {
+        "name": "Vine Bar",
+        "address": "81 Fleet Pl, Brooklyn, NY 11201",
+        "coords": [40.694903435152106, -73.98114502340505],
+        "burough": "Brooklyn",
+        "hours": "5pm - 12am",
+        "description": "",
+        "link": "https://goo.gl/maps/vL19bBbhX9oM3LA56",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipOYJcCNw4RZcFzixOx6nDOdImwialGWoAAwlFo=w408-h544-k-no"
+    },
+    "132": {
+        "name": "Sunken Harbor Club",
+        "address": "372 Fulton St 2nd Floor, Brooklyn, NY 11201",
+        "coords": [40.691942403659596, -73.98766815590405],
+        "burough": "Brooklyn",
+        "hours": "5pm - 11pm",
+        "description": "",
+        "link": "https://goo.gl/maps/sZC35RYha6WzDrBN7",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipNnik9TPLuU1tXKl4OUNKwWlQ6QFjQ1nyfB96XP=w408-h306-k-no"
+    },  
+    "133": {
+        "name": "Understudy",
+        "address": "445 Albee Square W, Brooklyn, NY 11201",
+        "coords": [40.691877324566526, -73.98303329860212],
+        "burough": "Brooklyn",
+        "hours": "11am - 9pm",
+        "description": "",
+        "link": "https://goo.gl/maps/gvuZqP5UxBqK8cEu8",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipO-lqT47lvQZ8WP8U0UesZ65AMez_Mw-chvYPeM=w408-h306-k-no"
+    },  
+    "134": {
+        "name": "The Binc",
+        "address": "60 Henry St, Brooklyn, NY 11201",
+        "coords": [40.69988157609471, -73.99213135171632],
+        "burough": "Brooklyn",
+        "hours": "5pm - 12am",
+        "description": "Dark, intimate speakeasy with a chill, classy atmosphere, for creative cocktails & small plates.",
+        "link": "https://goo.gl/maps/K4ASWvd79ZUZEKYs7",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipNPR93drIH9IfmZyRgrbol4NtMWYyRiCKGh6eUs=w408-h544-k-no"
+    },  
+    "135": {
+        "name": "Bohemien Bar",
+        "address": "97 Atlantic Ave, Brooklyn, NY 11201",
+        "coords": [40.691408536267225, -73.99700997408966],
+        "burough": "Brooklyn",
+        "hours": "4pm - 2am",
+        "description": "Listening bar with deep booths & a marble-topped bar serving light bites & craft cocktails.",
+        "link": "https://g.page/bohemien-bar?share",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipPNWWVQqXKBT1WMJHjqmC8BNSGszxx7TwEy8rkw=w408-h272-k-no"
+    },  
+    "136": {
+        "name": "PIPS",
+        "address": "129 Atlantic Ave, Brooklyn, NY 11201",
+        "coords": [40.691082270411286, -73.99576289709324],
+        "burough": "Brooklyn",
+        "hours": "5pm - 10pm",
+        "description": "Cozy bar with coastal Italian vibes serving natural wines, Italian-style aperitifs & small plates.",
+        "link": "https://goo.gl/maps/iE64RwwEWB236GQc6",
+        "vibe": ["natty"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipPxCv3OeqqVoiK3eqnGcfAsnkqgSIqz2Oo4rqWF=w408-h272-k-no"
+    },
+    "137": {
+        "name": "Soho House New York",
+        "address": "29-35 9th Ave, New York, NY 10014",
+        "coords": [40.74089030353717, -74.00575160957975],
+        "burough": "Manhattan",
+        "hours": "9am - 2am",
+        "description": "",
+        "link": "https://goo.gl/maps/9uGJnD9Wxx2gunA18",
+        "vibe": ["cocktail", "rooftop"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipO4v13UJG0kYMNGpphKbA7_y0eZZ7rxUX9Xmz0F=w408-h262-k-no"
+    },  
+    "138": {
+        "name": "Ludlow House",
+        "address": "139 Ludlow St, New York, NY 10002",
+        "coords": [40.720988124954246, -73.98840735745192],
+        "burough": "Manhattan",
+        "hours": "9am - 2am",
+        "description": "",
+        "link": "https://goo.gl/maps/ErzuAT5Sh62WPN4J6",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipO3nVEjK-PpoViMWgL1EwIZAWY1DpUwW5BzoTZ-=w426-h240-k-no"
+    },  
+    "139": {
+        "name": "DUMBO House",
+        "address": "55 Water St, Brooklyn, NY 11201",
+        "coords": [40.7040836054241, -73.99152125374304],
+        "burough": "Brooklyn",
+        "hours": "9am - 2am",
+        "description": "",
+        "link": "https://goo.gl/maps/fXcbPzjE5UEFcmNh6",
+        "vibe": ["cocktail", "rooftop"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipNTVwBzVJXaYNP2_nzR6L6FPjZLSZD8DUjgCvi-=w426-h240-k-no"
+    },  
+    "140": {
+        "name": "Harriet's Rooftop",
+        "address": "60 Furman St, Brooklyn, NY 11201",
+        "coords": [40.702847317122064, -73.99553383853684],
+        "burough": "Brooklyn",
+        "hours": "11am - 12am",
+        "description": "Rooftop spot for fancy cocktails & choice bites on the roof of 1 Hotel, with Manhattan views.",
+        "link": "https://goo.gl/maps/bKyHLdi6kHjsW5VXA",
+        "vibe": ["cocktail", "rooftop"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipOuJ84aX9MGY8RISvCxfz23XBRDq9HTKIjsinqO=w408-h306-k-no"
+    },  
+    "141": {
+        "name": "Le Boudoir",
+        "address": "135 Atlantic Ave, Brooklyn, NY 11201",
+        "coords": [40.69122348151536, -73.99567365033505],
+        "burough": "Brooklyn",
+        "hours": "7pm - 2am",
+        "description": "Styled after Marie Antoinette's chambers, this cozy hideaway offers cocktails, snacks & live jazz.",
+        "link": "https://goo.gl/maps/zLZypuQdcV1G35zX9",
+        "vibe": ["cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipMUS770pU_1kH5inK_BFS8ELQgjr1cxRNyTtRLG=w408-h272-k-no"
+    },  
+    "142": {
+        "name": "Olympia",
+        "address": "54 Jay St, Brooklyn, NY 11201",
+        "coords": [40.70364848837332, -73.98687019922401],
+        "burough": "Brooklyn",
+        "hours": "5pm - 11pm",
+        "description": "Locally sourced small plates paired with wine & classic cocktails in a casual-chic setting.",
+        "link": "https://goo.gl/maps/2HEP8UD4EpQsi6tg7",
+        "vibe": ["cocktail", "natty"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipOMmj2EaUklgOki6GIxNdSBzkiVGvpe4TDDuWf5=w408-h306-k-no"
+    },  
+    "143": {
+        "name": "The Emerson",
+        "address": "561 Myrtle Ave, Brooklyn, NY 11205",
+        "coords": [40.69463012464543, -73.96173075231428],
+        "burough": "Brooklyn",
+        "hours": "4pm - 2am",
+        "description": "Mellow hangout with craft cocktails, draft beer, local art & a tranquil garden patio.",
+        "link": "https://goo.gl/maps/MdX65bm2YVng2T3y5",
+        "vibe": ["dive", "cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipMbPxCyqbB08-DGjpV-ZIZIJCJ73nUuvorZx8MJ=w408-h272-k-no"
+    },  
+    "144": {
+        "name": "Custom House",
+        "address": "139 Montague St, Brooklyn, NY 11201",
+        "coords": [40.695150822171115, -73.99376014210652],
+        "burough": "Brooklyn",
+        "hours": "11am - 11pm",
+        "description": "Local watering hole with understated decor, sidewalk & back-patio seating & a modern pub-fare menu.",
+        "link": "https://goo.gl/maps/Fqck5uE7ekqfB33S9",
+        "vibe": ["dive", "cocktail"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipODLfdx7wUq9qr7gLYwMfWVDpJyijjIO3f0dru2=w408-h408-k-no"
+    },
+    "145": {
+        "name": "Rooftop Reds",
+        "address": "63 Flushing Ave Building 275, Brooklyn, NY 11201",
+        "coords": [40.698925539070494, -73.97780198991838],
+        "burough": "Brooklyn",
+        "hours": "12pm - 2am",
+        "description": "Innovative venue hosting wine tastings from its rooftop vineyard, plus dinners, yoga & movie nights.",
+        "link": "https://goo.gl/maps/aiSvmqnzSM1AvnPq9",
+        "vibe": ["natty", "rooftop"],
+        "next": [],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipNWAfZmNBHeZ1sZ9gm8hGs9Xu828ndUoP7-cyDB=w408-h306-k-no"
+    },
+    "146": {
+        "name": "Singers",
+        "address": "30 Kosciuszko St, Brooklyn, NY 11205",
+        "coords": [40.69036764873648, -73.95411956105745],
+        "burough": "Brooklyn",
+        "hours": "5pm - 12am",
+        "description": "",
+        "link": "https://goo.gl/maps/3KJpYuc7w5u3eQVJA",
+        "vibe": ["cocktail"],
+        "next": [""],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipNZ-C3J0CCrvgZ49CyaW6wE8ybhtB2fRzMqOqF2=w408-h544-k-no"
+    }      
 }
