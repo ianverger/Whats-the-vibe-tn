@@ -140,7 +140,7 @@ function initInfo(name, address, hours, description, link, next, pic) {
 
     let currentNextVibePic = currentNextBar.pic
     let currentNextVibe = currentNextBar.vibe[0]
-    bopPhoto.innerHTML = `<img alt="" class="nextpic" src="${currentNextVibePic}"/>`
+    // bopPhoto.innerHTML = `<img alt="" class="nextpic" src="${currentNextVibePic}"/>`
     let bopLogo = "";
         if (currentNextVibe === 'natty') bopLogo = "assets/natty_logo.png";
         if (currentNextVibe === 'cocktail') bopLogo = "assets/cocktail_logo.png";

@@ -17,12 +17,7 @@
   border: 10px solid #4E4E50;
 }
 
-.dive #instructions_overlay {
-  background-color: #6F2232;
-  border: 10px solid #4E4E50;
-}
-
-.dive #bop_info {
+.dive #bop {
   background-color: #6F2232;
   border: 10px solid #4E4E50;
 }
@@ -66,12 +61,7 @@
   border: 10px solid #44318D;
 }
 
-.cocktail #instructions_overlay {
-  background-color: rgb(209, 167, 217);
-  border: 10px solid #44318D;
-}
-
-.cocktail #bop_info {
+.cocktail #bop {
   background-color: rgb(209, 167, 217);
   border: 10px solid #44318D;
 }
@@ -111,12 +101,7 @@
   border: 10px solid #25274D;
 }
 
-.rooftop #instructions_overlay {
-  background-color: #A8D0E6;
-  border: 10px solid #25274D;
-}
-
-.rooftop #bop_info {
+.rooftop #bop {
   background-color: #A8D0E6;
   border: 10px solid #25274D;
 }
@@ -156,12 +141,7 @@
   border: 10px solid #5C2018;
 }
 
-.natty #instructions_overlay {
-  background-color: #D4A59A;
-  border: 10px solid #5C2018;
-}
-
-.natty #bop_info {
+.natty #bop {
   background-color: #D4A59A;
   border: 10px solid #5C2018;
 }
@@ -258,7 +238,7 @@ h1, h2 {
   border: 10px solid white;
   background-color: rgb(181, 181, 181);
   width: 500px;
-  height: 220px;
+  height: 300px;
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 10px;
@@ -274,14 +254,14 @@ h1, h2 {
   align-items: center;
   background-color: inherit;
   width: 490px;
-  height: 220px;
+  height: 280px;
   padding: inherit;
   position: absolute;
   z-index: 1;
 }
 
 #deets {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .info_flash {
@@ -311,19 +291,29 @@ h1, h2 {
   border-radius: 15px;
   align-items: center;
   justify-content: center;
+  border: 10px solid white;
+  background-color: rgb(181, 181, 181);
   margin-left: 20px;
-  width: 520px;
-  height: 210px;
+  width: 500px;
+  height: 118px;
   padding: 10px;
   position: relative;
 }
 
-#next_bop {
+#instructions_overlay {
+  color: white;
+  font-family: "Rock Salt", cursive;
+  font-size: large;
   display: flex;
-  width: 100%;
-  height: 97%;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  background-color: inherit;
+  width: 490px;
+  height: 115px;
+  padding: 0px;
+  position: absolute;
+  z-index: 5;
+  border-radius: 15px;
 }
 
 #bop_photo {
@@ -337,8 +327,18 @@ h1, h2 {
   max-width: 210px;
 }
 
+#switch_text {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: "Rock Salt", cursive;
+  font-size: 22px;
+}
+
 #bop_switch {
-  width: 27%;
+  width: 45%;
   height: 85%;
   border-radius: 15px;
   border: 5px solid white;
@@ -351,8 +351,8 @@ h1, h2 {
 }
 
 #bop_info {
-  width: 62%;
-  height: 90%;
+  width: 500px;
+  height: 100px;
   border: 10px solid white;
   background-color: rgb(181, 181, 181);
   border-radius: 15px;
@@ -372,23 +372,6 @@ h1, h2 {
 .bop_logo {
   padding-top: 10px;
   max-width: 90px;
-}
-
-#instructions_overlay {
-  color: white;
-  font-family: "Rock Salt", cursive;
-  font-size: large;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: inherit;
-  width: 500px;
-  height: 200px;
-  padding: inherit;
-  position: absolute;
-  z-index: 5;
-  border-radius: 15px;
-  margin-top: 10px;
 }
 
 .container {
@@ -428,6 +411,30 @@ h1, h2 {
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+}
+
+#vibe-left {
+  border-top-left-radius: 15px;
+}
+
+#vibe-right {
+  border-top-right-radius: 15px;
+}
+
+#vibe-left:hover {
+  border-top-left-radius: 5px;
+}
+
+#vibe-right:hover {
+  border-top-right-radius: 5px;
+}
+
+#vibe-left:active {
+  border-top-left-radius: 15px;
+}
+
+#vibe-right:active {
+  border-top-right-radius: 15px;
 }
 
 .controls button:hover {

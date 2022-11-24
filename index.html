@@ -50,10 +50,10 @@
       <div class="container">
           <div class="navbar">
               <div class="controls">
-                <button class="vibe" id="" onclick="switchVibe(event, 'cocktail')">cocktail</button>
+                <button class="vibe" id="vibe-left" onclick="switchVibe(event, 'cocktail')">cocktail</button>
                 <button class="vibe" id="" onclick="switchVibe(event, 'dive')">dive</button>
                 <button class="vibe" id="" onclick="switchVibe(event, 'rooftop')">rooftop</button>
-                <button class="vibe" id="" onclick="switchVibe(event, 'natty')">natty</button>
+                <button class="vibe" id="vibe-right" onclick="switchVibe(event, 'natty')">natty</button>
               </div>
               <div id="title"></div>
               <div class="author">
@@ -80,14 +80,15 @@
                     <div id="deets"></div>
                 </aside>
                 <aside id="bop">
-                  <aside id="instructions_overlay">Select a spot on the map</aside>
-                  <div id="next_bop">
-                    <button id="bop_switch" onclick="switchBar(next)">Wanna switch up the vibe?</button>
-                    <div id="bop_info">
-                      <div id="bop_photo"></div>
+                  <!-- <div id="next_bop"> -->
+                    <!-- <div id="bop_info"> -->
+                      <aside id="instructions_overlay">Select a spot on the map</aside>
+                      <div id="switch_text">Wanna switch up the vibe?</div>
                       <div id="boptext"></div>
-                    </div>
-                  </div>
+                      <div id="bop_photo"></div>
+                      <button id="bop_switch" onclick="switchBar(next)">onto the next</button>
+                    <!-- </div> -->
+                  <!-- </div> -->
                 </aside>
               </div>
           </div>
