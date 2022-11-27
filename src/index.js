@@ -13,7 +13,8 @@ function showPage(vibe) {
     let splashScreen = document.querySelector(".splash");
     splashScreen.style.opacity = 0;
     splashScreen.style.zIndex = "-10"; 
-    switchVibe(null, vibe)
+    let event = document.getElementById(`${vibe}-b`)
+    event.click();
 };
 
 // When a different "vibe" tab is selected, the class attribute of the body is cleared out and then 
@@ -23,16 +24,17 @@ function showPage(vibe) {
 function switchVibe(event, vibe) {
     let body = document.body;
     body.setAttribute("class", "");
-
+    
     setTimeout(() => {
     body.setAttribute("class", vibe);
     }, 100);
 
     let vibez = document.getElementsByClassName("vibe");
     for (i = 0; i < vibez.length; i++) {
-    vibez[i].id = vibez[i].id.replace("active", "");
+        vibez[i].id = vibez[i].id.replace("active", "");
     };
-
+    
+    
     currentVibe = vibe;
     switchTitle(vibe);
     window.initMap(currentVibe);
@@ -58,12 +60,15 @@ function initMap(currentVibe) {
         center: {lat: 40.72163829901166, lng: -73.979618357371},
         gestureHandling: "none",
         disableDefaultUI: true,
+        keyboardShortcuts: false,
         zoom: 13.1,
         mapId: 'd08c3dd1a5339f5e'
     });
     
 // Here I turn my JSON database into an array of objects, filter to the locations pertaining to the
 // currently selected "vibe" and pull up only those markers on the map.
+    
+
     let arr = Object.values(obj).filter(ele => ele.vibe.includes(currentVibe));
     
     for (let bar of arr) {
@@ -92,6 +97,13 @@ function initMap(currentVibe) {
 // bottom and top of the display (respectively) to allow for a smooth user experience. A function to 
 // pull up the info window is invoked, passing in all of the related data from the database.
         marker.addListener("click", () => {
+            
+            let icon = {
+                url: "assets/bar-icon.png",
+                scaledSize: new google.maps.Size(50, 50)
+            }
+            marker.setIcon(icon);
+         
             infoOverlay.style.opacity = 0;
             infoOverlay.style.zIndex = -1; 
             instructions.style.zIndex = -10;

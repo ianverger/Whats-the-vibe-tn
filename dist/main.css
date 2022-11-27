@@ -226,6 +226,10 @@ body {
   border: 10px solid white;
 }
 
+.gm-style-cc {
+  display: none;
+}
+
 h1, h2 {
   color: white;
   font-family: "Rock Salt", cursive;
@@ -338,11 +342,10 @@ h1, h2 {
 }
 
 #bop_switch {
-  width: 45%;
+  width: 100px;
+  height: 100px;
   height: 85%;
-  border-radius: 15px;
-  border: 5px solid white;
-  font-family: "Rock Salt", cursive;
+  border-radius: 50%;
   font-size: large;
 }
 
@@ -413,28 +416,30 @@ h1, h2 {
   font-size: 17px;
 }
 
-#vibe-left {
+.vibe-left {
   border-top-left-radius: 15px;
 }
 
-#vibe-right {
+.vibe-right {
   border-top-right-radius: 15px;
 }
 
-#vibe-left:hover {
+.vibe-left:hover {
   border-top-left-radius: 5px;
 }
 
-#vibe-right:hover {
+.vibe-right:hover {
   border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-#vibe-left:active {
-  border-top-left-radius: 15px;
+.vibe-left#active {
+  border-top-left-radius: 5px;
 }
 
-#vibe-right:active {
-  border-top-right-radius: 15px;
+.vibe-right#active {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .controls button:hover {

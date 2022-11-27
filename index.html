@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/d1c300571b.js" crossorigin="anonymous"></script> -->
     <script src="./dist/main.js"></script>
     <title>What's the vibe tn?</title>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk4-lqbqOGBWjFbeIiHcg6w3qAz8LCYrU&callback=initMap" defer></script>
@@ -50,10 +51,10 @@
       <div class="container">
           <div class="navbar">
               <div class="controls">
-                <button class="vibe" id="vibe-left" onclick="switchVibe(event, 'cocktail')">cocktail</button>
-                <button class="vibe" id="" onclick="switchVibe(event, 'dive')">dive</button>
-                <button class="vibe" id="" onclick="switchVibe(event, 'rooftop')">rooftop</button>
-                <button class="vibe" id="vibe-right" onclick="switchVibe(event, 'natty')">natty</button>
+                <button class="vibe vibe-left" id="cocktail-b" onclick="switchVibe(event, 'cocktail')">cocktail</button>
+                <button class="vibe" id="dive-b" onclick="switchVibe(event, 'dive')">dive</button>
+                <button class="vibe" id="rooftop-b" onclick="switchVibe(event, 'rooftop')">rooftop</button>
+                <button class="vibe vibe-right" id="natty-b" onclick="switchVibe(event, 'natty')">natty</button>
               </div>
               <div id="title"></div>
               <div class="author">
@@ -86,7 +87,7 @@
                       <div id="switch_text">Wanna switch up the vibe?</div>
                       <div id="boptext"></div>
                       <div id="bop_photo"></div>
-                      <button id="bop_switch" onclick="switchBar(next)">onto the next</button>
+                      <button id="bop_switch" onclick="switchBar(next)"><img src="assets/NicePng_crossed-arrows-png_1646641-removebg-preview.png" alt="criss-cross" style="height: 60px"></button>
                     <!-- </div> -->
                   <!-- </div> -->
                 </aside>
