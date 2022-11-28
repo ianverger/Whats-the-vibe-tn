@@ -9,8 +9,6 @@ window.prevNext = prevNext;
 // window.showBop = showBop;
 // window.currentNextBar = currentNextBar;
 
-// let currentNextBar = {};
-
 function showPage(vibe) {
     let splashScreen = document.querySelector(".splash");
     splashScreen.style.opacity = 0;
@@ -33,7 +31,9 @@ function switchVibe(event, vibe) {
 
     let vibez = document.getElementsByClassName("vibe");
     for (i = 0; i < vibez.length; i++) {
-        vibez[i].id = vibez[i].id.replace("active", "");
+        let innertext = vibez[i].textContent
+        vibez[i].id = vibez[i].id.replace("active", `${innertext}-b`);
+        console.log(vibez[i])
     };
     
     
@@ -129,9 +129,9 @@ window.initMap = initMap;
 function initInfo(name, address, hours, description, link, next, pic) {
     let deets = document.querySelector("#deets");
     deets.innerHTML = (
-        `Name: ${name} <br>
-        Address: ${address} <br>
-        Hours: ${hours} <br>
+        `<b>Name:</b> ${name} <br>
+        <b>Address:</b> ${address} <br>
+        <b>Hours:</b> ${hours} <br>
         <br>
         ${description} <br>
         <br>
@@ -146,7 +146,6 @@ function initInfo(name, address, hours, description, link, next, pic) {
         window.next = next;
         window.currentNextNum = next[Math.floor(Math.random() * next.length)];
         setNext(currentNextNum);
-        console.log(next)
 };
 
 //bop stuff--------------------------------------------------------------------
@@ -155,8 +154,7 @@ function initInfo(name, address, hours, description, link, next, pic) {
 function setNext(currentNextNum) {
     let currentNextBar = obj[currentNextNum];
     let bopButton = document.querySelector("#bop_switch");
-    // let rightButton =  document.querySelector("#bop_right");
-    let currentNextVibe = currentNextBar.vibe[0]
+    let currentNextVibe = currentNextBar.vibe[0];
  
     let bopLogo = "";
         if (currentNextVibe === 'natty') bopLogo = "assets/natty_logo.png";
@@ -165,9 +163,8 @@ function setNext(currentNextNum) {
         if (currentNextVibe === 'rooftop') bopLogo = "assets/rooftop_logo.png";
     bopButton.innerHTML = (`
     <img alt="" class="bop_logo" src="${bopLogo}"/>
-    `)
-    // console.log(currentNextBar);
-    // console.log(currentNextVibe);
+    `);
+
 }
 
 function nextNext(next, currentNextNum) {
@@ -189,19 +186,18 @@ function switchBar(currentNextNum) {
     let info = document.querySelector("#info"); 
     let bop = document.querySelector("#bop");
     let currentNextBar = obj[currentNextNum];
-    let currentNextVibe = currentNextBar.vibe[0]
-    console.log(currentNextBar)
+    let currentNextVibe = currentNextBar.vibe[0];
 
     if (currentVibe !== currentNextVibe) {
-        let event = document.getElementById(`${currentNextVibe}-b`)
+        let event = document.getElementById(`${currentNextVibe}-b`);
         event.click();
     } else {
         info.setAttribute('class', '');
         bop.setAttribute('class', '');
         setTimeout(() => {
-        info.setAttribute('class', 'info_flash');
-        bop.setAttribute('class', 'info_flash');
-    }, 1)
+            info.setAttribute('class', 'info_flash');
+            bop.setAttribute('class', 'info_flash');
+        }, 1);
     }
 
     initInfo(currentNextBar.name, currentNextBar.address, currentNextBar.hours, currentNextBar.description, currentNextBar.link, currentNextBar.next, currentNextBar.pic);
