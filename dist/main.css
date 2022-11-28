@@ -342,15 +342,22 @@ h1, h2 {
 }
 
 #bop_switch {
-  width: 100px;
+  width: 110px;
   height: 100px;
-  height: 85%;
-  border-radius: 50%;
+  border-radius: 10px;
   font-size: large;
 }
 
-#bop_switch:hover {
+#bop_left, #bop_right {
+  width: 30px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#bop_left:hover, #bop_right:hover, #bop_switch:hover {
   cursor: pointer;
+  background-color: rgb(145, 145, 145);
 }
 
 #bop_info {

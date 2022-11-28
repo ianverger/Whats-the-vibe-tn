@@ -79,7 +79,7 @@
         "hours": "3pm - 4am",
         "description": "Gay & lesbian mainstay in the East Village known for its jukebox & relaxed atmosphere.",
         "link": "https://goo.gl/maps/KBhweZrc6926WufU8",
-        "vibe": ["dive", "gay"],
+        "vibe": ["dive"],
         "next": [55, 54, 67],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNwuxG8HLy-TcsgO1t0UqD32111QdLrJ_mPNMP_=w408-h272-k-no"
         },
@@ -535,7 +535,7 @@
         "hours": "12pm - 11pm",
         "description": "",
         "link": "https://goo.gl/maps/tKqh5qinCuVyzaZm6",
-        "vibe": ["cocktail", "dance"],
+        "vibe": ["cocktail"],
         "next": [41, 42, 43],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMHtfp5gdtw-VATBijlDMa7pL4W7avpghc-8Btu=w408-h306-k-no"
     },    
@@ -631,7 +631,7 @@
         "hours": "4pm - 4am",
         "description": "There's a disco, bar, (seasonal) plunge pool & crêperie, all on the roof of the Standard Hotel.",
         "link": "https://g.page/LeBainNYC?share",
-        "vibe": ["rooftop", "dance", "cocktail"],
+        "vibe": ["rooftop", "cocktail"],
         "next": [137, 50, 59],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPjBdJFdnw9o7b9G0PAejTpYIsDUcwDx6AwQPF2=w408-h270-k-no"
     },
@@ -679,7 +679,7 @@
         "hours": "10pm - 4am",
         "description": "Chic cocktail lounge where Morocco-inspired decor sets the stage for drinking & dancing all night.",
         "link": "https://goo.gl/maps/yCJf1cGpYVvmWpuw6",
-        "vibe": ["dance", "cocktail"],
+        "vibe": ["cocktail"],
         "next": [57, 59, 66],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMLRWTia6RnRwwD1TIUl8cSr0jFJk2XdYQeuPOs=w408-h271-k-no"
     },               
@@ -703,7 +703,7 @@
         "hours": "10pm - 4am",
         "description": "Tribeca Grand Hotel cocktail lounge via scenemaker Paul Sevigny that's known for its tough door.",
         "link": "https://goo.gl/maps/m1TwRZesyhkiRe4k6",
-        "vibe": ["dance", "cocktail"],
+        "vibe": ["cocktail"],
         "next": [65, 64, 70],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNrcWDOQx3dssP8fGK0siUk_7e9goBxjtsGiGRF=w408-h306-k-no"
     },  
@@ -715,7 +715,7 @@
         "hours": "9pm - 4am",
         "description": "",
         "link": "https://goo.gl/maps/T1MYaERvig1eoDLS8",
-        "vibe": ["dance", "cocktail"],
+        "vibe": ["cocktail"],
         "next": [32, 33, 34],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPulYlQsUKvh1-eliSHfm4SkR-GFbDeqnDtRs19=w426-h240-k-no"
     },  
@@ -727,9 +727,9 @@
         "hours": "10pm - 3am",
         "description": "23 Lexington Ave 2nd floor, New York, NY 10010",
         "link": "https://goo.gl/maps/fFykGoYYj6j6giT49",
-        "vibe": ["dance", "cocktail"],
+        "vibe": ["cocktail"],
         "next": [61, 35, 36],
-        "pic": "https://lh5.googleusercontent.com/p/AF1QipOAUWPMuaszUDxCkMU4VpUbS585gHkP5eGauAgi=w408-h272-k-no"
+        "pic": "https://lh3.googleusercontent.com/p/AF1QipMdLFvEHBRtq4W-PNp7hZO7n3s8o--lJuDGf1Lf=s1360-w1360-h1020"
     },
     "61": {
         "name": "Broken Shaker at Freehand New York",
@@ -775,7 +775,7 @@
         "hours": "10pm - 4am",
         "description": "",
         "link": "https://goo.gl/maps/1JaWd2TzmYXRLHTn9",
-        "vibe": ["cocktail", "dance"],
+        "vibe": ["cocktail"],
         "next": [37, 38, 39],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOUJ4UZVUplRCxJngutFmBIXhcVDzjHn_YZaOEB=w408-h303-k-no"
     },            
@@ -860,7 +860,7 @@
         "description": "Creative cocktails & full bar offerings served in a sleek space with a Vegas throwback feel.",
         "link": "https://goo.gl/maps/E1Kp3g6FaBrY6NYLA",
         "vibe": ["dive", "cocktail"],
-        "next": [""],
+        "next": [72, 74, 78],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNme0ahfBO7Tqe30ASk6eNJelAoX9v5TmnT0Pv5=w408-h326-k-no"
     },
     "72": {
@@ -872,7 +872,7 @@
         "description": "Industrial-chic bar with art installations & a big back garden attract locals for cocktails & beer.",
         "link": "https://goo.gl/maps/ktZNbxaHBXNc7Xka8",
         "vibe": ["cocktail"],
-        "next": [""],
+        "next": [77, 86, 83],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNthwrGrJXzFyeh3gmCLshhwKzEsaEKFRFWTFxz=w408-h272-k-no"
     },
     "73": {
@@ -884,7 +884,7 @@
         "description": "Darkly lit bar & music venue on Greenpoint's northern end hosting metal bands & their enthusiasts.",
         "link": "https://goo.gl/maps/kXj7LDRDZZrbhXTL6",
         "vibe": ["dive"],
-        "next": [""],
+        "next": [72, 83, 82],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOrYgjlieucpr44mE9ga8-qOUaRkdL0_hwOXAQ-=w408-h306-k-no"
     },
     "74": {
@@ -896,7 +896,7 @@
         "description": "Easygoing hangout with nostalgic accents serving beers, along with burgers, hot dogs & fries.",
         "link": "https://goo.gl/maps/RrsYWWA5FegrQvFV6",
         "vibe": ["dive"],
-        "next": [""],
+        "next": [84, 85, 82],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMi96XJQ85ZqWsh0KLgbOV4aRv9zd2lLw9xpCXX=w408-h544-k-no"
     },
     "75": {
@@ -908,7 +908,7 @@
         "description": "Listening bar serving up vinyl tracks on a vintage turntable plus burgers, beer & cocktails.",
         "link": "https://g.page/goodbarbk?share",
         "vibe": ["cocktail", "dive"],
-        "next": [""],
+        "next": [74, 76, 77],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNTzy278HE73j2WQdSBtLACY6bvLpnfKVb18J5E=w408-h307-k-no"
     },
     "76": {
@@ -920,7 +920,7 @@
         "description": "Hip cocktail bar mixing up specialty cocktails, plus an international food menu.",
         "link": "https://g.page/Ponyboynyc?share",
         "vibe": ["cocktail"],
-        "next": [""],
+        "next": [78, 80, 86],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPW6Xkdd1S0K6LLk9G7y1AuiEim3EaBnL0fPrWf=w408-h612-k-no"
     },
     "77": {
@@ -932,7 +932,7 @@
         "description": "",
         "link": "https://goo.gl/maps/Kzp2BUnqN7CnebQ88",
         "vibe": ["dive", "cocktail"],
-        "next": [""],
+        "next": [85, 78, 76],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOEPrFB_U_O6v3m-8aQB-Ll0iTrYnFqRcFbPkaC=w408-h544-k-no"
     },
     "78": {
@@ -944,7 +944,7 @@
         "description": "",
         "link": "https://goo.gl/maps/DCX5uLETWf1TvRdC8",
         "vibe": ["dive"],
-        "next": [""],
+        "next": [79, 80, 77],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPuEok7CyG2kXoDkUh3Sd6913wP-KObxL0g1EjX=w408-h306-k-no"
     },
     "79": {
@@ -956,7 +956,7 @@
         "description": "A tap beer selection is poured in a room with apothecary cabinets, brick walls & wide plank floors.",
         "link": "https://goo.gl/maps/y9PQdubg4vUxprr89",
         "vibe": ["dive"],
-        "next": [""],
+        "next": [81, 77, 82],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipP1QAfrLtGXhRkAG2Y08HWIUMVy79SbGLIFxywl=w426-h240-k-no"
     },
     "80": {
@@ -968,7 +968,7 @@
         "description": "Craft cocktails & sleek, vintage-inspired decor draws a vibrant crowd at this upscale watering hole.",
         "link": "https://goo.gl/maps/BKk6yqdkv9na7o3y6",
         "vibe": ["cocktail"],
-        "next": [""],
+        "next": [81, 83, 84],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOcVmBEVKsaw_L443VJOAQ3SwEtx_QLYPflu9j_=w408-h306-k-no"
     },
     "81": {
@@ -979,8 +979,8 @@
         "hours": "2pm - 3am",
         "description": "Hip bar with wood floors & tin ceilings offering creative cocktails, plus a back patio.",
         "link": "https://goo.gl/maps/wUTS3zrbps7xejgDA",
-        "vibe": ["coktail"],
-        "next": [""],
+        "vibe": ["cocktail"],
+        "next": [83, 86, 82],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipN-4xMpaHd4aaaF5LxAaFGOe6WY4QP08vSPRbxo=w408-h286-k-no"
     },
     "82": {
@@ -992,7 +992,7 @@
         "description": "",
         "link": "https://goo.gl/maps/hAuJvrwgNHFPwHwA6",
         "vibe": ["cocktail"],
-        "next": [""],
+        "next": [83, 84, 85],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMzAo8cs80FHGna_soTC9AtxMHiKJ5OooO-IPQs=w408-h378-k-no"
     },
     "83": {
@@ -1004,7 +1004,7 @@
         "description": "",
         "link": "https://goo.gl/maps/L8b8ogQp1jsyWo9j8",
         "vibe": ["dive"],
-        "next": [""],
+        "next": [85, 78, 77],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNYjGAIO2ipivs9YEVk1UuDrD4A7RFmbXfFAwFb=w408-h272-k-no"
     },
     "84": {
@@ -1028,7 +1028,7 @@
         "description": "",
         "link": "https://goo.gl/maps/jbgvZhDmPLkv9BBG9",
         "vibe": ["natty", "cocktail"],
-        "next": [""],
+        "next": [84, 87, 82],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNRDSsGEYpo-K_ZWUkur5g4pkhsUwNE54ndu9ge=w408-h306-k-no"
     },
     "86": {
@@ -1040,7 +1040,7 @@
         "description": "Wood-accented haunt serving California wines by the glass, bottle & flight plus complementary bites.",
         "link": "https://g.page/coastandvalleybk?share",
         "vibe": ["natty"],
-        "next": [""],
+        "next": [76, 77, 78],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPiQa7tiT4-PXu6NZZYSSB7yGyzJAmkdMo242QI=w408-h272-k-no"
     },
     "87": {
@@ -1052,7 +1052,7 @@
         "description": "Relaxed wine bar with a zero waste goal serving tapas-style bites paired with natural wines.",
         "link": "https://goo.gl/maps/ncn14hNReorpY1mA9",
         "vibe": ["natty"],
-        "next": [""],
+        "next": [86, 84, 80],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMUk9xoHOfkIG7tnKuITyUFOogXIJahP0H26MXA=w408-h272-k-no"
     },
     "88": {
@@ -1064,7 +1064,7 @@
         "description": "Intimate watering hole with quirky art on the walls & an extensive by-the-glass & bottle selection.",
         "link": "https://goo.gl/maps/64j9gvHNyoQkFuqr6",
         "vibe": ["natty"],
-        "next": [""],
+        "next": [101, 112, 114],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPOsHwcUBhDfJ8UO1bypgf1DOguIJBlznIa1b-_=w408-h306-k-no"
     },
     "89": {
@@ -1076,7 +1076,7 @@
         "description": "Rooftop bar with panoramic skyline views from a terrace & glassed-in lounge plus craft cocktails.",
         "link": "https://goo.gl/maps/KPmFZxBJG9oUXwdq5",
         "vibe": ["rooftop", "cocktail"],
-        "next": [""],
+        "next": [100, 91, 98],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMYSzTJzkqtIg74j6rGIP1ZqYzpanWXGzFIQ8dC=w519-h240-k-no"
     },
     "90": {
@@ -1088,7 +1088,7 @@
         "description": "A European beer list & an expansive rooftop are the draws at this German-accented barroom.",
         "link": "https://goo.gl/maps/bC7GmWA1AHKSL6KS7",
         "vibe": ["rooftop", "dive"],
-        "next": [""],
+        "next": [92, 94, 95],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPr9pqvS8B3kL2e1lvmjYcFbFVSWtRaMHA0R8fl=w426-h240-k-no"
     },
     "91": {
@@ -1100,7 +1100,7 @@
         "description": "Newest addition to the rooftop scene in Williamsburg. Airy, open retractable rooftop with select views of Manhattan. Lite bites and refreshing cocktails.",
         "link": "https://goo.gl/maps/AAbrqVd3TbjyBaaC6",
         "vibe": ["rooftop", "cocktail"],
-        "next": [""],
+        "next": [92, 94, 95],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPPY7vXmMmwJTnrVpiiedTbT6dRbVrYnfiLV8NT=w426-h240-k-no"
     },
     "92": {
@@ -1112,7 +1112,7 @@
         "description": "Stylish French-inspired cocktail spot with a seafood-focused menu & sweeping views of Manhattan.",
         "link": "https://goo.gl/maps/WHFqeXrXaaYeaEpx8",
         "vibe": ["rooftop", "cocktail"],
-        "next": [""],
+        "next": [96, 98, 99],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMqsMDnCzlAmciEgHybanccFmOQbn75vdX9OSz7=w408-h272-k-no"
     },
     "93": {
@@ -1124,7 +1124,7 @@
         "description": "Glass-and-steel encased rooftop bar with murals & velvet sofas offering cocktails, bites & views.",
         "link": "https://goo.gl/maps/kPQYEb2BKjZgstBx9",
         "vibe": ["3pm - 4am"],
-        "next": [""],
+        "next": [96, 98, 99],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPCk8fFjxtn8Y4UaYp_c4YdvdsgiXzXeBzw1fAF=w408-h306-k-no"
     },
     "94": {
@@ -1136,7 +1136,7 @@
         "description": "Popular Williamsburg bar serving cocktails in an upscale setting that recalls old New York.",
         "link": "https://goo.gl/maps/1U22cADkVMas5fAw8",
         "vibe": ["cocktail"],
-        "next": [""],
+        "next": [95, 97, 93],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPTXCcd8YhLME2EV4PQa6s6h8zADjP0TfaBfV0G=w408-h306-k-no"
     },
     "95": {
@@ -1148,7 +1148,7 @@
         "description": "",
         "link": "https://goo.gl/maps/Vf2oTdXomjzh2PLZ8",
         "vibe": ["cocktail"],
-        "next": [""],
+        "next": [93, 96, 99],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipM0MweEO-h9-ayhSpu5DvvdC-db8CH5iuWNQtaS=w408-h258-k-no"
     },
     "96": {
@@ -1160,7 +1160,7 @@
         "description": "",
         "link": "https://goo.gl/maps/GDTDqUXnWv1J9ay58",
         "vibe": ["cocktail"],
-        "next": [""],
+        "next": [99, 98, 92],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMIO8WeegeHYXdAGg4SVmlCpRdhSX9uckgTPSMO=w408-h541-k-no"
     },
     "97": {
@@ -1172,7 +1172,7 @@
         "description": "",
         "link": "https://goo.gl/maps/cR7wZDzkax9fYuo36",
         "vibe": ["dive"],
-        "next": [""],
+        "next": [95, 99, 90],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO5vPTMv-E8uDEaqwHXZYBS3kDgYrpgj4wBIVJ3=w424-h240-k-no"
     },
     "98": {
@@ -1184,7 +1184,7 @@
         "description": "Laid-back setting for contemporary American fare, creative cocktails & a garden-style patio.",
         "link": "https://goo.gl/maps/QUBGGQEvpXeZhB6L6",
         "vibe": ["cocktail"],
-        "next": [""],
+        "next": [104, 96, 108],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOa_BI6XkP3FFDE4SEVotKro3stBOQDT7-JdTb7=w408-h306-k-no"
     },
     "99": {
@@ -1196,7 +1196,7 @@
         "description": "Old-school, low-tech bowling alley with an attached barroom that hosts live music.",
         "link": "https://goo.gl/maps/zjZVLNquPypkwf4SA",
         "vibe": ["dive"],
-        "next": [""],
+        "next": [108, 98, 97],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipN8gly44IAI9oJG-x-pwYHnh3Dbj9fJJoynrAk=w408-h306-k-no"
     },
     "100": {
@@ -1208,7 +1208,7 @@
         "description": "Unassuming bar for beer & pitchers of cocktails.",
         "link": "https://g.page/turkeysnesttavern?share",
         "vibe": ["dive"],
-        "next": [""],
+        "next": [99, 108, 96],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMYCXbaufEjEqVeMlm1z2DmwL-61XDuijppG3KG=w408-h257-k-no"
     },
     "101": {
@@ -1220,7 +1220,7 @@
         "description": "Hard-rocking joint with jukebox tunes, old-school signs, big beers, pinball & outdoor grill grub.",
         "link": "https://goo.gl/maps/fMFBkKynN4cTz9mXA",
         "vibe": ["dive"],
-        "next": [],
+        "next": [110, 113, 114],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipP-UE_e-9ie-dFXYdvxQNS7rGyLzk_9nhdRbV10=w408-h545-k-no"
     },  
     "102": {
@@ -1232,7 +1232,7 @@
         "description": "",
         "link": "https://goo.gl/maps/rEDU3rhSzFpxspSa9",
         "vibe": ["dive"],
-        "next": [],
+        "next": [112, 115, 116],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPfkQ-SwpsYBEfUBr5wMNq7ZFD-GsGIaXwS4epy=w408-h306-k-no"
     },  
     "103": {
@@ -1244,7 +1244,7 @@
         "description": "South Williamsburg heavy-metal bar, with horror/biker memorabilia & a unique jukebox.",
         "link": "https://goo.gl/maps/3GJW2q73r1T4A3Bz9",
         "vibe": ["dive"],
-        "next": [],
+        "next": [116, 107, 106],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPKnXZf7HWm_ero4Ojbu8YRE4UH0dKIrjRPf1A4=w408-h272-k-no"
     },  
     "104": {
@@ -1256,7 +1256,7 @@
         "description": "Jumping, brick-walled watering hole featuring booze, a dog-friendly policy, games & a backyard.",
         "link": "https://goo.gl/maps/jhpkXB9mjke7Cts5A",
         "vibe": ["dive"],
-        "next": [],
+        "next": [105, 106, 98],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNAJ7FUN_69ZnZxgekprJHquC4Y54Xojq3nca07=w408-h306-k-no"
     },  
     "105": {
@@ -1268,7 +1268,7 @@
         "description": "Relaxed watering hole with beer, booze, hot dogs & snacks to fuel pool, darts & board game playing.",
         "link": "https://goo.gl/maps/rZgrcf9gYePA79fE8",
         "vibe": ["dive"],
-        "next": [],
+        "next": [106, 107, 96],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNsZPMVK1ukezZbgj714MIx1QkAFNQ-bTaJXd0w=w408-h306-k-no"
     },  
     "106": {
@@ -1280,7 +1280,7 @@
         "description": "Down-home, honky-tonk saloon pairing a woody space with beer, games & live country music.",
         "link": "https://goo.gl/maps/nNRW6Pdg5bhpjdaT8",
         "vibe": ["dive"],
-        "next": [],
+        "next": [105, 115, 116],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNfsO3uOKe73U2QnCLxUCFyp8IglU0tTGCEL_1y=w532-h240-k-no"
     },  
     "107": {
@@ -1292,7 +1292,7 @@
         "description": "No-frills barroom with cheap drinks, exposed-brick walls, a pool table & a spacious patio.",
         "link": "https://goo.gl/maps/iQuBpf4gxTqVFfwy6",
         "vibe": ["dive"],
-        "next": [],
+        "next": [127, 129, 130],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipM6zI9WlpRnlqHI23mLTK6yGsIFMkL92k2i-vXe=w408-h306-k-no"
     },  
     "108": {
@@ -1304,7 +1304,7 @@
         "description": "Hip, rustic-chic gay bar with a relaxed vibe offering craft beer, cocktails, trivia nights & live music.",
         "link": "https://goo.gl/maps/F56KGQnSWLskmJ2o7",
         "vibe": ["cocktail", "dive"],
-        "next": [],
+        "next": [109, 111, 114],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMz04D6gSAaotO5fowcwDSaeHvHkYWmENI4OYs-=w408-h306-k-no"
     },  
     "109": {
@@ -1316,7 +1316,7 @@
         "description": "A laid-back, dimly lit watering hole with cozy interior decor, a big backyard, and drag nights.",
         "link": "https://goo.gl/maps/HS63wmiYhkSsn2ra8",
         "vibe": ["dive"],
-        "next": [],
+        "next": [110, 114, 108],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipN8bknwxD46UjVfCzbEfkrlobzGo2wqAEZ_Rjlw=w408-h273-k-no"
     },  
     "110": {
@@ -1328,7 +1328,7 @@
         "description": "Gay & straight locals congregate at this bar with 2 fireplaces, a pool table & a lush outdoor space.",
         "link": "https://goo.gl/maps/vQj47SutE87RsFc9A",
         "vibe": ["dive"],
-        "next": [],
+        "next": [111, 112, 114],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipML0M1iZ4MkgHnnXXolmPhYna20VHK-2w5ZAksc=w408-h273-k-no"
     },  
     "111": {
@@ -1340,7 +1340,7 @@
         "description": "Budget drinks come with free pizza as well as karaoke, pool & Skee-Ball at this no-frills bar.",
         "link": "https://goo.gl/maps/7n9CMh7kQbGsN2Fj8",
         "vibe": ["dive"],
-        "next": [],
+        "next": [101, 114, 113],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNzZfESejK7D95UBMo4jANFAEKv_IYpTGmXV027=w408-h306-k-no"
     },  
     "112": {
@@ -1352,7 +1352,7 @@
         "description": "Bar hidden behind a deli, from the owner of Cerveceria Havemeyer, offering mezcal, ceviche & music.",
         "link": "https://goo.gl/maps/fNp4LMVcZuBcSqXr7",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [102, 147, 116],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO0Ti7i-IWj64izdvYjGZtcorOg_m6_oSVjk5Be=w408-h306-k-no"
     },  
     "113": {
@@ -1364,7 +1364,7 @@
         "description": "Cozy bar with leather banquettes & a patio serving lighthearted cocktails & Southern-tinged bites.",
         "link": "https://goo.gl/maps/epTnFdYsuiDxvXSp7",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [114, 147, 111],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNbsYypOV-lwjfAnxQ-VqKbhXMBFL19a7B6gWpI=w408-h271-k-no"
     },  
     "114": {
@@ -1375,8 +1375,8 @@
         "hours": "5pm - 4am",
         "description": "Herbal infusions star in the elaborate cocktails at this antiques-filled lounge with a roof patio.",
         "link": "https://goo.gl/maps/kGUTwaG62tT6Q27z9",
-        "vibe": ["cocktail", "rooftop"],
-        "next": [],
+        "vibe": ["rooftop", "cocktail"],
+        "next": [113, 101, 110],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipP7XazqHrDq8iOK0pry0WVSUHygf5kuOVXLZ33y=w408-h258-k-no"
     },  
     "115": {
@@ -1388,7 +1388,7 @@
         "description": "Attractive space for carefully-prepared craft cocktails.",
         "link": "https://goo.gl/maps/GjpP3DCzZUHkcYeh9",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [104, 116, 105],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPt63hPy47DTK9sKIRZhAIPTT5TJVrzZreBU4Qa=w408-h392-k-no"
     },  
     "116": {
@@ -1400,7 +1400,7 @@
         "description": "Creative Latin-Asian cocktails offered in snug surrounds with whitewashed brick walls.",
         "link": "https://goo.gl/maps/44Zq8poMHjj1QXbD6",
         "vibe": ["dive", "cocktail"],
-        "next": [],
+        "next": [115, 104, 106],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNw4liUjY70KIudN2t7fi87nyI32W2p6qRbhUI-=w408-h306-k-no"
     },  
     "117": {
@@ -1412,7 +1412,7 @@
         "description": "Wine bar offering an array of natural selections",
         "link": "https://g.page/tailfeatherbar?share",
         "vibe": ["natty"],
-        "next": [],
+        "next": [118, 119, 146],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipM--I2R9zSVhUBdk1wIhvcmzS02myB25Cw3IhPk=w426-h240-k-no"
     },  
     "118": {
@@ -1424,7 +1424,7 @@
         "description": "Mellow neighborhood meeting place for Dumbo locals serving wines, beers & spirits.",
         "link": "https://goo.gl/maps/LksRJmjAwGqDURuo9",
         "vibe": ["dive"],
-        "next": [],
+        "next": [119, 139, 132],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipP0mXGr5mdTUpcaHIxKMe_H1bJj2Pq8mSJHHT_G=w408-h306-k-no"
     },  
     "119": {
@@ -1436,7 +1436,7 @@
         "description": "",
         "link": "https://goo.gl/maps/ZpqB8CF1YYCBEM5v6",
         "vibe": ["dive"],
-        "next": [],
+        "next": [120, 118, 145],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPR2t8u-Lu0qgxFw6Rcf--0OxMOeMvWApe0iBDb=w408-h408-k-no"
     },  
     "120": {
@@ -1448,7 +1448,7 @@
         "description": "Contemporary place for wood-fired Med & Middle Eastern fare with wine, cocktails & river views.",
         "link": "https://goo.gl/maps/ifMWHo6Hd3XqQsgC7",
         "vibe": ["natty", "cocktail"],
-        "next": [],
+        "next": [139, 140, 118],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNxHUhRxbBwCjjIfDbG5QsNRx-URePgQiistUeP=w408-h271-k-no"
     },
     "121": {
@@ -1460,7 +1460,7 @@
         "description": "Industrial-chic local bar with signature cocktails, craft beers & shots, weekend DJs & late closing.",
         "link": "https://goo.gl/maps/5iUM1TZYXmCnnJRY7",
         "vibe": ["dive"],
-        "next": [],
+        "next": [122, 123, 124],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMFhzS3rJEAf2cXGDc8gtdrqAm3Cb0P0T8_uiYE=w408-h306-k-no"
     },  
     "122": {
@@ -1472,7 +1472,7 @@
         "description": "Laid-back queer cocktail bar with live jazz, small plates, craft beers & a garden patio.",
         "link": "https://goo.gl/maps/mywSaz3UBCwCTQc47",
         "vibe": ["dive", "cocktail"],
-        "next": [],
+        "next": [121, 123, 124],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPx8mOPJU7wI_AmVG0g4oQJnEHTX7Zi_FsvopTW=w408-h306-k-no"
     },  
     "123": {
@@ -1484,7 +1484,7 @@
         "description": "",
         "link": "https://goo.gl/maps/MdoMqHW5P8mhjKdC6",
         "vibe": ["dive"],
-        "next": [],
+        "next": [122, 124, 125],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNZm5qAHyBK-u3TxmGfA1-xd_Ucvhq03UZPOS4x=w408-h272-k-no"
     },  
     "124": {
@@ -1496,7 +1496,7 @@
         "description": "Ironically named bar featuring cheap drinks, a photo booth & a six-hole mini-golf course.",
         "link": "https://goo.gl/maps/Ps54ju5CWTAT8QcJ8",
         "vibe": ["dive"],
-        "next": [],
+        "next": [122, 125, 123],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNm9dTC69TUOBC7o_TdQOzxIPcaGc0Mjya7gcj0=w408-h307-k-no"
     },  
     "125": {
@@ -1508,7 +1508,7 @@
         "description": "Narrow, relaxed bar with simple selection of draft & can beers, wine, classic cocktails & shots.",
         "link": "https://goo.gl/maps/Z426UoUGsh8NRE1x6",
         "vibe": ["dive"],
-        "next": [],
+        "next": [126, 121, 122],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOmKaQjztom7mkpsK8t2xPeAG0NWI64D6A0Z16U=w408-h306-k-no"
     },  
     "126": {
@@ -1520,7 +1520,7 @@
         "description": "",
         "link": "https://goo.gl/maps/e35B4JjsUhxDS9NY6",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [125, 122, 121],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPDAE4FA8-YwakVTwQtmiGgAMUwgg49-nKuZb3a=w408-h272-k-no"
     },  
     "127": {
@@ -1532,7 +1532,7 @@
         "description": "Cool haunt offering live music most nights, plus gourmet bar fare, creative drinks & weekend brunch.",
         "link": "https://goo.gl/maps/ixwLj2GKHJQieojEA",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [130, 129, 128],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMJ_gICA9z4tBNKZK3tVdd6Y_X32R-paojSftXl=w408-h272-k-no"
     },  
     "128": {
@@ -1544,7 +1544,7 @@
         "description": "",
         "link": "https://goo.gl/maps/cP8LsnBAZKkkG2MFA",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [130, 129, 127],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPi6H7h72FapnwastKc9CGoLz174r8gZaB6Ocma=w408-h306-k-no"
     },  
     "129": {
@@ -1556,7 +1556,7 @@
         "description": "Atmospheric nightclub & coffeehouse in a former garage featuring music, drinks & various events.",
         "link": "https://g.page/TBABrooklyn?share",
         "vibe": ["dive"],
-        "next": [],
+        "next": [130, 127, 128],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMceleUuwWhVwL6mm7Ia8Un_IWuTA99CHoJ8Hyo=w408-h272-k-no"
     },  
     "130": {
@@ -1568,7 +1568,7 @@
         "description": "Stylish, modern bar & restaurant offering handcrafted cocktails, bar bites & global plates.",
         "link": "https://goo.gl/maps/ynirefDa18x4tj1T7",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [129, 128, 127],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNcVaTPuIjcr_IIMaqLyZhv87KP0Gb6sgaA8AV8=w408-h271-k-no"
     },
     "131": {
@@ -1580,7 +1580,7 @@
         "description": "",
         "link": "https://goo.gl/maps/vL19bBbhX9oM3LA56",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [132, 120, 118],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOYJcCNw4RZcFzixOx6nDOdImwialGWoAAwlFo=w408-h544-k-no"
     },
     "132": {
@@ -1592,7 +1592,7 @@
         "description": "",
         "link": "https://goo.gl/maps/sZC35RYha6WzDrBN7",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [131, 133, 134],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNnik9TPLuU1tXKl4OUNKwWlQ6QFjQ1nyfB96XP=w408-h306-k-no"
     },  
     "133": {
@@ -1604,7 +1604,7 @@
         "description": "",
         "link": "https://goo.gl/maps/gvuZqP5UxBqK8cEu8",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [132, 134, 135],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO-lqT47lvQZ8WP8U0UesZ65AMez_Mw-chvYPeM=w408-h306-k-no"
     },  
     "134": {
@@ -1616,7 +1616,7 @@
         "description": "Dark, intimate speakeasy with a chill, classy atmosphere, for creative cocktails & small plates.",
         "link": "https://goo.gl/maps/K4ASWvd79ZUZEKYs7",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [133, 135, 136],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNPR93drIH9IfmZyRgrbol4NtMWYyRiCKGh6eUs=w408-h544-k-no"
     },  
     "135": {
@@ -1628,7 +1628,7 @@
         "description": "Listening bar with deep booths & a marble-topped bar serving light bites & craft cocktails.",
         "link": "https://g.page/bohemien-bar?share",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [133, 134, 136],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPNWWVQqXKBT1WMJHjqmC8BNSGszxx7TwEy8rkw=w408-h272-k-no"
     },  
     "136": {
@@ -1640,7 +1640,7 @@
         "description": "Cozy bar with coastal Italian vibes serving natural wines, Italian-style aperitifs & small plates.",
         "link": "https://goo.gl/maps/iE64RwwEWB236GQc6",
         "vibe": ["natty"],
-        "next": [],
+        "next": [133, 134, 135],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPxCv3OeqqVoiK3eqnGcfAsnkqgSIqz2Oo4rqWF=w408-h272-k-no"
     },
     "137": {
@@ -1652,7 +1652,7 @@
         "description": "",
         "link": "https://goo.gl/maps/9uGJnD9Wxx2gunA18",
         "vibe": ["cocktail", "rooftop"],
-        "next": [],
+        "next": [50, 51, 52],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO4v13UJG0kYMNGpphKbA7_y0eZZ7rxUX9Xmz0F=w408-h262-k-no"
     },  
     "138": {
@@ -1664,7 +1664,7 @@
         "description": "",
         "link": "https://goo.gl/maps/ErzuAT5Sh62WPN4J6",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [16, 17, 18],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO3nVEjK-PpoViMWgL1EwIZAWY1DpUwW5BzoTZ-=w426-h240-k-no"
     },  
     "139": {
@@ -1676,7 +1676,7 @@
         "description": "",
         "link": "https://goo.gl/maps/fXcbPzjE5UEFcmNh6",
         "vibe": ["cocktail", "rooftop"],
-        "next": [],
+        "next": [140, 141, 142],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNTVwBzVJXaYNP2_nzR6L6FPjZLSZD8DUjgCvi-=w426-h240-k-no"
     },  
     "140": {
@@ -1688,7 +1688,7 @@
         "description": "Rooftop spot for fancy cocktails & choice bites on the roof of 1 Hotel, with Manhattan views.",
         "link": "https://goo.gl/maps/bKyHLdi6kHjsW5VXA",
         "vibe": ["cocktail", "rooftop"],
-        "next": [],
+        "next": [139, 141, 142],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOuJ84aX9MGY8RISvCxfz23XBRDq9HTKIjsinqO=w408-h306-k-no"
     },  
     "141": {
@@ -1700,7 +1700,7 @@
         "description": "Styled after Marie Antoinette's chambers, this cozy hideaway offers cocktails, snacks & live jazz.",
         "link": "https://goo.gl/maps/zLZypuQdcV1G35zX9",
         "vibe": ["cocktail"],
-        "next": [],
+        "next": [139, 140, 142],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMUS770pU_1kH5inK_BFS8ELQgjr1cxRNyTtRLG=w408-h272-k-no"
     },  
     "142": {
@@ -1712,7 +1712,7 @@
         "description": "Locally sourced small plates paired with wine & classic cocktails in a casual-chic setting.",
         "link": "https://goo.gl/maps/2HEP8UD4EpQsi6tg7",
         "vibe": ["cocktail", "natty"],
-        "next": [],
+        "next": [140, 143, 144],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipOMmj2EaUklgOki6GIxNdSBzkiVGvpe4TDDuWf5=w408-h306-k-no"
     },  
     "143": {
@@ -1724,7 +1724,7 @@
         "description": "Mellow hangout with craft cocktails, draft beer, local art & a tranquil garden patio.",
         "link": "https://goo.gl/maps/MdX65bm2YVng2T3y5",
         "vibe": ["dive", "cocktail"],
-        "next": [],
+        "next": [142, 144, 145],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMbPxCyqbB08-DGjpV-ZIZIJCJ73nUuvorZx8MJ=w408-h272-k-no"
     },  
     "144": {
@@ -1736,7 +1736,7 @@
         "description": "Local watering hole with understated decor, sidewalk & back-patio seating & a modern pub-fare menu.",
         "link": "https://goo.gl/maps/Fqck5uE7ekqfB33S9",
         "vibe": ["dive", "cocktail"],
-        "next": [],
+        "next": [143, 145, 146],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipODLfdx7wUq9qr7gLYwMfWVDpJyijjIO3f0dru2=w408-h408-k-no"
     },
     "145": {
@@ -1748,7 +1748,7 @@
         "description": "Innovative venue hosting wine tastings from its rooftop vineyard, plus dinners, yoga & movie nights.",
         "link": "https://goo.gl/maps/aiSvmqnzSM1AvnPq9",
         "vibe": ["natty", "rooftop"],
-        "next": [],
+        "next": [146, 144, 143],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNWAfZmNBHeZ1sZ9gm8hGs9Xu828ndUoP7-cyDB=w408-h306-k-no"
     },
     "146": {
@@ -1760,7 +1760,19 @@
         "description": "",
         "link": "https://goo.gl/maps/3KJpYuc7w5u3eQVJA",
         "vibe": ["cocktail"],
-        "next": [""],
+        "next": [143, 144, 145],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNZ-C3J0CCrvgZ49CyaW6wE8ybhtB2fRzMqOqF2=w408-h544-k-no"
-    }      
+    },
+    "147": {
+        "name": "The Commodore",
+        "address": "366 Metropolitan Ave, Brooklyn, NY 11211",
+        "coords": [40.71457173711888, -73.9558939],
+        "burough": "Brooklyn",
+        "hours": "4pm - 4am",
+        "description": "Fried chicken, biscuits & other Southern dishes in a low-key saloon where you order at the bar.",
+        "link": "https://goo.gl/maps/8SA9b4HE1b1tNvbJ6",
+        "vibe": ["cocktail"],
+        "next": [112, 101, 110],
+        "pic": "https://lh5.googleusercontent.com/p/AF1QipNRUqpkI4TbDUDPunhHf0W8hEjVaPO6Cmex5U8e=w408-h304-k-no"
+    }   
 }

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-    <!-- <script src="https://kit.fontawesome.com/d1c300571b.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/d1c300571b.js" crossorigin="anonymous"></script>
     <script src="./dist/main.js"></script>
     <title>What's the vibe tn?</title>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk4-lqbqOGBWjFbeIiHcg6w3qAz8LCYrU&callback=initMap" defer></script>
@@ -85,9 +85,11 @@
                     <!-- <div id="bop_info"> -->
                       <aside id="instructions_overlay">Select a spot on the map</aside>
                       <div id="switch_text">Wanna switch up the vibe?</div>
-                      <div id="boptext"></div>
-                      <div id="bop_photo"></div>
-                      <button id="bop_switch" onclick="switchBar(next)"><img src="assets/NicePng_crossed-arrows-png_1646641-removebg-preview.png" alt="criss-cross" style="height: 60px"></button>
+                      <!-- <div id="boptext"></div> -->
+                      <!-- <div id="bop_photo"></div> -->
+                      <!-- <button id="bop_left" onClick="prevNext(next, currentNextNum)"><i class="fa-solid fa-caret-left"></i></button> -->
+                      <button id="bop_switch" onclick="switchBar(currentNextNum)"></button>
+                      <button id="bop_right" onClick="nextNext(next, currentNextNum)"><i class="fa-solid fa-angles-right"></i></button>
                     <!-- </div> -->
                   <!-- </div> -->
                 </aside>

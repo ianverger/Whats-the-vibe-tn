@@ -4,6 +4,8 @@ let currentVibe = "";
 window.switchVibe = switchVibe;
 window.showPage = showPage;
 window.switchBar = switchBar;
+window.nextNext = nextNext;
+window.prevNext = prevNext;
 // window.showBop = showBop;
 // window.currentNextBar = currentNextBar;
 
@@ -89,20 +91,21 @@ function initMap(currentVibe) {
         marker.setClickable(true);
         let info = document.querySelector("#info"); 
         let infoOverlay = document.querySelector("#info_overlay");
-        // let bopButton = document.querySelector("#bop_overlay");
-        let instructions = document.querySelector("#instructions_overlay");
+        let bop = document.querySelector("#bop");
         let bopButton = document.querySelector("#bop_switch");
+        let instructions = document.querySelector("#instructions_overlay");
+        
 
 // When a marker is clicked, overlayed divs on both the "info" and "next" windows are pushed to the 
 // bottom and top of the display (respectively) to allow for a smooth user experience. A function to 
 // pull up the info window is invoked, passing in all of the related data from the database.
         marker.addListener("click", () => {
             
-            let icon = {
-                url: "assets/bar-icon.png",
+            let bigIcon = {
+                url: icon,
                 scaledSize: new google.maps.Size(50, 50)
             }
-            marker.setIcon(icon);
+            marker.setIcon(bigIcon);
          
             infoOverlay.style.opacity = 0;
             infoOverlay.style.zIndex = -1; 
@@ -111,8 +114,10 @@ function initMap(currentVibe) {
             // bopButton.style.opacity = 1;
             bopButton.style.zIndex = 1; 
             info.setAttribute('class', '');
+            bop.setAttribute('class', '');
             setTimeout(() => {
                 info.setAttribute('class', 'info_flash');
+                bop.setAttribute('class', 'info_flash');
             }, 1)
             initInfo(bar.name, bar.address, bar.hours, bar.description, bar.link, bar.next, bar.pic);
         })
@@ -139,28 +144,66 @@ function initInfo(name, address, hours, description, link, next, pic) {
         `<img alt="" class="pic" src="${pic}"/>`
         );
         window.next = next;
-        switchBar(next);
+        window.currentNextNum = next[Math.floor(Math.random() * next.length)];
+        setNext(currentNextNum);
+        console.log(next)
 };
-    
-    function switchBar(next) {
-    console.log(next)
-    let currentNextNum = next[Math.floor(Math.random() * next.length)];
-    let currentNextBar = obj[currentNextNum];
-    console.log(currentNextBar)
-    let bopPhoto = document.querySelector("#bop_photo");
-    let bopText = document.querySelector("#boptext");
 
-    let currentNextVibePic = currentNextBar.pic
+//bop stuff--------------------------------------------------------------------
+
+
+function setNext(currentNextNum) {
+    let currentNextBar = obj[currentNextNum];
+    let bopButton = document.querySelector("#bop_switch");
+    // let rightButton =  document.querySelector("#bop_right");
     let currentNextVibe = currentNextBar.vibe[0]
-    // bopPhoto.innerHTML = `<img alt="" class="nextpic" src="${currentNextVibePic}"/>`
+ 
     let bopLogo = "";
         if (currentNextVibe === 'natty') bopLogo = "assets/natty_logo.png";
         if (currentNextVibe === 'cocktail') bopLogo = "assets/cocktail_logo.png";
         if (currentNextVibe === 'dive') bopLogo = "assets/dive_logo.png";
         if (currentNextVibe === 'rooftop') bopLogo = "assets/rooftop_logo.png";
-    bopText.innerHTML = (`${currentNextBar.name}
-    <br>
+    bopButton.innerHTML = (`
     <img alt="" class="bop_logo" src="${bopLogo}"/>
     `)
+    // console.log(currentNextBar);
+    // console.log(currentNextVibe);
+}
+
+function nextNext(next, currentNextNum) {
+    let currentIndex = next.indexOf(currentNextNum);
+    let nextIndex = (currentIndex + 1) % next.length;
+    window.currentNextNum = next[nextIndex];
+    setNext(currentNextNum);
+}
+
+function prevNext(next, currentNextNum) {
+    let currentIndex = next.indexOf(currentNextNum);
+    let prevIndex = (currentIndex - 1);
+    if (prevIndex === -1) prevIndex = 2;
+    window.currentNextNum = next[prevIndex];
+    setNext(currentNextNum);
+}
+
+function switchBar(currentNextNum) {
+    let info = document.querySelector("#info"); 
+    let bop = document.querySelector("#bop");
+    let currentNextBar = obj[currentNextNum];
+    let currentNextVibe = currentNextBar.vibe[0]
+    console.log(currentNextBar)
+
+    if (currentVibe !== currentNextVibe) {
+        let event = document.getElementById(`${currentNextVibe}-b`)
+        event.click();
+    } else {
+        info.setAttribute('class', '');
+        bop.setAttribute('class', '');
+        setTimeout(() => {
+        info.setAttribute('class', 'info_flash');
+        bop.setAttribute('class', 'info_flash');
+    }, 1)
+    }
+
+    initInfo(currentNextBar.name, currentNextBar.address, currentNextBar.hours, currentNextBar.description, currentNextBar.link, currentNextBar.next, currentNextBar.pic);
 }
 
