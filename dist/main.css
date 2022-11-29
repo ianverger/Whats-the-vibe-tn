@@ -268,7 +268,7 @@ h1, h2 {
   font-size: 16px;
 }
 
-.info_flash {
+.cocktail-nxt-button, .dive-nxt-button, .rooftop-nxt-button, .natty-nxt-button, .info_flash {
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1.5s;
 }
@@ -331,47 +331,68 @@ h1, h2 {
   display: flex;
   align-items: center;
   font-family: "Rock Salt", cursive;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 #bop_switch {
-  width: 150px;
+  width: 160px;
   height: 100px;
   border-radius: 10px;
-  border: 1px grey solid;
+  box-shadow: 2px 2px 2px grey;
   font-size: large;
 }
 
+.cocktail-nxt-button, .dive-nxt-button, .natty-nxt-button, .rooftop-nxt-button {
+  background: rgb(166, 164, 164);
+  background: linear-gradient(45deg, rgb(166, 164, 164) 0%, rgb(255, 255, 255) 100%);
+}
+
 #next_vibe_logo {
-  height: auto;
+  max-height: 75%;
   max-width: 85%;
 }
 
-#next_vibe_logo:hover {
-  height: auto;
-  max-width: 100%;
-}
-
-#bop_left, #bop_right {
+#bop_right {
   width: 105px;
   height: 105px;
   border-radius: 50%;
   margin: 0px;
   padding: 0px;
   border: none;
-  background-color: inherit;
+  background-color: transparent;
 }
 
-#bop_left:hover, #bop_right:hover, #bop_switch:hover {
+#bop_right:hover, #bop_switch:hover {
   cursor: pointer;
 }
 
 #bop_switch:hover {
-  background-color: rgb(145, 145, 145);
+  box-shadow: 4px 4px 4px grey;
+}
+
+#bop_switch:hover > #next_vibe_logo {
+  max-height: 85%;
+  max-width: 100%;
+}
+
+.cocktail-nxt-button:hover {
+  background: linear-gradient(45deg, rgb(166, 164, 164) 0%, rgb(68, 49, 141) 85%);
+}
+
+.dive-nxt-button:hover {
+  background: linear-gradient(45deg, rgb(164, 164, 164) 0%, rgb(111, 34, 50) 60%);
+}
+
+.natty-nxt-button:hover {
+  background: linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(212, 165, 154) 65%);
+}
+
+.rooftop-nxt-button:hover {
+  background: linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(55, 71, 133) 85%);
 }
 
 #switch_arrow {
-  height: 75px;
+  height: 95px;
 }
 
 #switch_arrow:hover {
@@ -385,7 +406,7 @@ h1, h2 {
   -o-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
-  height: 100px;
+  height: 105px;
 }
 
 #bop_info {

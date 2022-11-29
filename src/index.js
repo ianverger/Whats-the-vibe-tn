@@ -58,6 +58,7 @@ function switchTitle(vibe) {
 // gesture handling, zoom, etc.
 
 let currentMarkers = [];
+let lastClick = null;
 
 function initMap(currentVibe) {
     const map = new google.maps.Map(document.getElementById('map'), {
@@ -73,7 +74,6 @@ function initMap(currentVibe) {
 // currently selected "vibe" and pull up only those markers on the map.
 
     let arr = Object.values(obj).filter(ele => ele.vibe.includes(currentVibe));
-    let lastClick = null;
     
     for (let bar of arr) {
         let icon ="";
@@ -110,8 +110,13 @@ function initMap(currentVibe) {
 
             lastClick = marker;
 
+            let selectedIcon = "";
+                if (currentVibe === 'natty') selectedIcon = "assets/selected_natty.png";
+                if (currentVibe === 'cocktail') selectedIcon = "assets/selected_cocktail_icon2.png";
+                if (currentVibe === 'dive') selectedIcon = "assets/selected_dive.png";
+                if (currentVibe === 'rooftop') selectedIcon = "assets/selected_rooftop.png";
             let bigIcon = {
-                url: icon,
+                url: selectedIcon,
                 scaledSize: new google.maps.Size(55, 58)
             }
             marker.setIcon(bigIcon);
@@ -131,8 +136,8 @@ function initMap(currentVibe) {
             initInfo(bar.name, bar.address, bar.hours, bar.description, bar.link, bar.next, bar.pic);
         })
     }
-    console.log(currentMarkers[1].position.lat())
-    console.log(currentMarkers[1].position.lng())
+    // console.log(currentMarkers[1].position.lat())
+    // console.log(currentMarkers[1].position.lng())
 }
 
 window.initMap = initMap;
@@ -167,6 +172,10 @@ function setNext(currentNextNum) {
     let bopButton = document.querySelector("#bop_switch");
     let currentNextVibe = currentNextBar.vibe[0];
  
+    setTimeout(() => {
+        bopButton.setAttribute('class', `${currentNextVibe}-nxt-button`)
+    }, 2);
+
     let bopLogo = "";
         if (currentNextVibe === 'natty') bopLogo = "assets/natty_logo.png";
         if (currentNextVibe === 'cocktail') bopLogo = "assets/cocktail_logo.png";
@@ -183,7 +192,6 @@ function nextNext(next, currentNextNum) {
     currentNextNum = next[nextIndex];
     window.currentNextNum = next[nextIndex];
     setNext(currentNextNum);
-    // console
 }
 
 function switchBar(currentNextNum) {
@@ -193,13 +201,32 @@ function switchBar(currentNextNum) {
     let currentNextVibe = currentNextBar.vibe[0];
     let currentNextLat = currentNextBar.coords[0];
     let currentNextLng = currentNextBar.coords[1];
-    console.log(currentMarkers)
-    // console.log(currentNextLat);
-    // console.log(currentNextLng);
+    let currentNextMarker = null;
+    
+    let icon ="";
+        if (currentVibe === 'natty') icon = "assets/bar_icon_beige.png";
+        if (currentVibe === 'cocktail') icon = "assets/bar_icon_pink2.png";
+        if (currentVibe === 'dive') icon = "assets/bar_icon_maroon.png";
+        if (currentVibe === 'rooftop') icon = "assets/bar_icon_blue.png";
+    let smallIcon = {
+        url: icon,
+        scaledSize: new google.maps.Size(38, 40)
+    }
+    if (lastClick) lastClick.setIcon(smallIcon);
+
+
+    for (let i = 0; i < currentMarkers.length; i++) {
+        let marker = currentMarkers[i];
+        if ((marker.position.lat() === currentNextLat) && (marker.position.lng() === currentNextLng)) {
+            currentNextMarker = marker;
+        }
+    }
+
+    lastClick = currentNextMarker;
 
     if (currentVibe !== currentNextVibe) {
         let event = document.getElementById(`${currentNextVibe}-b`);
-        event.click();
+        event.click()
     } else {
         info.setAttribute('class', '');
         bop.setAttribute('class', '');
@@ -210,7 +237,19 @@ function switchBar(currentNextNum) {
     }
 
     initInfo(currentNextBar.name, currentNextBar.address, currentNextBar.hours, currentNextBar.description, currentNextBar.link, currentNextBar.next, currentNextBar.pic);
+    
+    let selectedIcon = "";
+        if (currentVibe === 'natty') selectedIcon = "assets/selected_natty.png";
+        if (currentVibe === 'cocktail') selectedIcon = "assets/selected_cocktail_icon2.png";
+        if (currentVibe === 'dive') selectedIcon = "assets/selected_dive.png";
+        if (currentVibe === 'rooftop') selectedIcon = "assets/selected_rooftop.png";
+    let bigIcon = {
+        url: selectedIcon,
+        scaledSize: new google.maps.Size(55, 58)
+    }
+    // setTimeout(() => {
+        currentNextMarker.setIcon(bigIcon);
+    // }, 1000);
 }
-// window.currentMarkers = currentMarkers;
-// if (currentMarkers.length > 0) console.log(currentMarkers[1])
+
 
