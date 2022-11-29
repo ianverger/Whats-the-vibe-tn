@@ -5,7 +5,7 @@ window.switchVibe = switchVibe;
 window.showPage = showPage;
 window.switchBar = switchBar;
 window.nextNext = nextNext;
-window.prevNext = prevNext;
+// window.prevNext = prevNext;
 // window.showBop = showBop;
 // window.currentNextBar = currentNextBar;
 
@@ -33,7 +33,6 @@ function switchVibe(event, vibe) {
     for (i = 0; i < vibez.length; i++) {
         let innertext = vibez[i].textContent
         vibez[i].id = vibez[i].id.replace("active", `${innertext}-b`);
-        console.log(vibez[i])
     };
     
     
@@ -57,6 +56,9 @@ function switchTitle(vibe) {
 
 // Google Maps API boiler plate code used to initialize the map with chosen latitude and longitude, 
 // gesture handling, zoom, etc.
+
+let currentMarkers = [];
+
 function initMap(currentVibe) {
     const map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 40.72163829901166, lng: -73.979618357371},
@@ -69,9 +71,9 @@ function initMap(currentVibe) {
     
 // Here I turn my JSON database into an array of objects, filter to the locations pertaining to the
 // currently selected "vibe" and pull up only those markers on the map.
-    
 
     let arr = Object.values(obj).filter(ele => ele.vibe.includes(currentVibe));
+    let lastClick = null;
     
     for (let bar of arr) {
         let icon ="";
@@ -84,9 +86,10 @@ function initMap(currentVibe) {
             map: map,
             icon: {
                 url: icon,
-                scaledSize: new google.maps.Size(40, 40)
+                scaledSize: new google.maps.Size(38, 40)
             }
         });
+        currentMarkers.push(marker);
         marker.setMap(map);
         marker.setClickable(true);
         let info = document.querySelector("#info"); 
@@ -95,15 +98,21 @@ function initMap(currentVibe) {
         let bopButton = document.querySelector("#bop_switch");
         let instructions = document.querySelector("#instructions_overlay");
         
-
 // When a marker is clicked, overlayed divs on both the "info" and "next" windows are pushed to the 
 // bottom and top of the display (respectively) to allow for a smooth user experience. A function to 
 // pull up the info window is invoked, passing in all of the related data from the database.
         marker.addListener("click", () => {
-            
+            let smallIcon = {
+                url: icon,
+                scaledSize: new google.maps.Size(38, 40)
+            }
+            if (lastClick) lastClick.setIcon(smallIcon);
+
+            lastClick = marker;
+
             let bigIcon = {
                 url: icon,
-                scaledSize: new google.maps.Size(50, 50)
+                scaledSize: new google.maps.Size(55, 58)
             }
             marker.setIcon(bigIcon);
          
@@ -118,10 +127,12 @@ function initMap(currentVibe) {
             setTimeout(() => {
                 info.setAttribute('class', 'info_flash');
                 bop.setAttribute('class', 'info_flash');
-            }, 1)
+            }, 2)
             initInfo(bar.name, bar.address, bar.hours, bar.description, bar.link, bar.next, bar.pic);
         })
     }
+    console.log(currentMarkers[1].position.lat())
+    console.log(currentMarkers[1].position.lng())
 }
 
 window.initMap = initMap;
@@ -162,24 +173,17 @@ function setNext(currentNextNum) {
         if (currentNextVibe === 'dive') bopLogo = "assets/dive_logo.png";
         if (currentNextVibe === 'rooftop') bopLogo = "assets/rooftop_logo.png";
     bopButton.innerHTML = (`
-    <img alt="" class="bop_logo" src="${bopLogo}"/>
+    <img id="next_vibe_logo" alt="" class="bop_logo" src="${bopLogo}"/>
     `);
-
 }
 
 function nextNext(next, currentNextNum) {
     let currentIndex = next.indexOf(currentNextNum);
     let nextIndex = (currentIndex + 1) % next.length;
+    currentNextNum = next[nextIndex];
     window.currentNextNum = next[nextIndex];
     setNext(currentNextNum);
-}
-
-function prevNext(next, currentNextNum) {
-    let currentIndex = next.indexOf(currentNextNum);
-    let prevIndex = (currentIndex - 1);
-    if (prevIndex === -1) prevIndex = 2;
-    window.currentNextNum = next[prevIndex];
-    setNext(currentNextNum);
+    // console
 }
 
 function switchBar(currentNextNum) {
@@ -187,6 +191,11 @@ function switchBar(currentNextNum) {
     let bop = document.querySelector("#bop");
     let currentNextBar = obj[currentNextNum];
     let currentNextVibe = currentNextBar.vibe[0];
+    let currentNextLat = currentNextBar.coords[0];
+    let currentNextLng = currentNextBar.coords[1];
+    console.log(currentMarkers)
+    // console.log(currentNextLat);
+    // console.log(currentNextLng);
 
     if (currentVibe !== currentNextVibe) {
         let event = document.getElementById(`${currentNextVibe}-b`);
@@ -197,9 +206,11 @@ function switchBar(currentNextNum) {
         setTimeout(() => {
             info.setAttribute('class', 'info_flash');
             bop.setAttribute('class', 'info_flash');
-        }, 1);
+        }, 2);
     }
 
     initInfo(currentNextBar.name, currentNextBar.address, currentNextBar.hours, currentNextBar.description, currentNextBar.link, currentNextBar.next, currentNextBar.pic);
 }
+// window.currentMarkers = currentMarkers;
+// if (currentMarkers.length > 0) console.log(currentMarkers[1])
 
