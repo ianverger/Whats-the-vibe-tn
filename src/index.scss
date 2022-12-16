@@ -26,6 +26,7 @@ body {
     display:flex;
     align-items: center;
     flex-direction: column;
+    color: white;
 }
 
 #splash_row {
@@ -41,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 20px;
+    border-radius: 3px;
 }
 
 #splash_button > .vibe {
@@ -72,6 +74,15 @@ body {
 h1, h2 {
     color: white;
     font-family: 'Rock Salt', cursive;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.splash > p {
+    margin: 0px;
+    // font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rock Salt';
+    font-size: small;
 }
 
 #info {
@@ -81,7 +92,7 @@ h1, h2 {
     border: 10px solid white;
     background-color: rgb(181, 181, 181);
     width: 500px;
-    height: 300px;
+    height: 250px;
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -97,7 +108,7 @@ h1, h2 {
     align-items: center;
     background-color: inherit; 
     width: 490px;
-    height: 280px;
+    height: 240px;
     padding: inherit;
     position: absolute;
     z-index: 1;
@@ -105,6 +116,7 @@ h1, h2 {
 
 #deets {
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cocktail-nxt-button, .dive-nxt-button, .rooftop-nxt-button, .natty-nxt-button, .info_flash {
@@ -131,6 +143,7 @@ h1, h2 {
 #bop {
     font-size: xx-large;
     display: flex;
+    flex-direction: column;
     border-radius: 15px;
     align-items: center;
     justify-content: space-around;
@@ -138,7 +151,7 @@ h1, h2 {
     background-color: rgb(181, 181, 181);
     margin-left: 20px;
     width: 500px;
-    height: 118px;
+    height: 170px;
     padding: 10px;
     position: relative;
     // gap: 25px;
@@ -147,7 +160,7 @@ h1, h2 {
 
 #bop_buttons {
     display: flex;
-    // gap: none;
+    gap: 25px;
     // align-items: center;
     // justify-content: center;
 }
@@ -161,7 +174,7 @@ h1, h2 {
     align-items: center;
     background-color: inherit; 
     width: 490px;
-    height: 115px;
+    height: 165px;
     padding: 0px;
     position: absolute;
     z-index: 5;
@@ -171,18 +184,19 @@ h1, h2 {
 }
 
 #switch_text {
-    width: 55%;
-    height: 100%;
+    width: 100%;
+    // height: 100%;
     text-align: center;
-    display: flex;
-    align-items: center;
-    font-family: 'Rock Salt', cursive;
+    margin-top: 0px;
+    // display: flex;
+    // align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-#bop_switch {
+#bop_switch, #bop_switch2 {
     width: 160px;
-    height: 100px;
+    height: 90px;
     // height: 85%;
     border-radius: 10px;
     // border: 3px grey solid;
@@ -213,12 +227,8 @@ h1, h2 {
     background-color: transparent;
 }
 
-#bop_right:hover, #bop_switch:hover {
+#bop_right:hover, #bop_switch:hover,  #bop_switch2:hover{
     cursor: pointer;
-}
-
-#bop_right:hover {
-    // box-shadow: 0px 0px 55px 10px rgba(255, 255, 255, 0.49);
 }
 
 #bop_switch:hover {
@@ -402,4 +412,9 @@ to {opacity: 1;}
     font-size: xx-large;
 }
 
+@media screen and (max-width: 1200px) {
+    #map {
+        width: 50%;
+    }
 
+}

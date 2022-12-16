@@ -4,7 +4,7 @@ let currentVibe = "";
 window.switchVibe = switchVibe;
 window.showPage = showPage;
 window.switchBar = switchBar;
-window.nextNext = nextNext;
+// window.nextNext = nextNext;
 // window.prevNext = prevNext;
 // window.showBop = showBop;
 // window.currentNextBar = currentNextBar;
@@ -95,7 +95,7 @@ function initMap(currentVibe) {
         let info = document.querySelector("#info"); 
         let infoOverlay = document.querySelector("#info_overlay");
         let bop = document.querySelector("#bop");
-        let bopButton = document.querySelector("#bop_switch");
+        // let bopButton = document.querySelector("#bop_switch");
         let instructions = document.querySelector("#instructions_overlay");
         
 // When a marker is clicked, overlayed divs on both the "info" and "next" windows are pushed to the 
@@ -112,7 +112,7 @@ function initMap(currentVibe) {
 
             let selectedIcon = "";
                 if (currentVibe === 'natty') selectedIcon = "assets/selected_natty.png";
-                if (currentVibe === 'cocktail') selectedIcon = "assets/selected_cocktail_icon2.png";
+                if (currentVibe === 'cocktail') selectedIcon = "assets/selected_cocktail.png";
                 if (currentVibe === 'dive') selectedIcon = "assets/selected_dive.png";
                 if (currentVibe === 'rooftop') selectedIcon = "assets/selected_rooftop.png";
             let bigIcon = {
@@ -126,7 +126,7 @@ function initMap(currentVibe) {
             instructions.style.zIndex = -10;
             instructions.style.opacity = 0;
             // bopButton.style.opacity = 1;
-            bopButton.style.zIndex = 1; 
+            // bopButton.style.zIndex = 1; 
             info.setAttribute('class', '');
             bop.setAttribute('class', '');
             setTimeout(() => {
@@ -151,48 +151,87 @@ function initInfo(name, address, hours, description, link, next, pic) {
         <br>
         ${description} <br>
         <br>
-        <a href="${link}" target="_blank">Google Maps</a>
+        <a href="${link}" target="_blank">Open in Google Maps</a>
         `
     );
 
     let photo = document.querySelector("#photo");
     photo.innerHTML = (
         `<img alt="" class="pic" src="${pic}"/>`
-        );
-        window.next = next;
-        window.currentNextNum = next[Math.floor(Math.random() * next.length)];
-        setNext(currentNextNum);
+    );
+
+    let nextInstructions = document.querySelector("#switch_text");
+    nextInstructions.innerHTML = (`There are 2 other spots near ${name}.<br>Wanna switch up the vibe?`)
+
+    window.next = next;
+    window.currentNextNum1 = next[0]
+    window.currentNextNum2 = next[1]
+    // window.currentBar = name;
+    // window.currentNextNum = next[Math.floor(Math.random() * next.length)];
+    setNext(next);
+    // console.log(currentBar)
 };
 
 //bop stuff--------------------------------------------------------------------
-
-
-function setNext(currentNextNum) {
-    let currentNextBar = obj[currentNextNum];
-    let bopButton = document.querySelector("#bop_switch");
-    let currentNextVibe = currentNextBar.vibe[0];
- 
+function setNext(next) {
+    let currentNextBar1 = obj[next[0]];
+    let currentNextBar2 = obj[next[1]];
+    let bopButton1 = document.querySelector("#bop_switch");
+    let bopButton2 = document.querySelector("#bop_switch2");
+    let currentNextVibe1 = currentNextBar1.vibe[0];
+    let currentNextVibe2 = currentNextBar2.vibe[0];
     setTimeout(() => {
-        bopButton.setAttribute('class', `${currentNextVibe}-nxt-button`)
+        bopButton1.setAttribute('class', `${currentNextVibe1}-nxt-button`)
+        bopButton2.setAttribute('class', `${currentNextVibe2}-nxt-button`)
     }, 2);
 
-    let bopLogo = "";
-        if (currentNextVibe === 'natty') bopLogo = "assets/natty_logo.png";
-        if (currentNextVibe === 'cocktail') bopLogo = "assets/cocktail_logo.png";
-        if (currentNextVibe === 'dive') bopLogo = "assets/dive_logo.png";
-        if (currentNextVibe === 'rooftop') bopLogo = "assets/rooftop_logo.png";
-    bopButton.innerHTML = (`
-    <img id="next_vibe_logo" alt="" class="bop_logo" src="${bopLogo}"/>
+    console.log(currentNextBar1);
+    console.log(currentNextBar2);
+
+    let bopLogo1 = "";
+    let bopLogo2 = "";
+        if (currentNextVibe1 === 'natty') bopLogo1 = "assets/natty_logo.png";
+        if (currentNextVibe2 === 'natty') bopLogo2 = "assets/natty_logo.png";
+        if (currentNextVibe1 === 'cocktail') bopLogo1 = "assets/cocktail_logo.png";
+        if (currentNextVibe2 === 'cocktail') bopLogo2 = "assets/cocktail_logo.png";
+        if (currentNextVibe1 === 'dive') bopLogo1 = "assets/dive_logo.png";
+        if (currentNextVibe2 === 'dive') bopLogo2 = "assets/dive_logo.png";
+        if (currentNextVibe1 === 'rooftop') bopLogo1 = "assets/rooftop_logo.png";
+        if (currentNextVibe2 === 'rooftop') bopLogo2 = "assets/rooftop_logo.png";
+    bopButton1.innerHTML = (`
+    <img id="next_vibe_logo" alt="" class="bop_logo" src="${bopLogo1}"/>
+    `);
+    bopButton2.innerHTML = (`
+    <img id="next_vibe_logo" alt="" class="bop_logo" src="${bopLogo2}"/>
     `);
 }
 
-function nextNext(next, currentNextNum) {
-    let currentIndex = next.indexOf(currentNextNum);
-    let nextIndex = (currentIndex + 1) % next.length;
-    currentNextNum = next[nextIndex];
-    window.currentNextNum = next[nextIndex];
-    setNext(currentNextNum);
-}
+// function setNext(currentNextNum) {
+//     let currentNextBar = obj[currentNextNum];
+//     let bopButton = document.querySelector("#bop_switch");
+//     let currentNextVibe = currentNextBar.vibe[0];
+ 
+//     setTimeout(() => {
+//         bopButton.setAttribute('class', `${currentNextVibe}-nxt-button`)
+//     }, 2);
+
+//     let bopLogo = "";
+//         if (currentNextVibe === 'natty') bopLogo = "assets/natty_logo.png";
+//         if (currentNextVibe === 'cocktail') bopLogo = "assets/cocktail_logo.png";
+//         if (currentNextVibe === 'dive') bopLogo = "assets/dive_logo.png";
+//         if (currentNextVibe === 'rooftop') bopLogo = "assets/rooftop_logo.png";
+//     bopButton.innerHTML = (`
+//     <img id="next_vibe_logo" alt="" class="bop_logo" src="${bopLogo}"/>
+//     `);
+// }
+
+// function nextNext(next, currentNextNum) {
+//     let currentIndex = next.indexOf(currentNextNum);
+//     let nextIndex = (currentIndex + 1) % next.length;
+//     currentNextNum = next[nextIndex];
+//     window.currentNextNum = next[nextIndex];
+//     setNext(currentNextNum);
+// }
 
 function switchBar(currentNextNum) {
     let info = document.querySelector("#info"); 

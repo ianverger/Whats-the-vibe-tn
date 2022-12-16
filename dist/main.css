@@ -17,6 +17,10 @@
   border: 10px solid #4E4E50;
 }
 
+.dive #deets > a {
+  color: #53FF45;
+}
+
 .dive #bop {
   background-color: #6F2232;
   border: 10px solid #4E4E50;
@@ -61,6 +65,10 @@
   border: 10px solid #44318D;
 }
 
+.cocktail #deets > a {
+  color: #44318D;
+}
+
 .cocktail #bop {
   background-color: rgb(209, 167, 217);
   border: 10px solid #44318D;
@@ -101,6 +109,10 @@
   border: 10px solid #25274D;
 }
 
+.rooftop #deets > a {
+  color: #D264B6;
+}
+
 .rooftop #bop {
   background-color: #A8D0E6;
   border: 10px solid #25274D;
@@ -139,6 +151,10 @@
 .natty #info {
   background-color: #D4A59A;
   border: 10px solid #5C2018;
+}
+
+.natty #deets > a {
+  color: #376E6F;
 }
 
 .natty #bop {
@@ -189,6 +205,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: white;
 }
 
 #splash_row {
@@ -203,6 +220,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 20px;
+  border-radius: 3px;
 }
 
 #splash_button > .vibe {
@@ -233,6 +251,14 @@ body {
 h1, h2 {
   color: white;
   font-family: "Rock Salt", cursive;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.splash > p {
+  margin: 0px;
+  font-family: "Rock Salt";
+  font-size: small;
 }
 
 #info {
@@ -242,7 +268,7 @@ h1, h2 {
   border: 10px solid white;
   background-color: rgb(181, 181, 181);
   width: 500px;
-  height: 300px;
+  height: 250px;
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 10px;
@@ -258,7 +284,7 @@ h1, h2 {
   align-items: center;
   background-color: inherit;
   width: 490px;
-  height: 280px;
+  height: 240px;
   padding: inherit;
   position: absolute;
   z-index: 1;
@@ -266,6 +292,7 @@ h1, h2 {
 
 #deets {
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cocktail-nxt-button, .dive-nxt-button, .rooftop-nxt-button, .natty-nxt-button, .info_flash {
@@ -292,6 +319,7 @@ h1, h2 {
 #bop {
   font-size: xx-large;
   display: flex;
+  flex-direction: column;
   border-radius: 15px;
   align-items: center;
   justify-content: space-around;
@@ -299,13 +327,14 @@ h1, h2 {
   background-color: rgb(181, 181, 181);
   margin-left: 20px;
   width: 500px;
-  height: 118px;
+  height: 170px;
   padding: 10px;
   position: relative;
 }
 
 #bop_buttons {
   display: flex;
+  gap: 25px;
 }
 
 #instructions_overlay {
@@ -317,7 +346,7 @@ h1, h2 {
   align-items: center;
   background-color: inherit;
   width: 490px;
-  height: 115px;
+  height: 165px;
   padding: 0px;
   position: absolute;
   z-index: 5;
@@ -325,18 +354,16 @@ h1, h2 {
 }
 
 #switch_text {
-  width: 55%;
-  height: 100%;
+  width: 100%;
   text-align: center;
-  display: flex;
-  align-items: center;
-  font-family: "Rock Salt", cursive;
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
-#bop_switch {
+#bop_switch, #bop_switch2 {
   width: 160px;
-  height: 100px;
+  height: 90px;
   border-radius: 10px;
   box-shadow: 2px 2px 2px grey;
   font-size: large;
@@ -362,7 +389,7 @@ h1, h2 {
   background-color: transparent;
 }
 
-#bop_right:hover, #bop_switch:hover {
+#bop_right:hover, #bop_switch:hover, #bop_switch2:hover {
   cursor: pointer;
 }
 
@@ -548,4 +575,10 @@ h1, h2 {
   margin-right: 10px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: xx-large;
+}
+
+@media screen and (max-width: 1200px) {
+  #map {
+    width: 50%;
+  }
 }

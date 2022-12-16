@@ -18,11 +18,13 @@
   </head>
 
     <div class="splash">
-      <h1>What's the vibe tn?</h1>
+      <h1>What's the Vibe tn?</h1>
+      <!-- <p>Interactive data visualization of bars, clubs, and lounges in lower Manhattan and Brooklyn</p> -->
+      <p>Select a vibe to begin...</p>
       <div id="splash_row">
 
         <button id="splash_button" onclick="showPage('cocktail')">
-          <img src="assets/cocktail_splash.png" height="150px" width="150px" alt="" />
+          <img src="assets/cocktail_splash.png"  height="150px" width="150px" alt="" />
           <div class="vibe">cocktail</div>
         </button>
        
@@ -76,18 +78,20 @@
               <div id="map"></div>
               <div class="side">
                 <aside id="info">
-                    <div id="info_overlay">What's the vibe tn?</div> 
+                    <div id="info_overlay">What's the Vibe tn?</div> 
                     <div id="photo"></div>
                     <div id="deets"></div>
                 </aside>
                 <aside id="bop">  
                       <aside id="instructions_overlay">Select a spot on the map</aside>
-                      <div id="switch_text">Wanna switch up the vibe?</div>          
+                      <div id="switch_text"></div>          
                       <div id="bop_buttons">
-                        <button id="bop_switch" class="" onclick="switchBar(currentNextNum)"></button>
-                        <button id="bop_right" onClick="nextNext(next, currentNextNum)">
+                        <button id="bop_switch" class="" onclick="switchBar(currentNextNum1)"></button>
+                        <button id="bop_switch2" class="" onclick="switchBar(currentNextNum2)"></button>
+
+                        <!-- <button id="bop_right" onClick="nextNext(next, currentNextNum)">
                           <img id="switch_arrow" src="assets/switch_arrow.png" alt="switch_arrow">
-                        </button>              
+                        </button>               -->
                       </div>
                 </aside>
               </div>
