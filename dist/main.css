@@ -196,8 +196,8 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  height: 98%;
-  width: 98%;
+  height: 100%;
+  width: 100%;
   transform: translate(-50%, -50%);
   background-color: black;
   transition: all ease-in-out 600ms;
@@ -238,8 +238,8 @@ body {
 }
 
 #map {
-  height: 500px;
-  min-width: 520px;
+  height: 600px;
+  width: 610px;
   border-radius: 15px;
   border: 10px solid white;
 }
@@ -265,10 +265,11 @@ h1, h2 {
   display: flex;
   border-radius: 15px;
   align-items: center;
+  justify-content: space-around;
   border: 10px solid white;
   background-color: rgb(181, 181, 181);
-  width: 500px;
-  height: 250px;
+  width: 600px;
+  height: 320px;
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 10px;
@@ -291,7 +292,7 @@ h1, h2 {
 }
 
 #deets {
-  font-size: 16px;
+  font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -307,8 +308,8 @@ h1, h2 {
 }
 
 #photo .pic {
-  width: 200px;
-  max-height: 220px;
+  width: 270px;
+  max-height: 320px;
 }
 
 #title .pic {
@@ -326,8 +327,8 @@ h1, h2 {
   border: 10px solid white;
   background-color: rgb(181, 181, 181);
   margin-left: 20px;
-  width: 500px;
-  height: 170px;
+  width: 600px;
+  height: 200px;
   padding: 10px;
   position: relative;
 }
@@ -345,7 +346,7 @@ h1, h2 {
   justify-content: center;
   align-items: center;
   background-color: inherit;
-  width: 490px;
+  width: 500px;
   height: 165px;
   padding: 0px;
   position: absolute;
@@ -358,7 +359,7 @@ h1, h2 {
   text-align: center;
   margin-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #bop_switch, #bop_switch2 {
@@ -460,6 +461,10 @@ h1, h2 {
   max-width: 90px;
 }
 
+#title-logo {
+  padding-left: 25px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -467,7 +472,7 @@ h1, h2 {
 
 .navbar {
   display: flex;
-  width: 1098px;
+  width: 1288px;
   justify-content: space-between;
 }
 
@@ -577,8 +582,111 @@ h1, h2 {
   font-size: xx-large;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-height: 750px) {
+  h1 {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  body {
+    margin-top: 25px;
+  }
   #map {
-    width: 50%;
+    height: 520px;
+    width: 500px;
+  }
+  .navbar {
+    width: 1098px;
+  }
+  #info {
+    height: 300px;
+    width: 520px;
+  }
+  #bop {
+    height: 140px;
+    width: 520px;
+  }
+  #photo .pic {
+    max-width: 270px;
+    max-height: 300px;
+  }
+  #switch_text {
+    font-size: 18px;
+  }
+  #instructions_overlay {
+    height: 130px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  #title-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #title-logo {
+    font-size: x-large;
+  }
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+  }
+  #map {
+    height: 520px;
+    width: 500px;
+  }
+  .navbar {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+  .controls {
+    margin-right: 0px;
+    width: 500px;
+    margin-bottom: 8px;
+  }
+  .controls .vibe {
+    width: 25%;
+  }
+  .side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #info {
+    margin-top: 8px;
+    height: 300px;
+    width: 480px;
+    margin-left: 0px;
+    margin-bottom: 8px;
+  }
+  #bop {
+    height: 150px;
+    width: 480px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+  #photo .pic {
+    max-width: 240px;
+    max-height: 300px;
+  }
+  #switch_text {
+    font-size: 17px;
+  }
+  #info_overlay {
+    width: 480px;
+  }
+  #instructions_overlay {
+    width: 480px;
+    height: 130px;
+  }
+  .author {
+    display: none;
+  }
+  #title-logo {
+    padding-left: 0px;
+    text-align: center;
   }
 }

@@ -66,7 +66,7 @@ function initMap(currentVibe) {
         gestureHandling: "none",
         disableDefaultUI: true,
         keyboardShortcuts: false,
-        zoom: 13.1,
+        zoom: window.innerWidth < 1300 ? 13.1 : 13.3,
         mapId: 'd08c3dd1a5339f5e'
     });
     
