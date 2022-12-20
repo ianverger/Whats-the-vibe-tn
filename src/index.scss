@@ -544,10 +544,16 @@ to {opacity: 1;}
     .author {
        display: none;
     }
+
     #title-logo {
         padding-left: 0px;
         text-align: center;
         // background-color: green
+    }
+
+    #title .pic {
+        max-height: 90px;
+        max-width: 320px;
     }
 }
 

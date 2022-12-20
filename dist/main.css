@@ -689,4 +689,8 @@ h1, h2 {
     padding-left: 0px;
     text-align: center;
   }
+  #title .pic {
+    max-height: 90px;
+    max-width: 320px;
+  }
 }

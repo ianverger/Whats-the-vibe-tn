@@ -68,7 +68,7 @@
         "description": "Irish watering hole dispensing pints & classic pub grub in a snug, patio-equipped setting.",
         "link": "https://goo.gl/maps/ptVKuXbsBvjeHt2h9",
         "vibe": ["dive"],
-        "next": [20, 40, 6],
+        "next": [20, 6],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPTPVlf51C1dE-KqNvDgQpqPSKTlng41eTFbUY7=w408-h306-k-no"
         },
     "6": {
@@ -80,7 +80,7 @@
         "description": "Gay & lesbian mainstay in the East Village known for its jukebox & relaxed atmosphere.",
         "link": "https://goo.gl/maps/KBhweZrc6926WufU8",
         "vibe": ["dive"],
-        "next": [54, 67, 5],
+        "next": [67, 5],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNwuxG8HLy-TcsgO1t0UqD32111QdLrJ_mPNMP_=w408-h272-k-no"
         },
     "7": {
@@ -92,7 +92,7 @@
         "description": "Tiny, dimly-lit entertainment venue featuring DJs & live bands along with cocktails & beer.",
         "link": "https://goo.gl/maps/orbA3zgk6WDz7WYR7",
         "vibe": ["dive"],
-        "next": [40, 8, 17],
+        "next": [8, 17],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipO3IMubeasZr3ML4OyHIvm-PBL3-3VlWHLz6uFL=w408-h260-k-no"
     },    
     "8": {
@@ -104,7 +104,7 @@
         "description": "International plates & tropical cocktails served in a vast locale with colorful, fashionable decor.",
         "link": "https://g.page/PineappleClubNYC?share",
         "vibe": ["cocktail"],
-        "next": [40, 8, 17],
+        "next": [40, 17],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipMCKD3WvlMvhsr3V0Ky8L8WvIpmUY12sFNu89Tg=w408-h270-k-no"
     },    
     "9": {
@@ -260,7 +260,7 @@
         "description": "",
         "link": "https://goo.gl/maps/3u8hZU1YLsxkp1N26",
         "vibe": ["natty"],
-        "next": [21, 20],
+        "next": [47, 20],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipPpQlr_kF6WbAjBbfDoWwlPir7_vdjIQ-vhCcWy=w408-h408-k-no"
     },  
     "22": {
@@ -1028,7 +1028,7 @@
         "description": "",
         "link": "https://goo.gl/maps/jbgvZhDmPLkv9BBG9",
         "vibe": ["natty", "cocktail"],
-        "next": [84, 87, 82],
+        "next": [84, 82],
         "pic": "https://lh5.googleusercontent.com/p/AF1QipNRDSsGEYpo-K_ZWUkur5g4pkhsUwNE54ndu9ge=w408-h306-k-no"
     },
     "86": {

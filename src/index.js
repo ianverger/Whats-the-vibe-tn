@@ -185,8 +185,8 @@ function setNext(next) {
         bopButton2.setAttribute('class', `${currentNextVibe2}-nxt-button`)
     }, 2);
 
-    console.log(currentNextBar1);
-    console.log(currentNextBar2);
+    // console.log(currentNextBar1);
+    // console.log(currentNextBar2);
 
     let bopLogo1 = "";
     let bopLogo2 = "";
@@ -253,7 +253,6 @@ function switchBar(currentNextNum) {
     }
     if (lastClick) lastClick.setIcon(smallIcon);
 
-
     for (let i = 0; i < currentMarkers.length; i++) {
         let marker = currentMarkers[i];
         if ((marker.position.lat() === currentNextLat) && (marker.position.lng() === currentNextLng)) {
@@ -266,6 +265,7 @@ function switchBar(currentNextNum) {
     if (currentVibe !== currentNextVibe) {
         let event = document.getElementById(`${currentNextVibe}-b`);
         event.click()
+        // currentVibe = currentNextVibe;
     } else {
         info.setAttribute('class', '');
         bop.setAttribute('class', '');
@@ -279,7 +279,7 @@ function switchBar(currentNextNum) {
     
     let selectedIcon = "";
         if (currentVibe === 'natty') selectedIcon = "assets/selected_natty.png";
-        if (currentVibe === 'cocktail') selectedIcon = "assets/selected_cocktail_icon2.png";
+        if (currentVibe === 'cocktail') selectedIcon = "assets/selected_cocktail.png";
         if (currentVibe === 'dive') selectedIcon = "assets/selected_dive.png";
         if (currentVibe === 'rooftop') selectedIcon = "assets/selected_rooftop.png";
     let bigIcon = {
@@ -287,8 +287,11 @@ function switchBar(currentNextNum) {
         scaledSize: new google.maps.Size(55, 58)
     }
     // setTimeout(() => {
+        // lastClick.setIcon(bigIcon)
         currentNextMarker.setIcon(bigIcon);
+        console.log(currentVibe)
     // }, 1000);
+    // if (currentVibe !== currentNextVibe) currentVibe = currentNextVibe;
 }
 
 
