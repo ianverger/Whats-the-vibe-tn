@@ -8,6 +8,7 @@ window.switchBar = switchBar;
 // window.prevNext = prevNext;
 // window.showBop = showBop;
 // window.currentNextBar = currentNextBar;
+let realClick = true;
 
 function showPage(vibe) {
     let splashScreen = document.querySelector(".splash");
@@ -34,8 +35,22 @@ function switchVibe(event, vibe) {
         let innertext = vibez[i].textContent
         vibez[i].id = vibez[i].id.replace("active", `${innertext}-b`);
     };
-    
-    
+    let infoOverlay = document.querySelector("#info_overlay");
+    let instructions = document.querySelector("#instructions_overlay");
+    let deets = document.querySelector("#deets");
+    let photo = document.querySelector("#photo");
+    let nextInstructions = document.querySelector("#switch_text");
+
+    if (realClick) {
+        infoOverlay.style.opacity = 1;
+        infoOverlay.style.zIndex = 1; 
+        instructions.style.zIndex = 5;
+        instructions.style.opacity = 1;
+        deets.innerHTML = null;
+        photo.innerHTML = null;
+        nextInstructions.innerHTML = null;
+    }
+
     currentVibe = vibe;
     switchTitle(vibe);
     window.initMap(currentVibe);
@@ -69,7 +84,7 @@ function initMap(currentVibe) {
         zoom: window.innerWidth < 1300 ? 13.1 : 13.3,
         mapId: 'd08c3dd1a5339f5e'
     });
-    
+   
 // Here I turn my JSON database into an array of objects, filter to the locations pertaining to the
 // currently selected "vibe" and pull up only those markers on the map.
 
@@ -81,6 +96,7 @@ function initMap(currentVibe) {
             if (currentVibe === 'cocktail') icon = "assets/bar_icon_pink2.png";
             if (currentVibe === 'dive') icon = "assets/bar_icon_maroon.png";
             if (currentVibe === 'rooftop') icon = "assets/bar_icon_blue.png";
+
         let marker = new google.maps.Marker({
             position: new google.maps.LatLng(bar.coords[0], bar.coords[1]),
             map: map,
@@ -89,6 +105,27 @@ function initMap(currentVibe) {
                 scaledSize: new google.maps.Size(38, 40)
             }
         });
+
+        let selectedIcon = "";
+        if (currentVibe === 'natty') selectedIcon = "assets/selected_natty.png";
+        if (currentVibe === 'cocktail') selectedIcon = "assets/selected_cocktail.png";
+        if (currentVibe === 'dive') selectedIcon = "assets/selected_dive.png";
+        if (currentVibe === 'rooftop') selectedIcon = "assets/selected_rooftop.png";
+        let bigIcon = {
+            url: selectedIcon,
+            scaledSize: new google.maps.Size(55, 58)
+        }
+
+        if (window.currentNextLat && window.currentNextLng) {
+            if ((marker.position.lat() === window.currentNextLat) && (marker.position.lng() === window.currentNextLng)) {
+                marker.setIcon(bigIcon)
+                window.currentNextLat = null;
+                window.currentNextLng = null;
+                lastClick = marker;
+            }
+        }
+        
+
         currentMarkers.push(marker);
         marker.setMap(map);
         marker.setClickable(true);
@@ -136,8 +173,6 @@ function initMap(currentVibe) {
             initInfo(bar.name, bar.address, bar.hours, bar.description, bar.link, bar.next, bar.pic);
         })
     }
-    // console.log(currentMarkers[1].position.lat())
-    // console.log(currentMarkers[1].position.lng())
 }
 
 window.initMap = initMap;
@@ -169,7 +204,6 @@ function initInfo(name, address, hours, description, link, next, pic) {
     // window.currentBar = name;
     // window.currentNextNum = next[Math.floor(Math.random() * next.length)];
     setNext(next);
-    // console.log(currentBar)
 };
 
 //bop stuff--------------------------------------------------------------------
@@ -184,9 +218,6 @@ function setNext(next) {
         bopButton1.setAttribute('class', `${currentNextVibe1}-nxt-button`)
         bopButton2.setAttribute('class', `${currentNextVibe2}-nxt-button`)
     }, 2);
-
-    // console.log(currentNextBar1);
-    // console.log(currentNextBar2);
 
     let bopLogo1 = "";
     let bopLogo2 = "";
@@ -240,6 +271,8 @@ function switchBar(currentNextNum) {
     let currentNextVibe = currentNextBar.vibe[0];
     let currentNextLat = currentNextBar.coords[0];
     let currentNextLng = currentNextBar.coords[1];
+    window.currentNextLat = currentNextBar.coords[0];
+    window.currentNextLng = currentNextBar.coords[1];
     let currentNextMarker = null;
     
     let icon ="";
@@ -262,10 +295,21 @@ function switchBar(currentNextNum) {
 
     lastClick = currentNextMarker;
 
+    let selectedIcon = "";
+    if (currentVibe === 'natty') selectedIcon = "assets/selected_natty.png";
+    if (currentVibe === 'cocktail') selectedIcon = "assets/selected_cocktail.png";
+    if (currentVibe === 'dive') selectedIcon = "assets/selected_dive.png";
+    if (currentVibe === 'rooftop') selectedIcon = "assets/selected_rooftop.png";
+    let bigIcon = {
+        url: selectedIcon,
+        scaledSize: new google.maps.Size(55, 58)
+    }
+
     if (currentVibe !== currentNextVibe) {
         let event = document.getElementById(`${currentNextVibe}-b`);
-        event.click()
-        // currentVibe = currentNextVibe;
+        realClick = false;
+        event.click();
+        realClick = true;
     } else {
         info.setAttribute('class', '');
         bop.setAttribute('class', '');
@@ -277,21 +321,7 @@ function switchBar(currentNextNum) {
 
     initInfo(currentNextBar.name, currentNextBar.address, currentNextBar.hours, currentNextBar.description, currentNextBar.link, currentNextBar.next, currentNextBar.pic);
     
-    let selectedIcon = "";
-        if (currentVibe === 'natty') selectedIcon = "assets/selected_natty.png";
-        if (currentVibe === 'cocktail') selectedIcon = "assets/selected_cocktail.png";
-        if (currentVibe === 'dive') selectedIcon = "assets/selected_dive.png";
-        if (currentVibe === 'rooftop') selectedIcon = "assets/selected_rooftop.png";
-    let bigIcon = {
-        url: selectedIcon,
-        scaledSize: new google.maps.Size(55, 58)
-    }
-    // setTimeout(() => {
-        // lastClick.setIcon(bigIcon)
-        currentNextMarker.setIcon(bigIcon);
-        console.log(currentVibe)
-    // }, 1000);
-    // if (currentVibe !== currentNextVibe) currentVibe = currentNextVibe;
+    currentNextMarker.setIcon(bigIcon);
 }
 
 
