@@ -37,9 +37,12 @@ body {
     
 }
 
+.sbc1, .sbd2, .sbr3, .sbn4 {
+    border: 5px solid grey;
+}
+
 #splash_button {
     background-color: white;
-    border: 5px solid grey;
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -59,6 +62,38 @@ body {
 #splash_button:hover {
     box-shadow: 0px 0px 55px 10px rgba(255, 255, 255, 0.49);
     cursor: pointer;
+}
+
+.sbc1:hover {
+    border: 5px solid #D83F87;
+}
+
+.sbc1:hover .vibe {
+    color: #D83F87;
+}
+
+.sbd2:hover {
+    border: 5px solid #6F2232;
+}
+
+.sbd2:hover .vibe {
+    color: #6F2232;
+}
+
+.sbr3:hover {
+    border: 5px solid #A8D0E6;
+}
+
+.sbr3:hover .vibe {
+    color: #A8D0E6;
+}
+
+.sbn4:hover {
+    border: 5px solid #D4A59A;
+}
+
+.sbn4:hover .vibe {
+    color: #D4A59A;
 }
 
 #map {
