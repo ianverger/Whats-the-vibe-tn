@@ -75,12 +75,3 @@ With "What's the vibe tn?", users will be able to
 ![imp4](assets/implementation_4.png)
 
 ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ ⨯ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ 
-
-## Bonus Features
-
-### "What's the vibe tn" v2 will include:
-
-    ♦  Seeded database of bars in Brooklyn and Long Island City
-    ♠  Additional vibes: 'rave', 'rooftop', 'gay', 'sports'
-    ♥  Integrated Google Maps API to include ratings and information for 'next spots'
-    ♣  General CSS and styling improvements including differently rendered maps and markers for each 'vibe'
